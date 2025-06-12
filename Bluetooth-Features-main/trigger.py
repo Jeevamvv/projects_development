@@ -58,7 +58,7 @@ while True:
     log.info("*"*100)
 
     try:
-        val = int(raw_input("Enter your Choise......."))
+        val = int(input("Enter your Choise......."))
     except ValueError:
         log.info(" Invalid Choise, ValueError")
         continue
@@ -89,7 +89,7 @@ while True:
                           6: "class_of_device", 7: "discoverabletimeout", 8: "pairabletimeout"}
 
             try:
-                ch = int(raw_input("Enter your choise"))
+                ch = int(input("Enter your choise"))
                 if ch == 9:
                     break
                 if ch <= 0 or ch > 9:
@@ -108,10 +108,10 @@ while True:
         # Code for scan
         log.debug("  User started scan operation ")
         Gap_obj = gap.GapLib()
-        value = raw_input("Do you want to set scan duration [y/n] ").strip().lower()
+        value = input("Do you want to set scan duration [y/n] ").strip().lower()
 
         if value == "y":
-            time = int(raw_input("Enter the duration.."))
+            time = int(input("Enter the duration.."))
             gl.list_of_scanned_devices = Gap_obj.start_scan(time)
             if gl.list_of_scanned_devices == False:
                 continue
@@ -157,7 +157,7 @@ while True:
     if val == 4:
         # Power [ON/OFF]
 
-        val = raw_input("Do you want to turn [ON/OFF]").lower()
+        val = input("Do you want to turn [ON/OFF]").lower()
         if val == "on":
             try:
                 adapter_proxy = bus.get_object(gl.BUS_NAME,gl.ADAPTER_OBJ)
@@ -204,7 +204,7 @@ while True:
     if val == 6:
         # Pair
         log.debug(" User selected pair operation")
-        name = raw_input("Enter the name: ").strip()
+        name = input("Enter the name: ").strip()
         ref = gap.GapLib()
         return_value = ref.pair(name)
         if return_value == False:
@@ -272,7 +272,7 @@ while True:
             log.info("{}. {}".format(tmp_var,str(device)))
             tmp_var = tmp_var + 1
 
-        choise = int(raw_input("Enter your choise...."))
+        choise = int(input("Enter your choise...."))
         bd_address = returned_paired_list[choise-1]
         return_value = ref.connect(bd_address)
         if return_value == True:
@@ -310,7 +310,7 @@ while True:
             log.info("{}. {}".format(tmp_var,str(devices)))
             tmp_var = tmp_var + 1
 
-        choise = int(raw_input(" Enter your choise .."))
+        choise = int(input(" Enter your choise .."))
         bd_address = list_of_pair_device[choise-1]
         return_value = ref.remove_device(bd_address)
         if return_value == True:
@@ -354,7 +354,7 @@ while True:
             log.info("{}. {}".format(tmp_var,str(devices)))
             tmp_var = tmp_var + 1
 
-        choise = int(raw_input(" Enter your choise to trust the device .."))
+        choise = int(input(" Enter your choise to trust the device .."))
         bd_address = list_of_pair_device[choise-1]
         path = convert.convert_colon_underscore_with_path(bd_address,gl.ADAPTER_OBJ)
         device_proxy = bus.get_object(gl.BUS_NAME,path)
@@ -403,7 +403,7 @@ while True:
             log.info("{}. {}".format(tmp_var,str(devices)))
             tmp_var = tmp_var + 1
 
-        choise = int(raw_input(" Enter your choise  .."))
+        choise = int(input(" Enter your choise  .."))
         bd_address = list_of_pair_device[choise-1]
         path = convert.convert_colon_underscore_with_path(bd_address,gl.ADAPTER_OBJ)
         log.info(" path: {}".format(path))
@@ -439,7 +439,7 @@ while True:
         # Set Pairable Timeout
         log.debug(" User selected the option set pairable Timeout")
         ref = gap.GapLib()
-        time = int(raw_input(" Enter the Time to Set..."))
+        time = int(input(" Enter the Time to Set..."))
         return_value = ref.set_pairable_timeout(time)
         if return_value == True:
             log.info(" Pairable Time is Set Successfully.")
@@ -460,7 +460,7 @@ while True:
         # Set Discoverable Timeout
         log.debug(" User selected the option set Discoverable Timeout")
         ref = gap.GapLib()
-        time = int(raw_input(" Enter the Time to Set..."))
+        time = int(input(" Enter the Time to Set..."))
         return_value = ref.set_Discoverable_timeout(time)
         if return_value == True:
             log.info(" Discoverable Time is Set Successfully ")
