@@ -13,12 +13,7 @@ try:
 except ImportError:
   import gobject as GObject
 import os
-
-
-
 from logger_mod import Logger
-#import global_vars as gl  # assuming gl.list_of_pair_device is defined somewhere
-
 logger_obj = Logger()
 bus = dbus.SystemBus()
 
@@ -60,14 +55,8 @@ while True:
     log.info("19. Get Pairable Timeout")
     log.info("20. Set Discoverable Timeout")
     log.info("21. Get Discoverable Timeout")
-
-    ##########################################################
     log.info("22. opp file transfer file ")
     log.info("23. phone contact details ")
-
-
-
-
     log.info("30. Exit")
     log.info("*"*100)
 
@@ -492,7 +481,6 @@ while True:
             log.info(" Discoverable Time out Duration is:{}".format(str(return_value)))
         if return_value == False:
             log.info(" Failed to Fetch DiscoverableTimeOut Duration ")
-###############################################################
 
     if val == 22:
         log.debug("User selected the option to send OPP profile file from source to destination.")
@@ -526,18 +514,6 @@ while True:
             fetch_contacts_and_save_to_excel(device_address)
         else:
             log.error("No connected Bluetooth device found.")
-    # if val == 23:
-    #     log.debug("User selected to convert received contact .vcf into Excel format.")
-    #     from contact_extractor import save_to_excel
-
-    #     contact_vcf = "/home/engineer/received_files/contacts.vcf"  # path where OPP saved
-    #     bt_device = "UserPhone"  # just a label or dynamically from paired name
-
-    #     if os.path.exists(contact_vcf):
-    #         save_to_excel(contact_vcf, bt_device)
-    #     else:
-    #         log.error("contacts.vcf file not found. Please send it via Bluetooth first.")
-
 
     if val == 30:
         # Exit

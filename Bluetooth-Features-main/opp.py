@@ -1,35 +1,4 @@
-# import os
-# import subprocess
 
-
-
-# from logger_mod import Logger
-
-# logger_obj = Logger()
-
-# def send_file_via_opp(dest_address, file_path):
-#     """
-#     Sends a file via Bluetooth OPP to a paired and connected device.
-#     """
-#     try:
-#         logger_obj.setup_logger().info(f"Sending '{file_path}' to device: {dest_address}")
-
-#         # OBEX push using obexftp
-#         result = subprocess.run(
-#             ['obexftp', '--nopath', '--noconn', '--uuid', 'none',
-#              '--bluetooth', dest_address, '--channel', '9', '--put', file_path],
-#             stdout=subprocess.PIPE,
-#             stderr=subprocess.PIPE,
-#             text=True
-#         )
-
-#         if result.returncode == 0:
-#             logger_obj.setup_logger().info("File sent successfully via OPP.")
-#         else:
-#             logger_obj.setup_logger().error(f"File transfer failed with error: {result.stderr.strip()}")
-
-#     except Exception as e:
-#         logger_obj.setup_logger().error(f"Exception during OPP file transfer: {e}")
 import os
 import subprocess
 import re
