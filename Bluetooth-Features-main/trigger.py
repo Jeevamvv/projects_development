@@ -187,19 +187,34 @@ while True:
                 log.critical(e)
                 log.info(" Failed to power OFF the adapter")
 
+    # if val == 5:
+    #     # Agent Code
+    #     path = "/test/agent"
+    #     capability = "NoInputNoOutput"
+    #     p_obj = bus.get_object(gl.BUS_NAME, "/org/bluez");
+    #     Agent_manager = dbus.Interface(p_obj, "org.bluez.AgentManager1")
+    #     try:
+    #         Agent_manager.RegisterAgent(path, capability)
+    #         log.info("  Agent Registed Successfully")
+    #     except Exception as e:
+    #         log.critical(e)
+    #         log.debug("  Failed to register the agent ")
+    #         continue
+
+
     if val == 5:
-        # Agent Code
+    # Agent Code
         path = "/test/agent"
-        capability = "Noraw_inputNoOutput"
-        p_obj = bus.get_object(gl.BUS_NAME, "/org/bluez");
-        Agent_manager = dbus.Interface(p_obj, "org.bluez.AgentManager1")
+        capability = "NoInputNoOutput"  # Correct capability string
+
         try:
-            Agent_manager.RegisterAgent(path, capability)
-            log.info("  Agent Registed Successfully")
+            p_obj = bus.get_object(gl.BUS_NAME, "/org/bluez")
+            agent_manager = dbus.Interface(p_obj, "org.bluez.AgentManager1")
+            agent_manager.RegisterAgent(path, capability)
+            log.info("Agent registered successfully")
         except Exception as e:
-            log.critical(e)
-            log.debug("  Failed to register the agent ")
-            continue
+            log.critical(f"Exception during agent registration: {e}")
+            log.debug("Failed to register the agent")
 
     if val == 6:
         # Pair

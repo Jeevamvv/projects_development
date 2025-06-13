@@ -16,3 +16,12 @@ CRITICAL :   root :   12-06-2025 05:14:20 PM :       gap  :org.bluez.Error.Alrea
 CRITICAL :   root :   12-06-2025 05:18:16 PM :       gap  :org.bluez.Error.Failed: Host is down 
 CRITICAL :   root :   12-06-2025 05:18:51 PM :       gap  :org.bluez.Error.AlreadyExists: Already Exists 
 CRITICAL :   root :   12-06-2025 05:21:43 PM :       gap  :org.bluez.Error.Failed: No discovery started 
+CRITICAL :   root :   13-06-2025 12:31:17 PM :   trigger  :org.bluez.Error.InvalidArguments: Invalid arguments in method call 
+CRITICAL :   root :   13-06-2025 12:31:33 PM :   trigger  :org.bluez.Error.InvalidArguments: Invalid arguments in method call 
+CRITICAL :   root :   13-06-2025 12:35:42 PM :   trigger  :org.bluez.Error.InvalidArguments: Invalid arguments in method call 
+CRITICAL :   root :   13-06-2025 12:36:21 PM :       gap  :org.bluez.Error.Failed: No discovery started 
+CRITICAL :   root :   13-06-2025 12:36:55 PM :   trigger  :Exception during agent registration: org.bluez.Error.AlreadyExists: Already Exists 
+CRITICAL :   root :   13-06-2025 12:37:28 PM :       gap  :org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken. 
+CRITICAL :   root :   13-06-2025 12:39:11 PM :       gap  :org.bluez.Error.AlreadyExists: Already Exists 
+CRITICAL :   root :   13-06-2025 12:44:13 PM :       gap  :org.bluez.Error.DoesNotExist: Does Not Exist 
+CRITICAL :   root :   13-06-2025 12:49:34 PM :   trigger  :org.bluez.Error.DoesNotExist: Does Not Exist 
