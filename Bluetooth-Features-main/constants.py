@@ -23,6 +23,3 @@ def selected_dongle():
     """
     return ADAPTER_OBJ
 
-
-
-

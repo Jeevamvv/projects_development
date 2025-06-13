@@ -14,6 +14,12 @@ except ImportError:
   import gobject as GObject
 import os
 
+
+
+from logger_mod import Logger
+#import global_vars as gl  # assuming gl.list_of_pair_device is defined somewhere
+
+logger_obj = Logger()
 bus = dbus.SystemBus()
 
 # Code to select the adapter out of active adapters
@@ -54,6 +60,14 @@ while True:
     log.info("19. Get Pairable Timeout")
     log.info("20. Set Discoverable Timeout")
     log.info("21. Get Discoverable Timeout")
+
+    ##########################################################
+    log.info("22. opp file transfer file ")
+    log.info("23. phone contact details ")
+
+
+
+
     log.info("30. Exit")
     log.info("*"*100)
 
@@ -187,20 +201,7 @@ while True:
                 log.critical(e)
                 log.info(" Failed to power OFF the adapter")
 
-    # if val == 5:
-    #     # Agent Code
-    #     path = "/test/agent"
-    #     capability = "NoInputNoOutput"
-    #     p_obj = bus.get_object(gl.BUS_NAME, "/org/bluez");
-    #     Agent_manager = dbus.Interface(p_obj, "org.bluez.AgentManager1")
-    #     try:
-    #         Agent_manager.RegisterAgent(path, capability)
-    #         log.info("  Agent Registed Successfully")
-    #     except Exception as e:
-    #         log.critical(e)
-    #         log.debug("  Failed to register the agent ")
-    #         continue
-
+   
 
     if val == 5:
     # Agent Code
@@ -491,6 +492,52 @@ while True:
             log.info(" Discoverable Time out Duration is:{}".format(str(return_value)))
         if return_value == False:
             log.info(" Failed to Fetch DiscoverableTimeOut Duration ")
+###############################################################
+
+    if val == 22:
+        log.debug("User selected the option to send OPP profile file from source to destination.")
+
+        if not gl.list_of_pair_device:
+            log.info("No paired devices found. Please pair a device first.")
+        else:
+            device_address = gl.list_of_pair_device[0]  # Auto-select first paired device
+            log.info(f"Using paired device for OPP transfer: {device_address}")
+        
+            import opp  # import after logger is set up
+
+            try:
+                file_path = input("Enter full path of file to send: ").strip()
+                print(f"DEBUG_INFO: entered file path = {file_path}")
+                if os.path.exists(file_path):
+                    opp.send_file_via_opp(device_address, file_path)
+                else:
+                    log.error("File does not exist. Please provide a valid file.")
+            except Exception as e:
+                log.error(f"Error during OPP file transfer: {e}")
+
+
+    if val == 23:
+        log.debug("User selected the option to send details about phone contact details in Excel sheet format with name and number.")
+        from contact_extractor import fetch_contacts_and_save_to_excel, get_connected_device_address
+
+        device_address = get_connected_device_address()
+
+        if device_address:
+            fetch_contacts_and_save_to_excel(device_address)
+        else:
+            log.error("No connected Bluetooth device found.")
+    # if val == 23:
+    #     log.debug("User selected to convert received contact .vcf into Excel format.")
+    #     from contact_extractor import save_to_excel
+
+    #     contact_vcf = "/home/engineer/received_files/contacts.vcf"  # path where OPP saved
+    #     bt_device = "UserPhone"  # just a label or dynamically from paired name
+
+    #     if os.path.exists(contact_vcf):
+    #         save_to_excel(contact_vcf, bt_device)
+    #     else:
+    #         log.error("contacts.vcf file not found. Please send it via Bluetooth first.")
+
 
     if val == 30:
         # Exit
