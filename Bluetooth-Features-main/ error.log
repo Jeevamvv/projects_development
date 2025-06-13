@@ -5,3 +5,28 @@ CRITICAL :   root :   13-06-2025 07:16:39 PM :   trigger  :org.freedesktop.DBus.
 Connecting...\done
 Sending "/home/engineer/Pictures/a.png"... |/-\|/-\|/-\|/-\|/-\|/-\|/-\done
 Disconnecting...|done 
+CRITICAL :   root :   13-06-2025 10:58:46 PM :       gap  :org.bluez.Error.Failed: No discovery started 
+CRITICAL :   root :   13-06-2025 11:01:02 PM :       gap  :org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken. 
+CRITICAL :   root :   13-06-2025 11:01:17 PM :       gap  :org.bluez.Error.InProgress: In Progress 
+CRITICAL :   root :   13-06-2025 11:02:03 PM :       gap  :org.bluez.Error.AlreadyExists: Already Exists 
+CRITICAL :   root :   13-06-2025 11:02:14 PM :       gap  :org.bluez.Error.Failed: Resource temporarily unavailable 
+CRITICAL :   root :   13-06-2025 11:03:45 PM :       gap  :org.bluez.Error.AlreadyExists: Already Exists 
+CRITICAL :   root :   13-06-2025 11:04:09 PM :       gap  :org.bluez.Error.Failed: Resource temporarily unavailable 
+CRITICAL :   root :   13-06-2025 11:08:20 PM :       gap  :org.bluez.Error.AlreadyExists: Already Exists 
+CRITICAL :   root :   13-06-2025 11:08:45 PM :       gap  :org.bluez.Error.AlreadyExists: Already Exists 
+CRITICAL :   root :   13-06-2025 11:09:42 PM :       gap  :org.bluez.Error.AlreadyExists: Already Exists 
+CRITICAL :   root :   13-06-2025 11:10:31 PM :       gap  :org.bluez.Error.Failed: Resource temporarily unavailable 
+   ERROR :   root :   13-06-2025 11:21:16 PM :       opp  :File transfer failed with error: Suppressing FBS.
+Connecting...\done
+Sending "/home/engineer/a.py"... |/done
+Disconnecting...-done 
+   ERROR :   root :   13-06-2025 11:47:40 PM :       opp  :Could not determine OBEX OPP channel from device. 
+   ERROR :   root :   13-06-2025 11:48:15 PM :       opp  :Could not determine OBEX OPP channel from device. 
+   ERROR :   root :   13-06-2025 11:51:24 PM :       opp  :Could not determine OBEX OPP channel from device. 
+CRITICAL :   root :   14-06-2025 12:05:14 AM :       gap  :org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken. 
+CRITICAL :   root :   14-06-2025 12:09:17 AM :       gap  :org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken. 
+CRITICAL :   root :   14-06-2025 12:09:57 AM :       gap  :org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken. 
+CRITICAL :   root :   14-06-2025 12:10:43 AM :       gap  :org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken. 
+CRITICAL :   root :   14-06-2025 12:12:55 AM :       gap  :org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken. 
+CRITICAL :   root :   14-06-2025 12:18:59 AM :       gap  :org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken. 
+CRITICAL :   root :   14-06-2025 12:21:00 AM :       gap  :org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken. 

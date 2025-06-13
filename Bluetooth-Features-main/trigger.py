@@ -503,6 +503,22 @@ while True:
             except Exception as e:
                 log.error(f"Error during OPP file transfer: {e}")
 
+    # if val == 22:
+    #     log.debug("User selected the option to send OPP profile file from source to destination.")
+
+    #     if not gl.list_of_pair_device:
+    #         log.info("No paired devices found. Please pair a device first.")
+    #     else:
+    #         device_address = gl.list_of_pair_device[0]  # Auto-select first paired device
+    #         log.info(f"Using paired device for OPP transfer: {device_address}")
+        
+    #         import opp  # import after logger is set up
+
+    #         try:
+    #         # Launch interactive OPP test case menu
+    #             opp.main()
+    #         except Exception as e:
+    #             log.error(f"Error during OPP test case execution: {e}")
 
     if val == 23:
         log.debug("User selected the option to send details about phone contact details in Excel sheet format with name and number.")

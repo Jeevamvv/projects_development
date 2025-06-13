@@ -1,0 +1,6 @@
+    INFO :   root :   13-06-2025 11:47:35 PM :       opp  :Sending '/home/engineer/a.py' to device:  
+ WARNING :   root :   13-06-2025 11:47:40 PM :       opp  :Could not find OPP channel in SDP response. 
+   ERROR :   root :   13-06-2025 11:47:40 PM :       opp  :Could not determine OBEX OPP channel from device. 
+    INFO :   root :   13-06-2025 11:48:10 PM :       opp  :Sending '/home/engineer/a.py' to device:  
+ WARNING :   root :   13-06-2025 11:48:15 PM :       opp  :Could not find OPP channel in SDP response. 
+   ERROR :   root :   13-06-2025 11:48:15 PM :       opp  :Could not determine OBEX OPP channel from device. 
