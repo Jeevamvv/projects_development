@@ -58,17 +58,17 @@ while True:
     log.info("*"*100)
 
     try:
-        val = int(input("Enter your Choise......."))
+        val = int(input("Enter your Choise.......  "))
     except ValueError:
-        log.info(" Invalid Choise, ValueError")
+        log.info(" Invalid Choise, ValueError  ")
         continue
     except NameError:
-        log.info(" Invalid Choise, NameError")
+        log.info(" Invalid Choise, NameError ")
         continue
     else:
         log.info("#"*100)
     finally:
-        log.debug(" User is trying to access the D-Bus Api's")
+        log.debug(" User is trying to access the D-Bus Api's ")
 	
     if val == 0:
         # Properties of adapter.
@@ -89,7 +89,7 @@ while True:
                           6: "class_of_device", 7: "discoverabletimeout", 8: "pairabletimeout"}
 
             try:
-                ch = int(input("Enter your choise"))
+                ch = int(input("Enter your choise : "))
                 if ch == 9:
                     break
                 if ch <= 0 or ch > 9:

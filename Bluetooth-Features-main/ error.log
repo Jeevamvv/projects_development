@@ -1,0 +1,18 @@
+CRITICAL :   root :   12-06-2025 05:01:44 PM :       gap  :org.bluez.Error.InProgress: Operation already in progress 
+CRITICAL :   root :   12-06-2025 05:02:15 PM :       gap  :org.bluez.Error.Failed: No discovery started 
+CRITICAL :   root :   12-06-2025 05:02:51 PM :       gap  :org.freedesktop.DBus.Error.UnknownObject: Method "Connect" with signature "" on interface "org.bluez.Device1" doesn't exist
+ 
+CRITICAL :   root :   12-06-2025 05:02:59 PM :       gap  :org.freedesktop.DBus.Error.UnknownObject: Method "Connect" with signature "" on interface "org.bluez.Device1" doesn't exist
+ 
+CRITICAL :   root :   12-06-2025 05:03:40 PM :       gap  :org.bluez.Error.DoesNotExist: Does Not Exist 
+CRITICAL :   root :   12-06-2025 05:08:48 PM :       gap  :org.bluez.Error.InProgress: Operation already in progress 
+CRITICAL :   root :   12-06-2025 05:09:48 PM :   trigger  :org.bluez.Error.InvalidArguments: Invalid arguments in method call 
+CRITICAL :   root :   12-06-2025 05:09:56 PM :   trigger  :org.bluez.Error.InvalidArguments: Invalid arguments in method call 
+CRITICAL :   root :   12-06-2025 05:11:16 PM :   trigger  :org.freedesktop.DBus.Error.UnknownObject: Method "Get" with signature "ss" on interface "org.freedesktop.DBus.Properties" doesn't exist
+ 
+CRITICAL :   root :   12-06-2025 05:13:07 PM :       gap  :org.bluez.Error.ConnectionAttemptFailed: Page Timeout 
+CRITICAL :   root :   12-06-2025 05:13:48 PM :       gap  :org.bluez.Error.InProgress: Operation already in progress 
+CRITICAL :   root :   12-06-2025 05:14:20 PM :       gap  :org.bluez.Error.AlreadyExists: Already Exists 
+CRITICAL :   root :   12-06-2025 05:18:16 PM :       gap  :org.bluez.Error.Failed: Host is down 
+CRITICAL :   root :   12-06-2025 05:18:51 PM :       gap  :org.bluez.Error.AlreadyExists: Already Exists 
+CRITICAL :   root :   12-06-2025 05:21:43 PM :       gap  :org.bluez.Error.Failed: No discovery started 
