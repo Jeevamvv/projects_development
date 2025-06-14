@@ -1,0 +1,16 @@
+input_value:
+
+  baud_rate: 9600
+  baud_rate_nordic: 115200
+  coordinator_count: 1
+  router_count: 1
+
+  coordinator: {"coordinator_0":{"dev_id":"f4ce362fa5ed7b96",
+                                 "serial_port":"COM4",
+                                 "manufacturer":"NORDIC",
+                                 "pan_id":"0x6342"}}
+  
+  router: {"router_0":{"dev_id":"f4ce360876085D79",
+                       "serial_port":"COM6",
+                       "manufacturer":"NORDIC"}}
+
