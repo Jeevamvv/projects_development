@@ -8,6 +8,7 @@ from Zigbee_Project import logger
 log = logger.Logger()
 
 
+
 class Parser:
     
     """Class to read config file and creating objects for the classes
