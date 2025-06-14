@@ -12907,3 +12907,657 @@ CRITICAL :   root :   14-06-2025 01:38:57 PM :       gap  :org.bluez.Error.NotRe
     INFO :   root :   14-06-2025 02:50:28 PM :   trigger  :3. Skip Track 
     INFO :   root :   14-06-2025 02:50:28 PM :   trigger  :4. Full Sequence: Pause ➝ Play ➝ Skip 
     INFO :   root :   14-06-2025 02:50:28 PM :   trigger  :5. Exit A2DP Media Test 
+    INFO :   root :   14-06-2025 08:13:38 PM :     utils  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:13:38 PM :     utils  : D-bus Daemon Initiated.... 
+    INFO :   root :   14-06-2025 08:13:38 PM :     utils  : Bluetooth-d Daemon Initiated.... 
+    INFO :   root :   14-06-2025 08:13:38 PM :     utils  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:13:38 PM :     utils  :======= List of Active Dongles ======== 
+    INFO :   root :   14-06-2025 08:13:38 PM :     utils  :1: /org/bluez/hci1 
+    INFO :   root :   14-06-2025 08:13:38 PM :     utils  :2: /org/bluez/hci0 
+    INFO :   root :   14-06-2025 08:13:39 PM :   trigger  : Selected interface: /org/bluez/hci0 
+    INFO :   root :   14-06-2025 08:13:39 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:13:39 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO :   root :   14-06-2025 08:13:39 PM :   trigger  :0.  Properties 
+    INFO :   root :   14-06-2025 08:13:39 PM :   trigger  :1.  Scan on 
+    INFO :   root :   14-06-2025 08:13:39 PM :   trigger  :2.  Scan off 
+    INFO :   root :   14-06-2025 08:13:39 PM :   trigger  :3.  Devices 
+    INFO :   root :   14-06-2025 08:13:39 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO :   root :   14-06-2025 08:13:39 PM :   trigger  :5.  Register the agent 
+    INFO :   root :   14-06-2025 08:13:39 PM :   trigger  :6.  Pair 
+    INFO :   root :   14-06-2025 08:13:39 PM :   trigger  :7.  Check paired Devices 
+    INFO :   root :   14-06-2025 08:13:39 PM :   trigger  :8.  Check Connected Devices 
+    INFO :   root :   14-06-2025 08:13:39 PM :   trigger  :9.  Connect 
+    INFO :   root :   14-06-2025 08:13:39 PM :   trigger  :10. Disconnect 
+    INFO :   root :   14-06-2025 08:13:39 PM :   trigger  :11. Remove Device 
+    INFO :   root :   14-06-2025 08:13:39 PM :   trigger  :12. Discoverable on 
+    INFO :   root :   14-06-2025 08:13:39 PM :   trigger  :13. Discoverable off 
+    INFO :   root :   14-06-2025 08:13:39 PM :   trigger  :14. Trusted 
+    INFO :   root :   14-06-2025 08:13:39 PM :   trigger  :15. Register Agent as Default 
+    INFO :   root :   14-06-2025 08:13:39 PM :   trigger  :16. Print UUID's  
+    INFO :   root :   14-06-2025 08:13:39 PM :   trigger  :17. Controller Supported UUID's 
+    INFO :   root :   14-06-2025 08:13:39 PM :   trigger  :18. Set Pairable Timeout 
+    INFO :   root :   14-06-2025 08:13:39 PM :   trigger  :19. Get Pairable Timeout 
+    INFO :   root :   14-06-2025 08:13:39 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO :   root :   14-06-2025 08:13:39 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO :   root :   14-06-2025 08:13:39 PM :   trigger  :22. opp file transfer file  
+    INFO :   root :   14-06-2025 08:13:39 PM :   trigger  :23. phone contact details  
+    INFO :   root :   14-06-2025 08:13:39 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO :   root :   14-06-2025 08:13:39 PM :   trigger  :30. Exit 
+    INFO :   root :   14-06-2025 08:13:39 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:13:43 PM :   trigger  :#################################################################################################### 
+   DEBUG :   root :   14-06-2025 08:13:43 PM :   trigger  : User is trying to access the D-Bus Api's  
+   DEBUG :   root :   14-06-2025 08:13:43 PM :   trigger  :User selected the option to A2DP Profile and A2DP Media Control Test Menu 
+    INFO :   root :   14-06-2025 08:13:43 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:13:43 PM :   trigger  :🎵 A2DP Media Control Test Menu 🎵 
+    INFO :   root :   14-06-2025 08:13:43 PM :   trigger  :1. Pause Media 
+    INFO :   root :   14-06-2025 08:13:43 PM :   trigger  :2. Play Media 
+    INFO :   root :   14-06-2025 08:13:43 PM :   trigger  :3. Skip Track 
+    INFO :   root :   14-06-2025 08:13:43 PM :   trigger  :4. Full Sequence: Pause ➝ Play ➝ Skip 
+    INFO :   root :   14-06-2025 08:13:43 PM :   trigger  :5. Exit A2DP Media Test 
+    INFO :   root :   14-06-2025 08:13:46 PM :   trigger  :Pausing media... 
+   DEBUG :   root :   14-06-2025 08:13:46 PM :      a2dp  :Sending pause command via playerctl... 
+    INFO :   root :   14-06-2025 08:13:46 PM :      a2dp  :Media paused. 
+    INFO :   root :   14-06-2025 08:13:46 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:13:46 PM :   trigger  :🎵 A2DP Media Control Test Menu 🎵 
+    INFO :   root :   14-06-2025 08:13:46 PM :   trigger  :1. Pause Media 
+    INFO :   root :   14-06-2025 08:13:46 PM :   trigger  :2. Play Media 
+    INFO :   root :   14-06-2025 08:13:46 PM :   trigger  :3. Skip Track 
+    INFO :   root :   14-06-2025 08:13:46 PM :   trigger  :4. Full Sequence: Pause ➝ Play ➝ Skip 
+    INFO :   root :   14-06-2025 08:13:46 PM :   trigger  :5. Exit A2DP Media Test 
+    INFO :   root :   14-06-2025 08:13:47 PM :   trigger  :Playing media... 
+   DEBUG :   root :   14-06-2025 08:13:47 PM :      a2dp  :Sending play command via playerctl... 
+    INFO :   root :   14-06-2025 08:13:47 PM :      a2dp  :Media playback started. 
+    INFO :   root :   14-06-2025 08:13:47 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:13:47 PM :   trigger  :🎵 A2DP Media Control Test Menu 🎵 
+    INFO :   root :   14-06-2025 08:13:47 PM :   trigger  :1. Pause Media 
+    INFO :   root :   14-06-2025 08:13:47 PM :   trigger  :2. Play Media 
+    INFO :   root :   14-06-2025 08:13:47 PM :   trigger  :3. Skip Track 
+    INFO :   root :   14-06-2025 08:13:47 PM :   trigger  :4. Full Sequence: Pause ➝ Play ➝ Skip 
+    INFO :   root :   14-06-2025 08:13:47 PM :   trigger  :5. Exit A2DP Media Test 
+    INFO :   root :   14-06-2025 08:13:48 PM :   trigger  :Pausing media... 
+   DEBUG :   root :   14-06-2025 08:13:48 PM :      a2dp  :Sending pause command via playerctl... 
+    INFO :   root :   14-06-2025 08:13:48 PM :      a2dp  :Media paused. 
+    INFO :   root :   14-06-2025 08:13:48 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:13:48 PM :   trigger  :🎵 A2DP Media Control Test Menu 🎵 
+    INFO :   root :   14-06-2025 08:13:48 PM :   trigger  :1. Pause Media 
+    INFO :   root :   14-06-2025 08:13:48 PM :   trigger  :2. Play Media 
+    INFO :   root :   14-06-2025 08:13:48 PM :   trigger  :3. Skip Track 
+    INFO :   root :   14-06-2025 08:13:48 PM :   trigger  :4. Full Sequence: Pause ➝ Play ➝ Skip 
+    INFO :   root :   14-06-2025 08:13:48 PM :   trigger  :5. Exit A2DP Media Test 
+    INFO :   root :   14-06-2025 08:13:49 PM :   trigger  :Skipping track... 
+   DEBUG :   root :   14-06-2025 08:13:49 PM :      a2dp  :Sending next track command via playerctl... 
+   ERROR :   root :   14-06-2025 08:13:49 PM :      a2dp  :Failed to skip track.
+Command '['playerctl', 'next']' returned non-zero exit status 1. 
+    INFO :   root :   14-06-2025 08:13:49 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:13:49 PM :   trigger  :🎵 A2DP Media Control Test Menu 🎵 
+    INFO :   root :   14-06-2025 08:13:49 PM :   trigger  :1. Pause Media 
+    INFO :   root :   14-06-2025 08:13:49 PM :   trigger  :2. Play Media 
+    INFO :   root :   14-06-2025 08:13:49 PM :   trigger  :3. Skip Track 
+    INFO :   root :   14-06-2025 08:13:49 PM :   trigger  :4. Full Sequence: Pause ➝ Play ➝ Skip 
+    INFO :   root :   14-06-2025 08:13:49 PM :   trigger  :5. Exit A2DP Media Test 
+    INFO :   root :   14-06-2025 08:13:56 PM :   trigger  :Skipping track... 
+   DEBUG :   root :   14-06-2025 08:13:56 PM :      a2dp  :Sending next track command via playerctl... 
+    INFO :   root :   14-06-2025 08:13:56 PM :      a2dp  :Skipped to next track. 
+    INFO :   root :   14-06-2025 08:13:56 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:13:56 PM :   trigger  :🎵 A2DP Media Control Test Menu 🎵 
+    INFO :   root :   14-06-2025 08:13:56 PM :   trigger  :1. Pause Media 
+    INFO :   root :   14-06-2025 08:13:56 PM :   trigger  :2. Play Media 
+    INFO :   root :   14-06-2025 08:13:56 PM :   trigger  :3. Skip Track 
+    INFO :   root :   14-06-2025 08:13:56 PM :   trigger  :4. Full Sequence: Pause ➝ Play ➝ Skip 
+    INFO :   root :   14-06-2025 08:13:56 PM :   trigger  :5. Exit A2DP Media Test 
+    INFO :   root :   14-06-2025 08:14:01 PM :   trigger  :Skipping track... 
+   DEBUG :   root :   14-06-2025 08:14:01 PM :      a2dp  :Sending next track command via playerctl... 
+    INFO :   root :   14-06-2025 08:14:01 PM :      a2dp  :Skipped to next track. 
+    INFO :   root :   14-06-2025 08:14:01 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:14:01 PM :   trigger  :🎵 A2DP Media Control Test Menu 🎵 
+    INFO :   root :   14-06-2025 08:14:01 PM :   trigger  :1. Pause Media 
+    INFO :   root :   14-06-2025 08:14:01 PM :   trigger  :2. Play Media 
+    INFO :   root :   14-06-2025 08:14:01 PM :   trigger  :3. Skip Track 
+    INFO :   root :   14-06-2025 08:14:01 PM :   trigger  :4. Full Sequence: Pause ➝ Play ➝ Skip 
+    INFO :   root :   14-06-2025 08:14:01 PM :   trigger  :5. Exit A2DP Media Test 
+    INFO :   root :   14-06-2025 08:14:15 PM :   trigger  :Pausing media... 
+   DEBUG :   root :   14-06-2025 08:14:15 PM :      a2dp  :Sending pause command via playerctl... 
+    INFO :   root :   14-06-2025 08:14:15 PM :      a2dp  :Media paused. 
+    INFO :   root :   14-06-2025 08:14:15 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:14:15 PM :   trigger  :🎵 A2DP Media Control Test Menu 🎵 
+    INFO :   root :   14-06-2025 08:14:15 PM :   trigger  :1. Pause Media 
+    INFO :   root :   14-06-2025 08:14:15 PM :   trigger  :2. Play Media 
+    INFO :   root :   14-06-2025 08:14:15 PM :   trigger  :3. Skip Track 
+    INFO :   root :   14-06-2025 08:14:15 PM :   trigger  :4. Full Sequence: Pause ➝ Play ➝ Skip 
+    INFO :   root :   14-06-2025 08:14:15 PM :   trigger  :5. Exit A2DP Media Test 
+    INFO :   root :   14-06-2025 08:16:07 PM :   trigger  :Skipping track... 
+   DEBUG :   root :   14-06-2025 08:16:07 PM :      a2dp  :Sending next track command via playerctl... 
+   ERROR :   root :   14-06-2025 08:16:07 PM :      a2dp  :Failed to skip track.
+Command '['playerctl', 'next']' returned non-zero exit status 1. 
+    INFO :   root :   14-06-2025 08:16:07 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:16:07 PM :   trigger  :🎵 A2DP Media Control Test Menu 🎵 
+    INFO :   root :   14-06-2025 08:16:07 PM :   trigger  :1. Pause Media 
+    INFO :   root :   14-06-2025 08:16:07 PM :   trigger  :2. Play Media 
+    INFO :   root :   14-06-2025 08:16:07 PM :   trigger  :3. Skip Track 
+    INFO :   root :   14-06-2025 08:16:07 PM :   trigger  :4. Full Sequence: Pause ➝ Play ➝ Skip 
+    INFO :   root :   14-06-2025 08:16:07 PM :   trigger  :5. Exit A2DP Media Test 
+    INFO :   root :   14-06-2025 08:16:12 PM :     utils  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:16:12 PM :     utils  : D-bus Daemon Initiated.... 
+    INFO :   root :   14-06-2025 08:16:12 PM :     utils  : Bluetooth-d Daemon Initiated.... 
+    INFO :   root :   14-06-2025 08:16:12 PM :     utils  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:16:13 PM :     utils  :======= List of Active Dongles ======== 
+    INFO :   root :   14-06-2025 08:16:13 PM :     utils  :1: /org/bluez/hci1 
+    INFO :   root :   14-06-2025 08:16:13 PM :     utils  :2: /org/bluez/hci0 
+    INFO :   root :   14-06-2025 08:16:15 PM :   trigger  : Selected interface: /org/bluez/hci0 
+    INFO :   root :   14-06-2025 08:16:15 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:16:15 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO :   root :   14-06-2025 08:16:15 PM :   trigger  :0.  Properties 
+    INFO :   root :   14-06-2025 08:16:15 PM :   trigger  :1.  Scan on 
+    INFO :   root :   14-06-2025 08:16:15 PM :   trigger  :2.  Scan off 
+    INFO :   root :   14-06-2025 08:16:15 PM :   trigger  :3.  Devices 
+    INFO :   root :   14-06-2025 08:16:15 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO :   root :   14-06-2025 08:16:15 PM :   trigger  :5.  Register the agent 
+    INFO :   root :   14-06-2025 08:16:15 PM :   trigger  :6.  Pair 
+    INFO :   root :   14-06-2025 08:16:15 PM :   trigger  :7.  Check paired Devices 
+    INFO :   root :   14-06-2025 08:16:15 PM :   trigger  :8.  Check Connected Devices 
+    INFO :   root :   14-06-2025 08:16:15 PM :   trigger  :9.  Connect 
+    INFO :   root :   14-06-2025 08:16:15 PM :   trigger  :10. Disconnect 
+    INFO :   root :   14-06-2025 08:16:15 PM :   trigger  :11. Remove Device 
+    INFO :   root :   14-06-2025 08:16:15 PM :   trigger  :12. Discoverable on 
+    INFO :   root :   14-06-2025 08:16:15 PM :   trigger  :13. Discoverable off 
+    INFO :   root :   14-06-2025 08:16:15 PM :   trigger  :14. Trusted 
+    INFO :   root :   14-06-2025 08:16:15 PM :   trigger  :15. Register Agent as Default 
+    INFO :   root :   14-06-2025 08:16:15 PM :   trigger  :16. Print UUID's  
+    INFO :   root :   14-06-2025 08:16:15 PM :   trigger  :17. Controller Supported UUID's 
+    INFO :   root :   14-06-2025 08:16:15 PM :   trigger  :18. Set Pairable Timeout 
+    INFO :   root :   14-06-2025 08:16:15 PM :   trigger  :19. Get Pairable Timeout 
+    INFO :   root :   14-06-2025 08:16:15 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO :   root :   14-06-2025 08:16:15 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO :   root :   14-06-2025 08:16:15 PM :   trigger  :22. opp file transfer file  
+    INFO :   root :   14-06-2025 08:16:15 PM :   trigger  :23. phone contact details  
+    INFO :   root :   14-06-2025 08:16:15 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO :   root :   14-06-2025 08:16:15 PM :   trigger  :30. Exit 
+    INFO :   root :   14-06-2025 08:16:15 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:16:17 PM :   trigger  :#################################################################################################### 
+   DEBUG :   root :   14-06-2025 08:16:17 PM :   trigger  : User is trying to access the D-Bus Api's  
+   DEBUG :   root :   14-06-2025 08:16:17 PM :   trigger  :User selected the option to A2DP Profile and A2DP Media Control Test Menu 
+    INFO :   root :   14-06-2025 08:16:17 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:16:17 PM :   trigger  :🎵 A2DP Media Control Test Menu 🎵 
+    INFO :   root :   14-06-2025 08:16:17 PM :   trigger  :1. Pause Media 
+    INFO :   root :   14-06-2025 08:16:17 PM :   trigger  :2. Play Media 
+    INFO :   root :   14-06-2025 08:16:17 PM :   trigger  :3. Skip Track 
+    INFO :   root :   14-06-2025 08:16:17 PM :   trigger  :4. Full Sequence: Pause ➝ Play ➝ Skip 
+    INFO :   root :   14-06-2025 08:16:17 PM :   trigger  :5. Exit A2DP Media Test 
+    INFO :   root :   14-06-2025 08:16:23 PM :   trigger  :Pausing media... 
+   DEBUG :   root :   14-06-2025 08:16:23 PM :      a2dp  :Sending pause command via playerctl... 
+    INFO :   root :   14-06-2025 08:16:23 PM :      a2dp  :Media paused. 
+    INFO :   root :   14-06-2025 08:16:23 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:16:23 PM :   trigger  :🎵 A2DP Media Control Test Menu 🎵 
+    INFO :   root :   14-06-2025 08:16:23 PM :   trigger  :1. Pause Media 
+    INFO :   root :   14-06-2025 08:16:23 PM :   trigger  :2. Play Media 
+    INFO :   root :   14-06-2025 08:16:23 PM :   trigger  :3. Skip Track 
+    INFO :   root :   14-06-2025 08:16:23 PM :   trigger  :4. Full Sequence: Pause ➝ Play ➝ Skip 
+    INFO :   root :   14-06-2025 08:16:23 PM :   trigger  :5. Exit A2DP Media Test 
+    INFO :   root :   14-06-2025 08:16:34 PM :   trigger  :Skipping track... 
+   DEBUG :   root :   14-06-2025 08:16:34 PM :      a2dp  :Sending next track command via playerctl... 
+    INFO :   root :   14-06-2025 08:16:34 PM :      a2dp  :Skipped to next track. 
+    INFO :   root :   14-06-2025 08:16:34 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:16:34 PM :   trigger  :🎵 A2DP Media Control Test Menu 🎵 
+    INFO :   root :   14-06-2025 08:16:34 PM :   trigger  :1. Pause Media 
+    INFO :   root :   14-06-2025 08:16:34 PM :   trigger  :2. Play Media 
+    INFO :   root :   14-06-2025 08:16:34 PM :   trigger  :3. Skip Track 
+    INFO :   root :   14-06-2025 08:16:34 PM :   trigger  :4. Full Sequence: Pause ➝ Play ➝ Skip 
+    INFO :   root :   14-06-2025 08:16:34 PM :   trigger  :5. Exit A2DP Media Test 
+    INFO :   root :   14-06-2025 08:16:40 PM :   trigger  :Skipping track... 
+   DEBUG :   root :   14-06-2025 08:16:40 PM :      a2dp  :Sending next track command via playerctl... 
+    INFO :   root :   14-06-2025 08:16:40 PM :      a2dp  :Skipped to next track. 
+    INFO :   root :   14-06-2025 08:16:40 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:16:40 PM :   trigger  :🎵 A2DP Media Control Test Menu 🎵 
+    INFO :   root :   14-06-2025 08:16:40 PM :   trigger  :1. Pause Media 
+    INFO :   root :   14-06-2025 08:16:40 PM :   trigger  :2. Play Media 
+    INFO :   root :   14-06-2025 08:16:40 PM :   trigger  :3. Skip Track 
+    INFO :   root :   14-06-2025 08:16:40 PM :   trigger  :4. Full Sequence: Pause ➝ Play ➝ Skip 
+    INFO :   root :   14-06-2025 08:16:40 PM :   trigger  :5. Exit A2DP Media Test 
+    INFO :   root :   14-06-2025 08:17:00 PM :   trigger  :Skipping track... 
+   DEBUG :   root :   14-06-2025 08:17:00 PM :      a2dp  :Sending next track command via playerctl... 
+   ERROR :   root :   14-06-2025 08:17:00 PM :      a2dp  :Failed to skip track.
+Command '['playerctl', 'next']' returned non-zero exit status 1. 
+    INFO :   root :   14-06-2025 08:17:00 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:17:00 PM :   trigger  :🎵 A2DP Media Control Test Menu 🎵 
+    INFO :   root :   14-06-2025 08:17:00 PM :   trigger  :1. Pause Media 
+    INFO :   root :   14-06-2025 08:17:00 PM :   trigger  :2. Play Media 
+    INFO :   root :   14-06-2025 08:17:00 PM :   trigger  :3. Skip Track 
+    INFO :   root :   14-06-2025 08:17:00 PM :   trigger  :4. Full Sequence: Pause ➝ Play ➝ Skip 
+    INFO :   root :   14-06-2025 08:17:00 PM :   trigger  :5. Exit A2DP Media Test 
+    INFO :   root :   14-06-2025 08:17:04 PM :   trigger  :Skipping track... 
+   DEBUG :   root :   14-06-2025 08:17:04 PM :      a2dp  :Sending next track command via playerctl... 
+    INFO :   root :   14-06-2025 08:17:04 PM :      a2dp  :Skipped to next track. 
+    INFO :   root :   14-06-2025 08:17:04 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:17:04 PM :   trigger  :🎵 A2DP Media Control Test Menu 🎵 
+    INFO :   root :   14-06-2025 08:17:04 PM :   trigger  :1. Pause Media 
+    INFO :   root :   14-06-2025 08:17:04 PM :   trigger  :2. Play Media 
+    INFO :   root :   14-06-2025 08:17:04 PM :   trigger  :3. Skip Track 
+    INFO :   root :   14-06-2025 08:17:04 PM :   trigger  :4. Full Sequence: Pause ➝ Play ➝ Skip 
+    INFO :   root :   14-06-2025 08:17:04 PM :   trigger  :5. Exit A2DP Media Test 
+    INFO :   root :   14-06-2025 08:17:06 PM :   trigger  :Pausing media... 
+   DEBUG :   root :   14-06-2025 08:17:06 PM :      a2dp  :Sending pause command via playerctl... 
+    INFO :   root :   14-06-2025 08:17:06 PM :      a2dp  :Media paused. 
+    INFO :   root :   14-06-2025 08:17:06 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:17:06 PM :   trigger  :🎵 A2DP Media Control Test Menu 🎵 
+    INFO :   root :   14-06-2025 08:17:06 PM :   trigger  :1. Pause Media 
+    INFO :   root :   14-06-2025 08:17:06 PM :   trigger  :2. Play Media 
+    INFO :   root :   14-06-2025 08:17:06 PM :   trigger  :3. Skip Track 
+    INFO :   root :   14-06-2025 08:17:06 PM :   trigger  :4. Full Sequence: Pause ➝ Play ➝ Skip 
+    INFO :   root :   14-06-2025 08:17:06 PM :   trigger  :5. Exit A2DP Media Test 
+    INFO :   root :   14-06-2025 08:17:09 PM :   trigger  :Playing media... 
+   DEBUG :   root :   14-06-2025 08:17:09 PM :      a2dp  :Sending play command via playerctl... 
+   ERROR :   root :   14-06-2025 08:17:09 PM :      a2dp  :Failed to play media.
+Command '['playerctl', 'play']' returned non-zero exit status 1. 
+    INFO :   root :   14-06-2025 08:17:09 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:17:09 PM :   trigger  :🎵 A2DP Media Control Test Menu 🎵 
+    INFO :   root :   14-06-2025 08:17:09 PM :   trigger  :1. Pause Media 
+    INFO :   root :   14-06-2025 08:17:09 PM :   trigger  :2. Play Media 
+    INFO :   root :   14-06-2025 08:17:09 PM :   trigger  :3. Skip Track 
+    INFO :   root :   14-06-2025 08:17:09 PM :   trigger  :4. Full Sequence: Pause ➝ Play ➝ Skip 
+    INFO :   root :   14-06-2025 08:17:09 PM :   trigger  :5. Exit A2DP Media Test 
+    INFO :   root :   14-06-2025 08:17:19 PM :   trigger  :Skipping track... 
+   DEBUG :   root :   14-06-2025 08:17:19 PM :      a2dp  :Sending next track command via playerctl... 
+    INFO :   root :   14-06-2025 08:17:19 PM :      a2dp  :Skipped to next track. 
+    INFO :   root :   14-06-2025 08:17:19 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:17:19 PM :   trigger  :🎵 A2DP Media Control Test Menu 🎵 
+    INFO :   root :   14-06-2025 08:17:19 PM :   trigger  :1. Pause Media 
+    INFO :   root :   14-06-2025 08:17:19 PM :   trigger  :2. Play Media 
+    INFO :   root :   14-06-2025 08:17:19 PM :   trigger  :3. Skip Track 
+    INFO :   root :   14-06-2025 08:17:19 PM :   trigger  :4. Full Sequence: Pause ➝ Play ➝ Skip 
+    INFO :   root :   14-06-2025 08:17:19 PM :   trigger  :5. Exit A2DP Media Test 
+    INFO :   root :   14-06-2025 08:17:29 PM :   trigger  :Running full media control sequence... 
+   DEBUG :   root :   14-06-2025 08:17:29 PM :      a2dp  :Sending pause command via playerctl... 
+    INFO :   root :   14-06-2025 08:17:29 PM :      a2dp  :Media paused. 
+   DEBUG :   root :   14-06-2025 08:17:34 PM :      a2dp  :Sending play command via playerctl... 
+    INFO :   root :   14-06-2025 08:17:34 PM :      a2dp  :Media playback started. 
+   DEBUG :   root :   14-06-2025 08:17:38 PM :      a2dp  :Sending pause command via playerctl... 
+    INFO :   root :   14-06-2025 08:17:38 PM :      a2dp  :Media paused. 
+   DEBUG :   root :   14-06-2025 08:17:41 PM :      a2dp  :Sending play command via playerctl... 
+    INFO :   root :   14-06-2025 08:17:41 PM :      a2dp  :Media playback started. 
+   DEBUG :   root :   14-06-2025 08:17:41 PM :      a2dp  :Sending next track command via playerctl... 
+    INFO :   root :   14-06-2025 08:17:41 PM :      a2dp  :Skipped to next track. 
+    INFO :   root :   14-06-2025 08:17:41 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:17:41 PM :   trigger  :🎵 A2DP Media Control Test Menu 🎵 
+    INFO :   root :   14-06-2025 08:17:41 PM :   trigger  :1. Pause Media 
+    INFO :   root :   14-06-2025 08:17:41 PM :   trigger  :2. Play Media 
+    INFO :   root :   14-06-2025 08:17:41 PM :   trigger  :3. Skip Track 
+    INFO :   root :   14-06-2025 08:17:41 PM :   trigger  :4. Full Sequence: Pause ➝ Play ➝ Skip 
+    INFO :   root :   14-06-2025 08:17:41 PM :   trigger  :5. Exit A2DP Media Test 
+    INFO :   root :   14-06-2025 08:18:08 PM :     utils  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:18:08 PM :     utils  : D-bus Daemon Initiated.... 
+    INFO :   root :   14-06-2025 08:18:08 PM :     utils  : Bluetooth-d Daemon Initiated.... 
+    INFO :   root :   14-06-2025 08:18:08 PM :     utils  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:18:08 PM :     utils  :======= List of Active Dongles ======== 
+    INFO :   root :   14-06-2025 08:18:08 PM :     utils  :1: /org/bluez/hci1 
+    INFO :   root :   14-06-2025 08:18:08 PM :     utils  :2: /org/bluez/hci0 
+    INFO :   root :   14-06-2025 08:18:09 PM :   trigger  : Selected interface: /org/bluez/hci0 
+    INFO :   root :   14-06-2025 08:18:09 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:18:09 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO :   root :   14-06-2025 08:18:09 PM :   trigger  :0.  Properties 
+    INFO :   root :   14-06-2025 08:18:09 PM :   trigger  :1.  Scan on 
+    INFO :   root :   14-06-2025 08:18:09 PM :   trigger  :2.  Scan off 
+    INFO :   root :   14-06-2025 08:18:09 PM :   trigger  :3.  Devices 
+    INFO :   root :   14-06-2025 08:18:09 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO :   root :   14-06-2025 08:18:09 PM :   trigger  :5.  Register the agent 
+    INFO :   root :   14-06-2025 08:18:09 PM :   trigger  :6.  Pair 
+    INFO :   root :   14-06-2025 08:18:09 PM :   trigger  :7.  Check paired Devices 
+    INFO :   root :   14-06-2025 08:18:09 PM :   trigger  :8.  Check Connected Devices 
+    INFO :   root :   14-06-2025 08:18:09 PM :   trigger  :9.  Connect 
+    INFO :   root :   14-06-2025 08:18:09 PM :   trigger  :10. Disconnect 
+    INFO :   root :   14-06-2025 08:18:09 PM :   trigger  :11. Remove Device 
+    INFO :   root :   14-06-2025 08:18:09 PM :   trigger  :12. Discoverable on 
+    INFO :   root :   14-06-2025 08:18:09 PM :   trigger  :13. Discoverable off 
+    INFO :   root :   14-06-2025 08:18:09 PM :   trigger  :14. Trusted 
+    INFO :   root :   14-06-2025 08:18:09 PM :   trigger  :15. Register Agent as Default 
+    INFO :   root :   14-06-2025 08:18:09 PM :   trigger  :16. Print UUID's  
+    INFO :   root :   14-06-2025 08:18:09 PM :   trigger  :17. Controller Supported UUID's 
+    INFO :   root :   14-06-2025 08:18:09 PM :   trigger  :18. Set Pairable Timeout 
+    INFO :   root :   14-06-2025 08:18:09 PM :   trigger  :19. Get Pairable Timeout 
+    INFO :   root :   14-06-2025 08:18:09 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO :   root :   14-06-2025 08:18:09 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO :   root :   14-06-2025 08:18:09 PM :   trigger  :22. opp file transfer file  
+    INFO :   root :   14-06-2025 08:18:09 PM :   trigger  :23. phone contact details  
+    INFO :   root :   14-06-2025 08:18:09 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO :   root :   14-06-2025 08:18:09 PM :   trigger  :30. Exit 
+    INFO :   root :   14-06-2025 08:18:09 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:18:11 PM :   trigger  : Invalid Choise, ValueError   
+   DEBUG :   root :   14-06-2025 08:18:11 PM :   trigger  : User is trying to access the D-Bus Api's  
+    INFO :   root :   14-06-2025 08:18:11 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:18:11 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO :   root :   14-06-2025 08:18:11 PM :   trigger  :0.  Properties 
+    INFO :   root :   14-06-2025 08:18:11 PM :   trigger  :1.  Scan on 
+    INFO :   root :   14-06-2025 08:18:11 PM :   trigger  :2.  Scan off 
+    INFO :   root :   14-06-2025 08:18:11 PM :   trigger  :3.  Devices 
+    INFO :   root :   14-06-2025 08:18:11 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO :   root :   14-06-2025 08:18:11 PM :   trigger  :5.  Register the agent 
+    INFO :   root :   14-06-2025 08:18:11 PM :   trigger  :6.  Pair 
+    INFO :   root :   14-06-2025 08:18:11 PM :   trigger  :7.  Check paired Devices 
+    INFO :   root :   14-06-2025 08:18:11 PM :   trigger  :8.  Check Connected Devices 
+    INFO :   root :   14-06-2025 08:18:11 PM :   trigger  :9.  Connect 
+    INFO :   root :   14-06-2025 08:18:11 PM :   trigger  :10. Disconnect 
+    INFO :   root :   14-06-2025 08:18:11 PM :   trigger  :11. Remove Device 
+    INFO :   root :   14-06-2025 08:18:11 PM :   trigger  :12. Discoverable on 
+    INFO :   root :   14-06-2025 08:18:11 PM :   trigger  :13. Discoverable off 
+    INFO :   root :   14-06-2025 08:18:11 PM :   trigger  :14. Trusted 
+    INFO :   root :   14-06-2025 08:18:11 PM :   trigger  :15. Register Agent as Default 
+    INFO :   root :   14-06-2025 08:18:11 PM :   trigger  :16. Print UUID's  
+    INFO :   root :   14-06-2025 08:18:11 PM :   trigger  :17. Controller Supported UUID's 
+    INFO :   root :   14-06-2025 08:18:11 PM :   trigger  :18. Set Pairable Timeout 
+    INFO :   root :   14-06-2025 08:18:11 PM :   trigger  :19. Get Pairable Timeout 
+    INFO :   root :   14-06-2025 08:18:11 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO :   root :   14-06-2025 08:18:11 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO :   root :   14-06-2025 08:18:11 PM :   trigger  :22. opp file transfer file  
+    INFO :   root :   14-06-2025 08:18:11 PM :   trigger  :23. phone contact details  
+    INFO :   root :   14-06-2025 08:18:11 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO :   root :   14-06-2025 08:18:11 PM :   trigger  :30. Exit 
+    INFO :   root :   14-06-2025 08:18:11 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:18:16 PM :   trigger  :#################################################################################################### 
+   DEBUG :   root :   14-06-2025 08:18:16 PM :   trigger  : User is trying to access the D-Bus Api's  
+   DEBUG :   root :   14-06-2025 08:18:16 PM :   trigger  : User selected to display the list of paired devices 
+   DEBUG :   root :   14-06-2025 08:18:16 PM :       gap  : User wants the list of paired devices. 
+    INFO :   root :   14-06-2025 08:18:16 PM :   trigger  :A4:05:6E:1F:04:67 
+    INFO :   root :   14-06-2025 08:18:16 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:18:16 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO :   root :   14-06-2025 08:18:16 PM :   trigger  :0.  Properties 
+    INFO :   root :   14-06-2025 08:18:16 PM :   trigger  :1.  Scan on 
+    INFO :   root :   14-06-2025 08:18:16 PM :   trigger  :2.  Scan off 
+    INFO :   root :   14-06-2025 08:18:16 PM :   trigger  :3.  Devices 
+    INFO :   root :   14-06-2025 08:18:16 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO :   root :   14-06-2025 08:18:16 PM :   trigger  :5.  Register the agent 
+    INFO :   root :   14-06-2025 08:18:16 PM :   trigger  :6.  Pair 
+    INFO :   root :   14-06-2025 08:18:16 PM :   trigger  :7.  Check paired Devices 
+    INFO :   root :   14-06-2025 08:18:16 PM :   trigger  :8.  Check Connected Devices 
+    INFO :   root :   14-06-2025 08:18:16 PM :   trigger  :9.  Connect 
+    INFO :   root :   14-06-2025 08:18:16 PM :   trigger  :10. Disconnect 
+    INFO :   root :   14-06-2025 08:18:16 PM :   trigger  :11. Remove Device 
+    INFO :   root :   14-06-2025 08:18:16 PM :   trigger  :12. Discoverable on 
+    INFO :   root :   14-06-2025 08:18:16 PM :   trigger  :13. Discoverable off 
+    INFO :   root :   14-06-2025 08:18:16 PM :   trigger  :14. Trusted 
+    INFO :   root :   14-06-2025 08:18:16 PM :   trigger  :15. Register Agent as Default 
+    INFO :   root :   14-06-2025 08:18:16 PM :   trigger  :16. Print UUID's  
+    INFO :   root :   14-06-2025 08:18:16 PM :   trigger  :17. Controller Supported UUID's 
+    INFO :   root :   14-06-2025 08:18:16 PM :   trigger  :18. Set Pairable Timeout 
+    INFO :   root :   14-06-2025 08:18:16 PM :   trigger  :19. Get Pairable Timeout 
+    INFO :   root :   14-06-2025 08:18:16 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO :   root :   14-06-2025 08:18:16 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO :   root :   14-06-2025 08:18:16 PM :   trigger  :22. opp file transfer file  
+    INFO :   root :   14-06-2025 08:18:16 PM :   trigger  :23. phone contact details  
+    INFO :   root :   14-06-2025 08:18:16 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO :   root :   14-06-2025 08:18:16 PM :   trigger  :30. Exit 
+    INFO :   root :   14-06-2025 08:18:16 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:18:22 PM :   trigger  :#################################################################################################### 
+   DEBUG :   root :   14-06-2025 08:18:22 PM :   trigger  : User is trying to access the D-Bus Api's  
+    INFO :   root :   14-06-2025 08:18:22 PM :     utils  : Pulseaudio Daemon Initiated.... 
+   DEBUG :   root :   14-06-2025 08:18:22 PM :   trigger  : User selected connect option  
+   DEBUG :   root :   14-06-2025 08:18:22 PM :       gap  : User wants the list of paired devices. 
+    INFO :   root :   14-06-2025 08:18:22 PM :   trigger  :1. A4:05:6E:1F:04:67 
+    INFO :   root :   14-06-2025 08:18:23 PM :       gap  : Connecting........ 
+   DEBUG :   root :   14-06-2025 08:18:23 PM :       gap  :  Connection Initiated  
+    INFO :   root :   14-06-2025 08:18:24 PM :       gap  : Connected successfully to the device   
+    INFO :   root :   14-06-2025 08:18:24 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:18:24 PM :   trigger  : Connected Successfully!  
+    INFO :   root :   14-06-2025 08:18:24 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:18:24 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO :   root :   14-06-2025 08:18:24 PM :   trigger  :0.  Properties 
+    INFO :   root :   14-06-2025 08:18:24 PM :   trigger  :1.  Scan on 
+    INFO :   root :   14-06-2025 08:18:24 PM :   trigger  :2.  Scan off 
+    INFO :   root :   14-06-2025 08:18:24 PM :   trigger  :3.  Devices 
+    INFO :   root :   14-06-2025 08:18:24 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO :   root :   14-06-2025 08:18:24 PM :   trigger  :5.  Register the agent 
+    INFO :   root :   14-06-2025 08:18:24 PM :   trigger  :6.  Pair 
+    INFO :   root :   14-06-2025 08:18:24 PM :   trigger  :7.  Check paired Devices 
+    INFO :   root :   14-06-2025 08:18:24 PM :   trigger  :8.  Check Connected Devices 
+    INFO :   root :   14-06-2025 08:18:24 PM :   trigger  :9.  Connect 
+    INFO :   root :   14-06-2025 08:18:24 PM :   trigger  :10. Disconnect 
+    INFO :   root :   14-06-2025 08:18:24 PM :   trigger  :11. Remove Device 
+    INFO :   root :   14-06-2025 08:18:24 PM :   trigger  :12. Discoverable on 
+    INFO :   root :   14-06-2025 08:18:24 PM :   trigger  :13. Discoverable off 
+    INFO :   root :   14-06-2025 08:18:24 PM :   trigger  :14. Trusted 
+    INFO :   root :   14-06-2025 08:18:24 PM :   trigger  :15. Register Agent as Default 
+    INFO :   root :   14-06-2025 08:18:24 PM :   trigger  :16. Print UUID's  
+    INFO :   root :   14-06-2025 08:18:24 PM :   trigger  :17. Controller Supported UUID's 
+    INFO :   root :   14-06-2025 08:18:24 PM :   trigger  :18. Set Pairable Timeout 
+    INFO :   root :   14-06-2025 08:18:24 PM :   trigger  :19. Get Pairable Timeout 
+    INFO :   root :   14-06-2025 08:18:24 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO :   root :   14-06-2025 08:18:24 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO :   root :   14-06-2025 08:18:24 PM :   trigger  :22. opp file transfer file  
+    INFO :   root :   14-06-2025 08:18:24 PM :   trigger  :23. phone contact details  
+    INFO :   root :   14-06-2025 08:18:24 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO :   root :   14-06-2025 08:18:24 PM :   trigger  :30. Exit 
+    INFO :   root :   14-06-2025 08:18:24 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:18:45 PM :   trigger  :#################################################################################################### 
+   DEBUG :   root :   14-06-2025 08:18:45 PM :   trigger  : User is trying to access the D-Bus Api's  
+   DEBUG :   root :   14-06-2025 08:18:45 PM :   trigger  :  User selected to stop the scan operation 
+   DEBUG :   root :   14-06-2025 08:18:45 PM :       gap  : User tried to end the scan operation explicitly  
+CRITICAL :   root :   14-06-2025 08:18:45 PM :       gap  :org.bluez.Error.Failed: No discovery started 
+    INFO :   root :   14-06-2025 08:18:45 PM :       gap  :  Failed to execute the StopDiscovery api  
+    INFO :   root :   14-06-2025 08:18:45 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:18:45 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO :   root :   14-06-2025 08:18:45 PM :   trigger  :0.  Properties 
+    INFO :   root :   14-06-2025 08:18:45 PM :   trigger  :1.  Scan on 
+    INFO :   root :   14-06-2025 08:18:45 PM :   trigger  :2.  Scan off 
+    INFO :   root :   14-06-2025 08:18:45 PM :   trigger  :3.  Devices 
+    INFO :   root :   14-06-2025 08:18:45 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO :   root :   14-06-2025 08:18:45 PM :   trigger  :5.  Register the agent 
+    INFO :   root :   14-06-2025 08:18:45 PM :   trigger  :6.  Pair 
+    INFO :   root :   14-06-2025 08:18:45 PM :   trigger  :7.  Check paired Devices 
+    INFO :   root :   14-06-2025 08:18:45 PM :   trigger  :8.  Check Connected Devices 
+    INFO :   root :   14-06-2025 08:18:45 PM :   trigger  :9.  Connect 
+    INFO :   root :   14-06-2025 08:18:45 PM :   trigger  :10. Disconnect 
+    INFO :   root :   14-06-2025 08:18:45 PM :   trigger  :11. Remove Device 
+    INFO :   root :   14-06-2025 08:18:45 PM :   trigger  :12. Discoverable on 
+    INFO :   root :   14-06-2025 08:18:45 PM :   trigger  :13. Discoverable off 
+    INFO :   root :   14-06-2025 08:18:45 PM :   trigger  :14. Trusted 
+    INFO :   root :   14-06-2025 08:18:45 PM :   trigger  :15. Register Agent as Default 
+    INFO :   root :   14-06-2025 08:18:45 PM :   trigger  :16. Print UUID's  
+    INFO :   root :   14-06-2025 08:18:45 PM :   trigger  :17. Controller Supported UUID's 
+    INFO :   root :   14-06-2025 08:18:45 PM :   trigger  :18. Set Pairable Timeout 
+    INFO :   root :   14-06-2025 08:18:45 PM :   trigger  :19. Get Pairable Timeout 
+    INFO :   root :   14-06-2025 08:18:45 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO :   root :   14-06-2025 08:18:45 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO :   root :   14-06-2025 08:18:45 PM :   trigger  :22. opp file transfer file  
+    INFO :   root :   14-06-2025 08:18:45 PM :   trigger  :23. phone contact details  
+    INFO :   root :   14-06-2025 08:18:45 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO :   root :   14-06-2025 08:18:45 PM :   trigger  :30. Exit 
+    INFO :   root :   14-06-2025 08:18:45 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:18:50 PM :   trigger  :#################################################################################################### 
+   DEBUG :   root :   14-06-2025 08:18:50 PM :   trigger  : User is trying to access the D-Bus Api's  
+   DEBUG :   root :   14-06-2025 08:18:50 PM :   trigger  :User selected the option to A2DP Profile and A2DP Media Control Test Menu 
+    INFO :   root :   14-06-2025 08:18:50 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:18:50 PM :   trigger  :🎵 A2DP Media Control Test Menu 🎵 
+    INFO :   root :   14-06-2025 08:18:50 PM :   trigger  :1. Pause Media 
+    INFO :   root :   14-06-2025 08:18:50 PM :   trigger  :2. Play Media 
+    INFO :   root :   14-06-2025 08:18:50 PM :   trigger  :3. Skip Track 
+    INFO :   root :   14-06-2025 08:18:50 PM :   trigger  :4. Full Sequence: Pause ➝ Play ➝ Skip 
+    INFO :   root :   14-06-2025 08:18:50 PM :   trigger  :5. Exit A2DP Media Test 
+    INFO :   root :   14-06-2025 08:18:52 PM :   trigger  :Pausing media... 
+   DEBUG :   root :   14-06-2025 08:18:52 PM :      a2dp  :Sending pause command via playerctl... 
+    INFO :   root :   14-06-2025 08:18:52 PM :      a2dp  :Media paused. 
+    INFO :   root :   14-06-2025 08:18:52 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:18:52 PM :   trigger  :🎵 A2DP Media Control Test Menu 🎵 
+    INFO :   root :   14-06-2025 08:18:52 PM :   trigger  :1. Pause Media 
+    INFO :   root :   14-06-2025 08:18:52 PM :   trigger  :2. Play Media 
+    INFO :   root :   14-06-2025 08:18:52 PM :   trigger  :3. Skip Track 
+    INFO :   root :   14-06-2025 08:18:52 PM :   trigger  :4. Full Sequence: Pause ➝ Play ➝ Skip 
+    INFO :   root :   14-06-2025 08:18:52 PM :   trigger  :5. Exit A2DP Media Test 
+    INFO :   root :   14-06-2025 08:18:53 PM :   trigger  :Playing media... 
+   DEBUG :   root :   14-06-2025 08:18:53 PM :      a2dp  :Sending play command via playerctl... 
+    INFO :   root :   14-06-2025 08:18:53 PM :      a2dp  :Media playback started. 
+    INFO :   root :   14-06-2025 08:18:53 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:18:53 PM :   trigger  :🎵 A2DP Media Control Test Menu 🎵 
+    INFO :   root :   14-06-2025 08:18:53 PM :   trigger  :1. Pause Media 
+    INFO :   root :   14-06-2025 08:18:53 PM :   trigger  :2. Play Media 
+    INFO :   root :   14-06-2025 08:18:53 PM :   trigger  :3. Skip Track 
+    INFO :   root :   14-06-2025 08:18:53 PM :   trigger  :4. Full Sequence: Pause ➝ Play ➝ Skip 
+    INFO :   root :   14-06-2025 08:18:53 PM :   trigger  :5. Exit A2DP Media Test 
+    INFO :   root :   14-06-2025 08:18:55 PM :   trigger  :Skipping track... 
+   DEBUG :   root :   14-06-2025 08:18:55 PM :      a2dp  :Sending next track command via playerctl... 
+    INFO :   root :   14-06-2025 08:18:55 PM :      a2dp  :Skipped to next track. 
+    INFO :   root :   14-06-2025 08:18:55 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:18:55 PM :   trigger  :🎵 A2DP Media Control Test Menu 🎵 
+    INFO :   root :   14-06-2025 08:18:55 PM :   trigger  :1. Pause Media 
+    INFO :   root :   14-06-2025 08:18:55 PM :   trigger  :2. Play Media 
+    INFO :   root :   14-06-2025 08:18:55 PM :   trigger  :3. Skip Track 
+    INFO :   root :   14-06-2025 08:18:55 PM :   trigger  :4. Full Sequence: Pause ➝ Play ➝ Skip 
+    INFO :   root :   14-06-2025 08:18:55 PM :   trigger  :5. Exit A2DP Media Test 
+    INFO :   root :   14-06-2025 08:19:04 PM :   trigger  :Running full media control sequence... 
+   DEBUG :   root :   14-06-2025 08:19:04 PM :      a2dp  :Sending pause command via playerctl... 
+    INFO :   root :   14-06-2025 08:19:04 PM :      a2dp  :Media paused. 
+   DEBUG :   root :   14-06-2025 08:19:09 PM :      a2dp  :Sending play command via playerctl... 
+    INFO :   root :   14-06-2025 08:19:09 PM :      a2dp  :Media playback started. 
+   DEBUG :   root :   14-06-2025 08:19:13 PM :      a2dp  :Sending pause command via playerctl... 
+    INFO :   root :   14-06-2025 08:19:13 PM :      a2dp  :Media paused. 
+   DEBUG :   root :   14-06-2025 08:19:16 PM :      a2dp  :Sending play command via playerctl... 
+    INFO :   root :   14-06-2025 08:19:16 PM :      a2dp  :Media playback started. 
+   DEBUG :   root :   14-06-2025 08:19:16 PM :      a2dp  :Sending next track command via playerctl... 
+    INFO :   root :   14-06-2025 08:19:16 PM :      a2dp  :Skipped to next track. 
+    INFO :   root :   14-06-2025 08:19:16 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:19:16 PM :   trigger  :🎵 A2DP Media Control Test Menu 🎵 
+    INFO :   root :   14-06-2025 08:19:16 PM :   trigger  :1. Pause Media 
+    INFO :   root :   14-06-2025 08:19:16 PM :   trigger  :2. Play Media 
+    INFO :   root :   14-06-2025 08:19:16 PM :   trigger  :3. Skip Track 
+    INFO :   root :   14-06-2025 08:19:16 PM :   trigger  :4. Full Sequence: Pause ➝ Play ➝ Skip 
+    INFO :   root :   14-06-2025 08:19:16 PM :   trigger  :5. Exit A2DP Media Test 
+    INFO :   root :   14-06-2025 08:20:08 PM :     utils  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:20:08 PM :     utils  : D-bus Daemon Initiated.... 
+    INFO :   root :   14-06-2025 08:20:08 PM :     utils  : Bluetooth-d Daemon Initiated.... 
+    INFO :   root :   14-06-2025 08:20:08 PM :     utils  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:20:08 PM :     utils  :======= List of Active Dongles ======== 
+    INFO :   root :   14-06-2025 08:20:08 PM :     utils  :1: /org/bluez/hci1 
+    INFO :   root :   14-06-2025 08:20:08 PM :     utils  :2: /org/bluez/hci0 
+    INFO :   root :   14-06-2025 08:20:09 PM :   trigger  : Selected interface: /org/bluez/hci0 
+    INFO :   root :   14-06-2025 08:20:09 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:20:09 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO :   root :   14-06-2025 08:20:09 PM :   trigger  :0.  Properties 
+    INFO :   root :   14-06-2025 08:20:09 PM :   trigger  :1.  Scan on 
+    INFO :   root :   14-06-2025 08:20:09 PM :   trigger  :2.  Scan off 
+    INFO :   root :   14-06-2025 08:20:09 PM :   trigger  :3.  Devices 
+    INFO :   root :   14-06-2025 08:20:09 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO :   root :   14-06-2025 08:20:09 PM :   trigger  :5.  Register the agent 
+    INFO :   root :   14-06-2025 08:20:09 PM :   trigger  :6.  Pair 
+    INFO :   root :   14-06-2025 08:20:09 PM :   trigger  :7.  Check paired Devices 
+    INFO :   root :   14-06-2025 08:20:09 PM :   trigger  :8.  Check Connected Devices 
+    INFO :   root :   14-06-2025 08:20:09 PM :   trigger  :9.  Connect 
+    INFO :   root :   14-06-2025 08:20:09 PM :   trigger  :10. Disconnect 
+    INFO :   root :   14-06-2025 08:20:09 PM :   trigger  :11. Remove Device 
+    INFO :   root :   14-06-2025 08:20:09 PM :   trigger  :12. Discoverable on 
+    INFO :   root :   14-06-2025 08:20:09 PM :   trigger  :13. Discoverable off 
+    INFO :   root :   14-06-2025 08:20:09 PM :   trigger  :14. Trusted 
+    INFO :   root :   14-06-2025 08:20:09 PM :   trigger  :15. Register Agent as Default 
+    INFO :   root :   14-06-2025 08:20:09 PM :   trigger  :16. Print UUID's  
+    INFO :   root :   14-06-2025 08:20:09 PM :   trigger  :17. Controller Supported UUID's 
+    INFO :   root :   14-06-2025 08:20:09 PM :   trigger  :18. Set Pairable Timeout 
+    INFO :   root :   14-06-2025 08:20:09 PM :   trigger  :19. Get Pairable Timeout 
+    INFO :   root :   14-06-2025 08:20:09 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO :   root :   14-06-2025 08:20:09 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO :   root :   14-06-2025 08:20:09 PM :   trigger  :22. opp file transfer file  
+    INFO :   root :   14-06-2025 08:20:09 PM :   trigger  :23. phone contact details  
+    INFO :   root :   14-06-2025 08:20:09 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO :   root :   14-06-2025 08:20:09 PM :   trigger  :30. Exit 
+    INFO :   root :   14-06-2025 08:20:09 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:20:10 PM :   trigger  :#################################################################################################### 
+   DEBUG :   root :   14-06-2025 08:20:10 PM :   trigger  : User is trying to access the D-Bus Api's  
+   DEBUG :   root :   14-06-2025 08:20:10 PM :   trigger  :User selected the option to A2DP Profile and A2DP Media Control Test Menu 
+    INFO :   root :   14-06-2025 08:20:10 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:20:10 PM :   trigger  :🎵 A2DP Media Control Test Menu 🎵 
+    INFO :   root :   14-06-2025 08:20:10 PM :   trigger  :1. Pause Media 
+    INFO :   root :   14-06-2025 08:20:10 PM :   trigger  :2. Play Media 
+    INFO :   root :   14-06-2025 08:20:10 PM :   trigger  :3. Skip Track 
+    INFO :   root :   14-06-2025 08:20:10 PM :   trigger  :4. Full Sequence: Pause ➝ Play ➝ Skip 
+    INFO :   root :   14-06-2025 08:20:10 PM :   trigger  :5. Exit A2DP Media Test 
+    INFO :   root :   14-06-2025 08:20:12 PM :   trigger  :Running full media control sequence... 
+   DEBUG :   root :   14-06-2025 08:20:12 PM :      a2dp  :Sending pause command via playerctl... 
+    INFO :   root :   14-06-2025 08:20:12 PM :      a2dp  :Media paused. 
+   DEBUG :   root :   14-06-2025 08:20:18 PM :      a2dp  :Sending play command via playerctl... 
+    INFO :   root :   14-06-2025 08:20:18 PM :      a2dp  :Media playback started. 
+   DEBUG :   root :   14-06-2025 08:20:22 PM :      a2dp  :Sending pause command via playerctl... 
+    INFO :   root :   14-06-2025 08:20:22 PM :      a2dp  :Media paused. 
+   DEBUG :   root :   14-06-2025 08:20:25 PM :      a2dp  :Sending play command via playerctl... 
+    INFO :   root :   14-06-2025 08:20:25 PM :      a2dp  :Media playback started. 
+   DEBUG :   root :   14-06-2025 08:20:28 PM :      a2dp  :Sending next track command via playerctl... 
+    INFO :   root :   14-06-2025 08:20:28 PM :      a2dp  :Skipped to next track. 
+   DEBUG :   root :   14-06-2025 08:20:28 PM :      a2dp  :Sending play command via playerctl... 
+    INFO :   root :   14-06-2025 08:20:28 PM :      a2dp  :Media playback started. 
+    INFO :   root :   14-06-2025 08:20:28 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:20:28 PM :   trigger  :🎵 A2DP Media Control Test Menu 🎵 
+    INFO :   root :   14-06-2025 08:20:28 PM :   trigger  :1. Pause Media 
+    INFO :   root :   14-06-2025 08:20:28 PM :   trigger  :2. Play Media 
+    INFO :   root :   14-06-2025 08:20:28 PM :   trigger  :3. Skip Track 
+    INFO :   root :   14-06-2025 08:20:28 PM :   trigger  :4. Full Sequence: Pause ➝ Play ➝ Skip 
+    INFO :   root :   14-06-2025 08:20:28 PM :   trigger  :5. Exit A2DP Media Test 
+    INFO :   root :   14-06-2025 08:22:12 PM :   trigger  :Exiting A2DP Media Test Menu... 
+    INFO :   root :   14-06-2025 08:22:12 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:22:12 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO :   root :   14-06-2025 08:22:12 PM :   trigger  :0.  Properties 
+    INFO :   root :   14-06-2025 08:22:12 PM :   trigger  :1.  Scan on 
+    INFO :   root :   14-06-2025 08:22:12 PM :   trigger  :2.  Scan off 
+    INFO :   root :   14-06-2025 08:22:12 PM :   trigger  :3.  Devices 
+    INFO :   root :   14-06-2025 08:22:12 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO :   root :   14-06-2025 08:22:12 PM :   trigger  :5.  Register the agent 
+    INFO :   root :   14-06-2025 08:22:12 PM :   trigger  :6.  Pair 
+    INFO :   root :   14-06-2025 08:22:12 PM :   trigger  :7.  Check paired Devices 
+    INFO :   root :   14-06-2025 08:22:12 PM :   trigger  :8.  Check Connected Devices 
+    INFO :   root :   14-06-2025 08:22:12 PM :   trigger  :9.  Connect 
+    INFO :   root :   14-06-2025 08:22:12 PM :   trigger  :10. Disconnect 
+    INFO :   root :   14-06-2025 08:22:12 PM :   trigger  :11. Remove Device 
+    INFO :   root :   14-06-2025 08:22:12 PM :   trigger  :12. Discoverable on 
+    INFO :   root :   14-06-2025 08:22:12 PM :   trigger  :13. Discoverable off 
+    INFO :   root :   14-06-2025 08:22:12 PM :   trigger  :14. Trusted 
+    INFO :   root :   14-06-2025 08:22:12 PM :   trigger  :15. Register Agent as Default 
+    INFO :   root :   14-06-2025 08:22:12 PM :   trigger  :16. Print UUID's  
+    INFO :   root :   14-06-2025 08:22:12 PM :   trigger  :17. Controller Supported UUID's 
+    INFO :   root :   14-06-2025 08:22:12 PM :   trigger  :18. Set Pairable Timeout 
+    INFO :   root :   14-06-2025 08:22:12 PM :   trigger  :19. Get Pairable Timeout 
+    INFO :   root :   14-06-2025 08:22:12 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO :   root :   14-06-2025 08:22:12 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO :   root :   14-06-2025 08:22:12 PM :   trigger  :22. opp file transfer file  
+    INFO :   root :   14-06-2025 08:22:12 PM :   trigger  :23. phone contact details  
+    INFO :   root :   14-06-2025 08:22:12 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO :   root :   14-06-2025 08:22:12 PM :   trigger  :30. Exit 
+    INFO :   root :   14-06-2025 08:22:12 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:22:20 PM :   trigger  :#################################################################################################### 
+   DEBUG :   root :   14-06-2025 08:22:20 PM :   trigger  : User is trying to access the D-Bus Api's  
+   DEBUG :   root :   14-06-2025 08:22:20 PM :   trigger  :User selected the option to send details about phone contact details in Excel sheet format with name and number. 
+    INFO :   root :   14-06-2025 08:22:40 PM :      pbap  :Fetching contacts from  
+   ERROR :   root :   14-06-2025 08:22:52 PM :      pbap  :Failed to pull contact file: Scanning for  ...
+Found: 5C:F3:70:79:93:F8
+Connecting...\failed: send UUID
+unknown error on connect
+Still trying to connect
+Connecting...failed: connect
+unknown error on connect
+Still trying to connect
+Connecting...failed: connect
+unknown error on connect
+Still trying to connect
+ 
+    INFO :   root :   14-06-2025 08:22:52 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 08:22:52 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO :   root :   14-06-2025 08:22:52 PM :   trigger  :0.  Properties 
+    INFO :   root :   14-06-2025 08:22:52 PM :   trigger  :1.  Scan on 
+    INFO :   root :   14-06-2025 08:22:52 PM :   trigger  :2.  Scan off 
+    INFO :   root :   14-06-2025 08:22:52 PM :   trigger  :3.  Devices 
+    INFO :   root :   14-06-2025 08:22:52 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO :   root :   14-06-2025 08:22:52 PM :   trigger  :5.  Register the agent 
+    INFO :   root :   14-06-2025 08:22:52 PM :   trigger  :6.  Pair 
+    INFO :   root :   14-06-2025 08:22:52 PM :   trigger  :7.  Check paired Devices 
+    INFO :   root :   14-06-2025 08:22:52 PM :   trigger  :8.  Check Connected Devices 
+    INFO :   root :   14-06-2025 08:22:52 PM :   trigger  :9.  Connect 
+    INFO :   root :   14-06-2025 08:22:52 PM :   trigger  :10. Disconnect 
+    INFO :   root :   14-06-2025 08:22:52 PM :   trigger  :11. Remove Device 
+    INFO :   root :   14-06-2025 08:22:52 PM :   trigger  :12. Discoverable on 
+    INFO :   root :   14-06-2025 08:22:52 PM :   trigger  :13. Discoverable off 
+    INFO :   root :   14-06-2025 08:22:52 PM :   trigger  :14. Trusted 
+    INFO :   root :   14-06-2025 08:22:52 PM :   trigger  :15. Register Agent as Default 
+    INFO :   root :   14-06-2025 08:22:52 PM :   trigger  :16. Print UUID's  
+    INFO :   root :   14-06-2025 08:22:52 PM :   trigger  :17. Controller Supported UUID's 
+    INFO :   root :   14-06-2025 08:22:52 PM :   trigger  :18. Set Pairable Timeout 
+    INFO :   root :   14-06-2025 08:22:52 PM :   trigger  :19. Get Pairable Timeout 
+    INFO :   root :   14-06-2025 08:22:52 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO :   root :   14-06-2025 08:22:52 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO :   root :   14-06-2025 08:22:52 PM :   trigger  :22. opp file transfer file  
+    INFO :   root :   14-06-2025 08:22:52 PM :   trigger  :23. phone contact details  
+    INFO :   root :   14-06-2025 08:22:52 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO :   root :   14-06-2025 08:22:52 PM :   trigger  :30. Exit 
+    INFO :   root :   14-06-2025 08:22:52 PM :   trigger  :**************************************************************************************************** 
+   DEBUG :   root :   14-06-2025 08:23:43 PM :   trigger  : User is trying to access the D-Bus Api's  

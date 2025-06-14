@@ -565,7 +565,9 @@ while True:
                 a2dp.pause_media()
                 time.sleep(3)
                 a2dp.play_media()
+                time.sleep(3)
                 a2dp.skip_track()
+                a2dp.play_media()
 
             elif choice == 5:
                 log.info("Exiting A2DP Media Test Menu...")

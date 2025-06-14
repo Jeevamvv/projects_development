@@ -66,3 +66,24 @@ Command '['playerctl', 'play']' returned non-zero exit status 1.
    ERROR :   root :   14-06-2025 01:31:43 PM :      a2dp  :Failed to skip track.
 Command '['playerctl', 'next']' returned non-zero exit status 1. 
 CRITICAL :   root :   14-06-2025 01:38:57 PM :       gap  :org.bluez.Error.NotReady: Resource Not Ready 
+   ERROR :   root :   14-06-2025 08:13:49 PM :      a2dp  :Failed to skip track.
+Command '['playerctl', 'next']' returned non-zero exit status 1. 
+   ERROR :   root :   14-06-2025 08:16:07 PM :      a2dp  :Failed to skip track.
+Command '['playerctl', 'next']' returned non-zero exit status 1. 
+   ERROR :   root :   14-06-2025 08:17:00 PM :      a2dp  :Failed to skip track.
+Command '['playerctl', 'next']' returned non-zero exit status 1. 
+   ERROR :   root :   14-06-2025 08:17:09 PM :      a2dp  :Failed to play media.
+Command '['playerctl', 'play']' returned non-zero exit status 1. 
+CRITICAL :   root :   14-06-2025 08:18:45 PM :       gap  :org.bluez.Error.Failed: No discovery started 
+   ERROR :   root :   14-06-2025 08:22:52 PM :      pbap  :Failed to pull contact file: Scanning for  ...
+Found: 5C:F3:70:79:93:F8
+Connecting...\failed: send UUID
+unknown error on connect
+Still trying to connect
+Connecting...failed: connect
+unknown error on connect
+Still trying to connect
+Connecting...failed: connect
+unknown error on connect
+Still trying to connect
+ 
