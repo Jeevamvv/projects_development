@@ -30,3 +30,39 @@ CRITICAL :   root :   14-06-2025 12:10:43 AM :       gap  :org.freedesktop.DBus.
 CRITICAL :   root :   14-06-2025 12:12:55 AM :       gap  :org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken. 
 CRITICAL :   root :   14-06-2025 12:18:59 AM :       gap  :org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken. 
 CRITICAL :   root :   14-06-2025 12:21:00 AM :       gap  :org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken. 
+   ERROR :   root :   14-06-2025 01:07:21 AM :       opp  :Could not determine OBEX OPP channel from device. 
+   ERROR :   root :   14-06-2025 01:12:57 AM :   trigger  :File does not exist. Please provide a valid file. 
+   ERROR :   root :   14-06-2025 01:33:22 AM :      pbap  :Failed to pull contact file: Scanning for  ...
+Found: B4:31:61:D4:43:5E
+Connecting...failed: connect
+The user may have rejected the transfer: Connection refused
+ 
+CRITICAL :   root :   14-06-2025 11:32:06 AM :       gap  :org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken. 
+CRITICAL :   root :   14-06-2025 11:34:44 AM :       gap  :org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken. 
+CRITICAL :   root :   14-06-2025 11:34:51 AM :       gap  :org.bluez.Error.InProgress: Operation already in progress 
+CRITICAL :   root :   14-06-2025 11:34:57 AM :       gap  :org.bluez.Error.InProgress: Operation already in progress 
+CRITICAL :   root :   14-06-2025 11:35:02 AM :       gap  :org.bluez.Error.InProgress: Operation already in progress 
+CRITICAL :   root :   14-06-2025 11:35:02 AM :       gap  :org.bluez.Error.InProgress: Operation already in progress 
+CRITICAL :   root :   14-06-2025 11:35:03 AM :       gap  :org.bluez.Error.InProgress: Operation already in progress 
+CRITICAL :   root :   14-06-2025 11:35:03 AM :       gap  :org.bluez.Error.InProgress: Operation already in progress 
+CRITICAL :   root :   14-06-2025 11:36:44 AM :       gap  :org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken. 
+CRITICAL :   root :   14-06-2025 12:30:33 PM :     utils  :name 'bus' is not defined 
+CRITICAL :   root :   14-06-2025 01:00:35 PM :       gap  :org.bluez.Error.InProgress: Operation already in progress 
+CRITICAL :   root :   14-06-2025 01:02:51 PM :       gap  :org.bluez.Error.Failed: No discovery started 
+   ERROR :   root :   14-06-2025 01:25:10 PM :      a2dp  :Failed to pause media.
+Command '['playerctl', 'pause']' returned non-zero exit status 1. 
+   ERROR :   root :   14-06-2025 01:28:22 PM :      a2dp  :Failed to pause media.
+Command '['playerctl', 'pause']' returned non-zero exit status 1. 
+   ERROR :   root :   14-06-2025 01:31:22 PM :      a2dp  :Failed to pause media.
+Command '['playerctl', 'pause']' returned non-zero exit status 1. 
+   ERROR :   root :   14-06-2025 01:31:26 PM :      a2dp  :Failed to play media.
+Command '['playerctl', 'play']' returned non-zero exit status 1. 
+   ERROR :   root :   14-06-2025 01:31:29 PM :      a2dp  :Failed to skip track.
+Command '['playerctl', 'next']' returned non-zero exit status 1. 
+   ERROR :   root :   14-06-2025 01:31:39 PM :      a2dp  :Failed to pause media.
+Command '['playerctl', 'pause']' returned non-zero exit status 1. 
+   ERROR :   root :   14-06-2025 01:31:41 PM :      a2dp  :Failed to play media.
+Command '['playerctl', 'play']' returned non-zero exit status 1. 
+   ERROR :   root :   14-06-2025 01:31:43 PM :      a2dp  :Failed to skip track.
+Command '['playerctl', 'next']' returned non-zero exit status 1. 
+CRITICAL :   root :   14-06-2025 01:38:57 PM :       gap  :org.bluez.Error.NotReady: Resource Not Ready 

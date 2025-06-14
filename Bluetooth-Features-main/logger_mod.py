@@ -2,7 +2,6 @@ import logging
 import os
 
 class Logger():
-
     def __init__(self):
         """ This is a constructor, once the logger class is called it will init
         the instance variable basically it will create a generic logger and sets its

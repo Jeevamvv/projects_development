@@ -1,0 +1,5 @@
+   ERROR :   root :   14-06-2025 01:33:22 AM :      pbap  :Failed to pull contact file: Scanning for  ...
+Found: B4:31:61:D4:43:5E
+Connecting...failed: connect
+The user may have rejected the transfer: Connection refused
+ 

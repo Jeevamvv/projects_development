@@ -1,0 +1,8 @@
+   DEBUG :   root :   14-06-2025 11:29:12 AM :   trigger  :User selected the option to A2DP Profile and A2DP Media Control Test Menu 
+    INFO :   root :   14-06-2025 11:29:12 AM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 11:29:12 AM :   trigger  :🎵 A2DP Media Control Test Menu 🎵 
+    INFO :   root :   14-06-2025 11:29:12 AM :   trigger  :1. Pause Media 
+    INFO :   root :   14-06-2025 11:29:12 AM :   trigger  :2. Play Media 
+    INFO :   root :   14-06-2025 11:29:12 AM :   trigger  :3. Skip Track 
+    INFO :   root :   14-06-2025 11:29:12 AM :   trigger  :4. Full Sequence: Pause ➝ Play ➝ Skip 
+    INFO :   root :   14-06-2025 11:29:12 AM :   trigger  :5. Exit A2DP Media Test 

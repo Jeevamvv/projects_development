@@ -15,6 +15,11 @@ except ImportError:
 import os
 from logger_mod import Logger
 logger_obj = Logger()
+from pbap import fetch_contacts
+import a2dp 
+import time 
+
+
 bus = dbus.SystemBus()
 
 # Code to select the adapter out of active adapters
@@ -57,6 +62,7 @@ while True:
     log.info("21. Get Discoverable Timeout")
     log.info("22. opp file transfer file ")
     log.info("23. phone contact details ")
+    log.info("24. A2DP Profile and A2DP Media Control ")
     log.info("30. Exit")
     log.info("*"*100)
 
@@ -483,6 +489,7 @@ while True:
             log.info(" Failed to Fetch DiscoverableTimeOut Duration ")
 
     if val == 22:
+        # OPP profile file send from source to destination.
         log.debug("User selected the option to send OPP profile file from source to destination.")
 
         if not gl.list_of_pair_device:
@@ -494,7 +501,7 @@ while True:
             import opp  # import after logger is set up
 
             try:
-                file_path = input("Enter full path of file to send: ").strip()
+                file_path = input("Enter full path of file to send (ex. /home/engineer/a.py ): ").strip()
                 print(f"DEBUG_INFO: entered file path = {file_path}")
                 if os.path.exists(file_path):
                     opp.send_file_via_opp(device_address, file_path)
@@ -503,33 +510,69 @@ while True:
             except Exception as e:
                 log.error(f"Error during OPP file transfer: {e}")
 
-    # if val == 22:
-    #     log.debug("User selected the option to send OPP profile file from source to destination.")
-
-    #     if not gl.list_of_pair_device:
-    #         log.info("No paired devices found. Please pair a device first.")
-    #     else:
-    #         device_address = gl.list_of_pair_device[0]  # Auto-select first paired device
-    #         log.info(f"Using paired device for OPP transfer: {device_address}")
-        
-    #         import opp  # import after logger is set up
-
-    #         try:
-    #         # Launch interactive OPP test case menu
-    #             opp.main()
-    #         except Exception as e:
-    #             log.error(f"Error during OPP test case execution: {e}")
 
     if val == 23:
+        #phone contact details in Excel sheet format with name and number.
+        import pbap
         log.debug("User selected the option to send details about phone contact details in Excel sheet format with name and number.")
-        from contact_extractor import fetch_contacts_and_save_to_excel, get_connected_device_address
+    
+        device_address = input("Enter the connected device Bluetooth address (e.g. D4:CB:CC:86:9D:8C): ").strip()
+        output_file = input("Enter the output Excel file path (e.g. /home/user/contacts.xlsx): ").strip()
 
-        device_address = get_connected_device_address()
-
-        if device_address:
-            fetch_contacts_and_save_to_excel(device_address)
+        if fetch_contacts(device_address, output_file):
+            print(f"Contacts successfully exported to {output_file}")
         else:
-            log.error("No connected Bluetooth device found.")
+            print("Failed to export contacts.")
+
+    if val == 24:
+        # A2dp profile media contoler test case.
+      
+        log.debug("User selected the option to A2DP Profile and A2DP Media Control Test Menu")
+
+        while True:
+            log.info("*" * 100)
+            log.info("🎵 A2DP Media Control Test Menu 🎵")
+            log.info("1. Pause Media")
+            log.info("2. Play Media")
+            log.info("3. Skip Track")
+            log.info("4. Full Sequence: Pause ➝ Play ➝ Skip")
+            log.info("5. Exit A2DP Media Test")
+
+            try:
+                choice = int(input("Enter your choice: ").strip())
+            except ValueError:
+                log.warning("Invalid input. Please enter a number between 1-5.")
+                continue
+
+            if choice == 1:
+                log.info("Pausing media...")
+                a2dp.pause_media()
+
+            elif choice == 2:
+                log.info("Playing media...")
+                a2dp.play_media()
+
+            elif choice == 3:
+                log.info("Skipping track...")
+                a2dp.skip_track()
+
+            elif choice == 4:
+                log.info("Running full media control sequence...")
+                a2dp.pause_media()
+                time.sleep(5)
+                a2dp.play_media()
+                time.sleep(4)
+                a2dp.pause_media()
+                time.sleep(3)
+                a2dp.play_media()
+                a2dp.skip_track()
+
+            elif choice == 5:
+                log.info("Exiting A2DP Media Test Menu...")
+                break
+
+            else:
+                log.warning("Invalid choice. Try again.")
 
     if val == 30:
         # Exit

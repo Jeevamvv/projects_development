@@ -1,0 +1,61 @@
+    INFO :   root :   14-06-2025 01:23:33 AM :     utils  :======= List of Active Dongles ======== 
+    INFO :   root :   14-06-2025 01:23:33 AM :     utils  :1: /org/bluez/hci1 
+    INFO :   root :   14-06-2025 01:23:33 AM :     utils  :2: /org/bluez/hci0 
+    INFO :   root :   14-06-2025 01:23:34 AM :   trigger  : Selected interface: /org/bluez/hci0 
+    INFO :   root :   14-06-2025 01:23:34 AM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 01:23:34 AM :   trigger  :################### OPERATIONS ######################### 
+    INFO :   root :   14-06-2025 01:23:34 AM :   trigger  :0.  Properties 
+    INFO :   root :   14-06-2025 01:23:34 AM :   trigger  :1.  Scan on 
+    INFO :   root :   14-06-2025 01:23:34 AM :   trigger  :2.  Scan off 
+    INFO :   root :   14-06-2025 01:23:34 AM :   trigger  :3.  Devices 
+    INFO :   root :   14-06-2025 01:23:34 AM :   trigger  :4.  Power[ON/OFF] 
+    INFO :   root :   14-06-2025 01:23:34 AM :   trigger  :5.  Register the agent 
+    INFO :   root :   14-06-2025 01:23:34 AM :   trigger  :6.  Pair 
+    INFO :   root :   14-06-2025 01:23:34 AM :   trigger  :7.  Check paired Devices 
+    INFO :   root :   14-06-2025 01:23:34 AM :   trigger  :8.  Check Connected Devices 
+    INFO :   root :   14-06-2025 01:23:34 AM :   trigger  :9.  Connect 
+    INFO :   root :   14-06-2025 01:23:34 AM :   trigger  :10. Disconnect 
+    INFO :   root :   14-06-2025 01:23:34 AM :   trigger  :11. Remove Device 
+    INFO :   root :   14-06-2025 01:23:34 AM :   trigger  :12. Discoverable on 
+    INFO :   root :   14-06-2025 01:23:34 AM :   trigger  :13. Discoverable off 
+    INFO :   root :   14-06-2025 01:23:34 AM :   trigger  :14. Trusted 
+    INFO :   root :   14-06-2025 01:23:34 AM :   trigger  :15. Register Agent as Default 
+    INFO :   root :   14-06-2025 01:23:34 AM :   trigger  :16. Print UUID's  
+    INFO :   root :   14-06-2025 01:23:34 AM :   trigger  :17. Controller Supported UUID's 
+    INFO :   root :   14-06-2025 01:23:34 AM :   trigger  :18. Set Pairable Timeout 
+    INFO :   root :   14-06-2025 01:23:34 AM :   trigger  :19. Get Pairable Timeout 
+    INFO :   root :   14-06-2025 01:23:34 AM :   trigger  :20. Set Discoverable Timeout 
+    INFO :   root :   14-06-2025 01:23:34 AM :   trigger  :21. Get Discoverable Timeout 
+    INFO :   root :   14-06-2025 01:23:34 AM :   trigger  :22. opp file transfer file  
+    INFO :   root :   14-06-2025 01:23:34 AM :   trigger  :23. phone contact details  
+    INFO :   root :   14-06-2025 01:23:34 AM :   trigger  :30. Exit 
+    INFO :   root :   14-06-2025 01:23:34 AM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 01:23:36 AM :   trigger  : Invalid Choise, ValueError   
+    INFO :   root :   14-06-2025 01:23:36 AM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   14-06-2025 01:23:36 AM :   trigger  :################### OPERATIONS ######################### 
+    INFO :   root :   14-06-2025 01:23:36 AM :   trigger  :0.  Properties 
+    INFO :   root :   14-06-2025 01:23:36 AM :   trigger  :1.  Scan on 
+    INFO :   root :   14-06-2025 01:23:36 AM :   trigger  :2.  Scan off 
+    INFO :   root :   14-06-2025 01:23:36 AM :   trigger  :3.  Devices 
+    INFO :   root :   14-06-2025 01:23:36 AM :   trigger  :4.  Power[ON/OFF] 
+    INFO :   root :   14-06-2025 01:23:36 AM :   trigger  :5.  Register the agent 
+    INFO :   root :   14-06-2025 01:23:36 AM :   trigger  :6.  Pair 
+    INFO :   root :   14-06-2025 01:23:36 AM :   trigger  :7.  Check paired Devices 
+    INFO :   root :   14-06-2025 01:23:36 AM :   trigger  :8.  Check Connected Devices 
+    INFO :   root :   14-06-2025 01:23:36 AM :   trigger  :9.  Connect 
+    INFO :   root :   14-06-2025 01:23:36 AM :   trigger  :10. Disconnect 
+    INFO :   root :   14-06-2025 01:23:36 AM :   trigger  :11. Remove Device 
+    INFO :   root :   14-06-2025 01:23:36 AM :   trigger  :12. Discoverable on 
+    INFO :   root :   14-06-2025 01:23:36 AM :   trigger  :13. Discoverable off 
+    INFO :   root :   14-06-2025 01:23:36 AM :   trigger  :14. Trusted 
+    INFO :   root :   14-06-2025 01:23:36 AM :   trigger  :15. Register Agent as Default 
+    INFO :   root :   14-06-2025 01:23:36 AM :   trigger  :16. Print UUID's  
+    INFO :   root :   14-06-2025 01:23:36 AM :   trigger  :17. Controller Supported UUID's 
+    INFO :   root :   14-06-2025 01:23:36 AM :   trigger  :18. Set Pairable Timeout 
+    INFO :   root :   14-06-2025 01:23:36 AM :   trigger  :19. Get Pairable Timeout 
+    INFO :   root :   14-06-2025 01:23:36 AM :   trigger  :20. Set Discoverable Timeout 
+    INFO :   root :   14-06-2025 01:23:36 AM :   trigger  :21. Get Discoverable Timeout 
+    INFO :   root :   14-06-2025 01:23:36 AM :   trigger  :22. opp file transfer file  
+    INFO :   root :   14-06-2025 01:23:36 AM :   trigger  :23. phone contact details  
+    INFO :   root :   14-06-2025 01:23:36 AM :   trigger  :30. Exit 
+    INFO :   root :   14-06-2025 01:23:36 AM :   trigger  :**************************************************************************************************** 

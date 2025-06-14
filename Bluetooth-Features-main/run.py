@@ -6,5 +6,7 @@ subprocess.run("python logger_mod.py", shell=True)
 subprocess.run("python trigger.py", shell=True)
 subprocess.run("python utils.py", shell=True)
 subprocess.run("python opp.py", shell=True)
-subprocess.run("python contact_extractor.py", shell=True)
+subprocess.run("python pbap.py", shell=True)
+subprocess.run("python a2dp.py", shell=True)
+
 
