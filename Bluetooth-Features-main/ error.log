@@ -102,3 +102,129 @@ Command '['playerctl', 'next']' returned non-zero exit status 1.
    ERROR :   root :   16-06-2025 12:41:21 PM :      a2dp  :Failed to get volume: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
    ERROR :   root :   16-06-2025 12:51:39 PM :      a2dp  :Failed to get volume: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
    ERROR :   root :   16-06-2025 12:53:21 PM :      a2dp  :Failed to get volume: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   16-06-2025 12:59:46 PM :      a2dp  :Failed to get volume: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   16-06-2025 01:00:09 PM :      a2dp  :Failed to go to previous track.
+Command '['playerctl', 'previous']' returned non-zero exit status 1. 
+   ERROR :   root :   16-06-2025 01:00:20 PM :      a2dp  :Failed to play media.
+Command '['playerctl', 'play']' returned non-zero exit status 1. 
+   ERROR :   root :   16-06-2025 01:00:27 PM :      a2dp  :Failed to play media.
+Command '['playerctl', 'play']' returned non-zero exit status 1. 
+   ERROR :   root :   16-06-2025 01:00:30 PM :      a2dp  :Failed to play media.
+Command '['playerctl', 'play']' returned non-zero exit status 1. 
+   ERROR :   root :   16-06-2025 01:00:30 PM :      a2dp  :Failed to play media.
+Command '['playerctl', 'play']' returned non-zero exit status 1. 
+   ERROR :   root :   16-06-2025 01:02:07 PM :      a2dp  :Failed to get volume: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   16-06-2025 01:03:16 PM :      a2dp  :Failed to get volume: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+CRITICAL :   root :   16-06-2025 02:47:17 PM :   trigger  :org.freedesktop.DBus.Error.UnknownObject: Method "Get" with signature "ss" on interface "org.freedesktop.DBus.Properties" doesn't exist
+ 
+CRITICAL :   root :   16-06-2025 02:47:24 PM :       gap  :org.freedesktop.DBus.Error.UnknownObject: Method "Connect" with signature "" on interface "org.bluez.Device1" doesn't exist
+ 
+   ERROR :   root :   16-06-2025 02:47:59 PM :      a2dp  :Failed to get volume: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   16-06-2025 02:48:47 PM :      a2dp  :Failed to pause media.
+Command '['playerctl', 'pause']' returned non-zero exit status 1. 
+   ERROR :   root :   16-06-2025 02:49:43 PM :      a2dp  :Failed to pause media.
+Command '['playerctl', 'pause']' returned non-zero exit status 1. 
+   ERROR :   root :   16-06-2025 02:49:56 PM :      a2dp  :Failed to skip track.
+Command '['playerctl', 'next']' returned non-zero exit status 1. 
+   ERROR :   root :   16-06-2025 02:55:13 PM :      pbap  :Failed to fetch phonebook.vcf: Unknown UUID PBAP
+Scanning for  ...
+Found: F8:9E:94:33:AF:17
+Connecting...failed: connect
+The user may have rejected the transfer: Connection refused
+ 
+   ERROR :   root :   16-06-2025 02:55:52 PM :      pbap  :Failed to fetch phonebook.vcf: Unknown UUID PBAP
+Scanning for yes ...
+Seen: F8:9E:94:33:AF:17
+Seen: CC:15:31:05:BD:91
+Seen: A4:42:3B:22:81:D3
+Seen: 00:D4:9E:A8:1E:F6
+Seen: A4:42:3B:22:ED:26
+Seen: A0:80:69:EB:41:D1
+Seen: 28:DF:EB:43:DE:0A
+Seen: F8:9E:94:33:BD:04
+Seen: B4:31:61:2A:C3:8E
+Connecting...failed: connect
+unknown error on connect
+Still trying to connect
+Connecting...failed: connect
+unknown error on connect
+Still trying to connect
+Connecting...failed: connect
+unknown error on connect
+Still trying to connect
+ 
+   ERROR :   root :   16-06-2025 02:56:18 PM :      pbap  :Failed to fetch phonebook.vcf: Unknown UUID PBAP
+Scanning for yes ...
+Seen: A4:42:3B:22:81:D3
+Seen: F8:9E:94:33:AF:17
+Seen: B4:31:61:2A:C3:8E
+Seen: F8:9E:94:33:BD:04
+Seen: CC:15:31:05:BD:91
+Seen: A4:42:3B:22:ED:26
+Seen: A0:80:69:EB:41:D1
+Seen: 28:DF:EB:43:DE:0A
+Seen: 7C:21:4A:43:4C:83
+Connecting...failed: connect
+unknown error on connect
+Still trying to connect
+Connecting...failed: connect
+unknown error on connect
+Still trying to connect
+Connecting...failed: connect
+unknown error on connect
+Still trying to connect
+ 
+CRITICAL :   root :   16-06-2025 02:59:31 PM :       gap  :org.bluez.Error.DoesNotExist: Does Not Exist 
+CRITICAL :   root :   16-06-2025 03:01:43 PM :   trigger  :org.freedesktop.DBus.Error.UnknownObject: Method "Get" with signature "ss" on interface "org.freedesktop.DBus.Properties" doesn't exist
+ 
+CRITICAL :   root :   16-06-2025 03:01:51 PM :       gap  :org.freedesktop.DBus.Error.UnknownObject: Method "Connect" with signature "" on interface "org.bluez.Device1" doesn't exist
+ 
+CRITICAL :   root :   16-06-2025 03:01:56 PM :   trigger  :org.freedesktop.DBus.Error.UnknownObject: Method "Get" with signature "ss" on interface "org.freedesktop.DBus.Properties" doesn't exist
+ 
+CRITICAL :   root :   16-06-2025 03:03:01 PM :   trigger  :org.freedesktop.DBus.Error.UnknownObject: Method "Get" with signature "ss" on interface "org.freedesktop.DBus.Properties" doesn't exist
+ 
+CRITICAL :   root :   16-06-2025 03:03:08 PM :   trigger  :org.freedesktop.DBus.Error.UnknownObject: Method "Get" with signature "ss" on interface "org.freedesktop.DBus.Properties" doesn't exist
+ 
+CRITICAL :   root :   16-06-2025 03:03:12 PM :       gap  :org.freedesktop.DBus.Error.UnknownObject: Method "Connect" with signature "" on interface "org.bluez.Device1" doesn't exist
+ 
+CRITICAL :   root :   16-06-2025 03:04:50 PM :       gap  :org.bluez.Error.DoesNotExist: Does Not Exist 
+CRITICAL :   root :   16-06-2025 03:10:40 PM :   trigger  :org.freedesktop.DBus.Error.UnknownObject: Method "Get" with signature "ss" on interface "org.freedesktop.DBus.Properties" doesn't exist
+ 
+CRITICAL :   root :   16-06-2025 03:10:48 PM :       gap  :org.freedesktop.DBus.Error.UnknownObject: Method "Connect" with signature "" on interface "org.bluez.Device1" doesn't exist
+ 
+CRITICAL :   root :   16-06-2025 03:10:54 PM :       gap  :org.freedesktop.DBus.Error.UnknownObject: Method "Connect" with signature "" on interface "org.bluez.Device1" doesn't exist
+ 
+CRITICAL :   root :   16-06-2025 03:11:23 PM :   trigger  :org.freedesktop.DBus.Error.UnknownObject: Method "Get" with signature "ss" on interface "org.freedesktop.DBus.Properties" doesn't exist
+ 
+   ERROR :   root :   16-06-2025 03:24:50 PM :      pbap  :Failed to fetch phonebook.vcf: Unknown UUID PBAP
+Scanning for  ...
+Found: 48:74:12:31:17:B0
+Connecting...failed: connect
+The user may have rejected the transfer: Connection refused
+ 
+   ERROR :   root :   16-06-2025 03:28:37 PM :      pbap  :Failed to fetch phonebook.vcf: Unknown UUID PBAP
+Scanning for  ...
+Found: 5C:F3:70:79:93:F8
+Connecting...\failed: send UUID
+unknown error on connect
+Still trying to connect
+Connecting...failed: connect
+unknown error on connect
+Still trying to connect
+Connecting...failed: connect
+unknown error on connect
+Still trying to connect
+ 
+   ERROR :   root :   16-06-2025 03:38:49 PM :      pbap  :Failed to fetch phonebook.vcf: Unknown UUID PBAP
+Scanning for  ...
+Found: A4:42:3B:22:ED:26
+Connecting...failed: connect
+The user may have rejected the transfer: Connection refused
+ 
+   ERROR :   root :   16-06-2025 03:40:31 PM :      pbap  :Failed to fetch phonebook.vcf: Unknown UUID PBAP
+Scanning for  ...
+Found: F8:9E:94:33:AF:17
+Connecting...failed: connect
+The user may have rejected the transfer: Connection refused
+ 
+   ERROR :   root :   16-06-2025 04:26:14 PM :      a2dp  :Failed to get volume: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 

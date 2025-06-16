@@ -15,8 +15,12 @@ except ImportError:
 import os
 from logger_mod import Logger
 logger_obj = Logger()
+
 import time 
 from Bluetooth_Profile import opp, pbap, a2dp
+from Bluetooth_Profile.opp import *
+from Bluetooth_Profile.pbap import *
+from Bluetooth_Profile.a2dp import *
 
 
 bus = dbus.SystemBus()
@@ -510,18 +514,37 @@ while True:
                 log.error(f"Error during OPP file transfer: {e}")
 
 
-    if val == 23:
-        #phone contact details in Excel sheet format with name and number.
-        
-        log.debug("User selected the option to send details about phone contact details in Excel sheet format with name and number.")
-    
-        device_address = input("Enter the connected device Bluetooth address (e.g. D4:CB:CC:86:9D:8C): ").strip()
-        output_file = input("Enter the output Excel file path (e.g. /home/user/contacts.xlsx): ").strip()
 
-        if fetch_contacts(device_address, output_file):
-            print(f"Contacts successfully exported to {output_file}")
+    # trigger.py
+
+
+
+    if val == 23:
+        # phone contact details in Excel sheet format with name and number.
+        log.debug("User selected the option to send details about phone contact details in Excel sheet format with name and number.")
+
+        device_address = input("Enter the connected device Bluetooth address (e.g. D4:CB:CC:86:9D:8C): ").strip()
+        output_file = input("Enter the output Excel file path (e.g. /home/engineer/contacts.xlsx): ").strip()
+
+        success = fetch_contacts(device_address, output_file)
+
+        if success:
+            print(f"✅ Contacts successfully exported to {output_file}")
         else:
-            print("Failed to export contacts.")
+            print("❌ Failed to export contacts.")
+
+    # if val == 23:
+    #     #phone contact details in Excel sheet format with name and number.
+        
+    #     log.debug("User selected the option to send details about phone contact details in Excel sheet format with name and number.")
+    
+    #     device_address = input("Enter the connected device Bluetooth address (e.g. D4:CB:CC:86:9D:8C): ").strip()
+    #     output_file = input("Enter the output Excel file path (e.g. /home/user/contacts.xlsx): ").strip()
+
+    #     if fetch_contacts(device_address, output_file):
+    #         print(f"Contacts successfully exported to {output_file}")
+    #     else:
+    #         print("Failed to export contacts.")
 
 
     if val == 24:

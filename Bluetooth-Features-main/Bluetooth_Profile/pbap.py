@@ -1,72 +1,62 @@
 # pbap.py
 import os
 import subprocess
-import re
-import csv
-from openpyxl import Workbook
+import xml.etree.ElementTree as ET
+import pandas as pd
 from logger_mod import *
 
-def fetch_contacts(device_address, output_path="contacts.xlsx"):
+def fetch_contacts(bt_address, output_excel):
     """
-    Fetches contacts from a Bluetooth device using PBAP and saves to an Excel file.
+    Fetch contact list via PBAP and export to Excel file.
     """
     try:
-        log.info(f"Fetching contacts from {device_address}")
-        
-        # Use obexftp or custom pbap client to pull vcf contact file (simulated here)
-        vcf_path = "/tmp/contacts.vcf"
-        pull_cmd = [
-            "obexftp",
-            "--bluetooth", device_address,
-            "--channel", "9",  # Default PBAP channel (may vary)
+        log.info(f"Starting PBAP contact fetch from device {bt_address}")
+
+        # Mount OBEX FTP (simulate PBAP using obexftp or similar tool)
+        # You might need to install obexftp: sudo apt-get install obexftp
+
+        # Create temp vcf directory
+        tmp_dir = "/tmp/pbap_contacts"
+        os.makedirs(tmp_dir, exist_ok=True)
+
+        # Try fetching phonebook.vcf via obexftp
+        # You must be already connected and paired with the device
+        result = subprocess.run([
+            "obexftp", "--nopath", "--noconn", "--uuid", "PBAP",
+            "--bluetooth", bt_address, "--channel", "9",  # Channel may vary
             "--get", "telecom/pb.vcf"
-        ]
-        result = subprocess.run(pull_cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+        ], cwd=tmp_dir, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
 
         if result.returncode != 0:
-            log.error(f"Failed to pull contact file: {result.stderr}")
+            log.error("Failed to fetch phonebook.vcf: " + result.stderr)
             return False
 
-        log.info("Successfully pulled vCard file. Parsing...")
-        return parse_and_save_contacts(vcf_path, output_path)
+        # Parse the vCard file
+        vcf_path = os.path.join(tmp_dir, "pb.vcf")
+        if not os.path.exists(vcf_path):
+            log.error("pb.vcf not found after fetch.")
+            return False
+
+        names = []
+        numbers = []
+
+        with open(vcf_path, "r") as f:
+            name = ""
+            number = ""
+            for line in f:
+                if line.startswith("FN:"):
+                    name = line.strip().replace("FN:", "")
+                elif line.startswith("TEL"):
+                    number = line.split(":")[1].strip()
+                    names.append(name)
+                    numbers.append(number)
+
+        # Save to Excel
+        df = pd.DataFrame({"Name": names, "Number": numbers})
+        df.to_excel(output_excel, index=False)
+        log.info(f"Exported {len(df)} contacts to {output_excel}")
+        return True
 
     except Exception as e:
-        log.error(f"Exception during contact fetch: {e}")
+        log.exception("Exception in fetch_contacts: " + str(e))
         return False
-
-
-def parse_and_save_contacts(vcf_path, output_path):
-    """
-    Parses a vCard file and saves contacts (name + number) to Excel.
-    """
-    if not os.path.exists(vcf_path):
-        log.error("vCard file not found.")
-        return False
-
-    contacts = []
-
-    with open(vcf_path, 'r') as file:
-        name, number = None, None
-        for line in file:
-            line = line.strip()
-            if line.startswith("FN:"):
-                name = line[3:]
-            elif line.startswith("TEL:") or "TEL;" in line:
-                number = re.sub(r"TEL.*?:", "", line)
-                if name and number:
-                    contacts.append((name, number))
-                    name, number = None, None
-
-    if not contacts:
-        log.warning("No contacts found.")
-        return False
-
-    wb = Workbook()
-    ws = wb.active
-    ws.append(["Name", "Number"])
-    for name, number in contacts:
-        ws.append([name, number])
-    
-    wb.save(output_path)
-    log.info(f"Contacts saved to {output_path}")
-    return True
