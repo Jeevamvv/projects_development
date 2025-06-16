@@ -87,3 +87,18 @@ Connecting...failed: connect
 unknown error on connect
 Still trying to connect
  
+CRITICAL :   root :   16-06-2025 11:42:13 AM :   trigger  :org.freedesktop.DBus.Error.UnknownObject: Method "Get" with signature "ss" on interface "org.freedesktop.DBus.Properties" doesn't exist
+ 
+CRITICAL :   root :   16-06-2025 11:59:23 AM :       gap  :org.bluez.Error.Failed: Resource temporarily unavailable 
+CRITICAL :   root :   16-06-2025 12:01:56 PM :       gap  :org.bluez.Error.AlreadyExists: Already Exists 
+   ERROR :   root :   16-06-2025 12:23:58 PM :      a2dp  :Failed to play media.
+Command '['playerctl', 'play']' returned non-zero exit status 1. 
+   ERROR :   root :   16-06-2025 12:37:29 PM :      a2dp  :Failed to get volume: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   16-06-2025 12:37:35 PM :      a2dp  :Failed to get volume: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   16-06-2025 12:37:41 PM :      a2dp  :Failed to play media.
+Command '['playerctl', 'play']' returned non-zero exit status 1. 
+   ERROR :   root :   16-06-2025 12:38:04 PM :      a2dp  :Failed to skip track.
+Command '['playerctl', 'next']' returned non-zero exit status 1. 
+   ERROR :   root :   16-06-2025 12:41:21 PM :      a2dp  :Failed to get volume: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   16-06-2025 12:51:39 PM :      a2dp  :Failed to get volume: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   16-06-2025 12:53:21 PM :      a2dp  :Failed to get volume: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 

@@ -15,9 +15,8 @@ except ImportError:
 import os
 from logger_mod import Logger
 logger_obj = Logger()
-from pbap import fetch_contacts
-import a2dp 
 import time 
+from Bluetooth_Profile import opp, pbap, a2dp
 
 
 bus = dbus.SystemBus()
@@ -498,7 +497,7 @@ while True:
             device_address = gl.list_of_pair_device[0]  # Auto-select first paired device
             log.info(f"Using paired device for OPP transfer: {device_address}")
         
-            import opp  # import after logger is set up
+           
 
             try:
                 file_path = input("Enter full path of file to send (ex. /home/engineer/a.py ): ").strip()
@@ -513,7 +512,7 @@ while True:
 
     if val == 23:
         #phone contact details in Excel sheet format with name and number.
-        import pbap
+        
         log.debug("User selected the option to send details about phone contact details in Excel sheet format with name and number.")
     
         device_address = input("Enter the connected device Bluetooth address (e.g. D4:CB:CC:86:9D:8C): ").strip()
@@ -524,10 +523,12 @@ while True:
         else:
             print("Failed to export contacts.")
 
+
     if val == 24:
-        # A2dp profile media contoler test case.
-      
         log.debug("User selected the option to A2DP Profile and A2DP Media Control Test Menu")
+
+        # Initialize volume_level from current system volume (0-100), scale it to 0-10
+        volume_level = a2dp.get_volume() // 10
 
         while True:
             log.info("*" * 100)
@@ -535,29 +536,27 @@ while True:
             log.info("1. Pause Media")
             log.info("2. Play Media")
             log.info("3. Skip Track")
-            log.info("4. Full Sequence: Pause ➝ Play ➝ Skip")
-            log.info("5. Exit A2DP Media Test")
+            log.info("4. Previous Track")
+            log.info("5. Full Sequence: Pause ➝ Play ➝ Skip")
+            log.info("6. 🔊 Volume Up")
+            log.info("7. 🔉 Volume Down")
+            log.info("8. 🚪 Exit A2DP Media Test")
 
             try:
                 choice = int(input("Enter your choice: ").strip())
             except ValueError:
-                log.warning("Invalid input. Please enter a number between 1-5.")
+                log.warning("Invalid input. Please enter a number between 1-7.")
                 continue
 
             if choice == 1:
-                log.info("Pausing media...")
                 a2dp.pause_media()
-
             elif choice == 2:
-                log.info("Playing media...")
                 a2dp.play_media()
-
             elif choice == 3:
-                log.info("Skipping track...")
                 a2dp.skip_track()
-
             elif choice == 4:
-                log.info("Running full media control sequence...")
+                a2dp.previous_track()
+            elif choice == 5:
                 a2dp.pause_media()
                 time.sleep(5)
                 a2dp.play_media()
@@ -568,13 +567,29 @@ while True:
                 time.sleep(3)
                 a2dp.skip_track()
                 a2dp.play_media()
-
-            elif choice == 5:
+                a2dp.previous_track()
+                a2dp.play_media()
+            elif choice == 6:
+                if volume_level < 10:
+                    volume_level += 1
+                    a2dp.set_volume(volume_level)
+                else:
+                    log.info("🔊 Volume is already at maximum (10/10).")
+            elif choice == 7:
+                if volume_level > 0:
+                    volume_level -= 1
+                    a2dp.set_volume(volume_level)
+                else:
+                    log.info("🔇 Volume is already at minimum (0/10).")
+            elif choice == 8:
                 log.info("Exiting A2DP Media Test Menu...")
                 break
-
             else:
                 log.warning("Invalid choice. Try again.")
+
+
+
+   
 
     if val == 30:
         # Exit

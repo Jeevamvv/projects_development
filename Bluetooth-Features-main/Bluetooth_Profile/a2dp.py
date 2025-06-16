@@ -74,3 +74,49 @@ def simulate_call_interrupt():
         log.info("Resumed media after simulated call.")
     except Exception as e:
         log.error(f"Failed during call simulation.\n{e}")
+
+
+
+def get_volume():
+    """
+    Get the current system volume (0-100 scale).
+    """
+    try:
+        output = subprocess.check_output(["pactl", "get-sink-volume", "@DEFAULT_SINK@"]).decode()
+        # Output format: 'Volume: front-left: 65536 / 100% / 0.00 dB, ...'
+        for line in output.splitlines():
+            if "Volume:" in line:
+                percent = line.split('/')[1].strip().replace('%', '')
+                log.debug(f"Current system volume: {percent}%")
+                return int(percent)
+    except Exception as e:
+        log.error(f"Failed to get volume: {e}")
+        return 0  # Fallback default
+
+def set_volume(level):
+    """
+    Set the system volume.
+    Level is expected in range 0 to 10. It will be converted to 0-100%.
+    """
+    try:
+        volume_percent = max(0, min(level * 10, 100))  # Clamp between 0-100
+        log.debug(f"Setting system volume to {volume_percent}%")
+        subprocess.run(["pactl", "set-sink-volume", "@DEFAULT_SINK@", f"{volume_percent}%"], check=True)
+        log.info(f"System volume set to {volume_percent}%")
+    except subprocess.CalledProcessError as e:
+        log.error(f"Failed to set volume.\n{e}")
+
+
+def previous_track():
+    """
+    Go to the previous media track.
+    """
+    try:
+        log.debug("Sending previous track command via playerctl...")
+        subprocess.run(["playerctl", "previous"], check=True)
+        log.info("Went to previous track.")
+    except subprocess.CalledProcessError as e:
+        log.error(f"Failed to go to previous track.\n{e}")
+
+
+
