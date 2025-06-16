@@ -17,10 +17,13 @@ from logger_mod import Logger
 logger_obj = Logger()
 
 import time 
-from Bluetooth_Profile import opp, pbap, a2dp
+from Bluetooth_Profile import opp, pbap, a2dp, hfp
 from Bluetooth_Profile.opp import *
 from Bluetooth_Profile.pbap import *
 from Bluetooth_Profile.a2dp import *
+from Bluetooth_Profile.hfp import *
+
+
 bus = dbus.SystemBus()
 
 # Code to select the adapter out of active adapters
@@ -64,7 +67,7 @@ while True:
     log.info("22. opp file transfer file ")
     log.info("23. phone contact details ")
     log.info("24. A2DP Profile and A2DP Media Control ")
-    log.info("25. battery percentage check. ")
+    log.info("25. HFP Profile testing.  ")
     log.info("30. Exit")
     log.info("*"*100)
 
@@ -586,6 +589,52 @@ while True:
                     log.info("🔇 Volume is already at minimum (0/10).")
             elif choice == 8:
                 log.info("Exiting A2DP Media Test Menu...")
+                break
+            else:
+                log.warning("Invalid choice. Try again.")
+
+    if val == 25:
+        log.debug("User selected the option to HFP Profile and Call Control Test Menu")
+
+        while True:
+            log.info("*" * 100)
+            log.info("📞 HFP Telephony Test Menu 📞")
+            log.info("1. Connect and Play Music (Device switch)")
+            log.info("2. Incoming Call ➝ Accept")
+            log.info("3. Incoming Call ➝ Reject")
+            log.info("4. Three-Way Calling")
+            log.info("5. Reject Incoming Call Without Accepting")
+            log.info("6. Outgoing Call ➝ Then Hold")
+            log.info("7. Outgoing Call ➝ Airplane Mode")
+            log.info("8. Call Ongoing ➝ Incoming ➝ Reject")
+            log.info("9. 🚪 Exit HFP Test Menu")
+
+            try:
+                choice = int(input("Enter your choice: ").strip())
+            except ValueError:
+                log.warning("Invalid input. Please enter a number between 1-9.")
+                continue
+
+            import Bluetooth_Profile.hfp as hfp  # Make sure this file contains the test functions
+
+            if choice == 1:
+                hfp.simulate_music_switch()
+            elif choice == 2:
+                hfp.simulate_incoming_call(accept=True)
+            elif choice == 3:
+                hfp.simulate_incoming_call(accept=False)
+            elif choice == 4:
+                hfp.simulate_three_way_call()
+            elif choice == 5:
+                hfp.simulate_call_rejection()
+            elif choice == 6:
+                hfp.simulate_outgoing_call_with_hold()
+            elif choice == 7:
+                hfp.simulate_airplane_mode_termination()
+            elif choice == 8:
+                hfp.simulate_call_interrupt_and_reject()
+            elif choice == 9:
+                log.info("Exiting HFP Telephony Test Menu...")
                 break
             else:
                 log.warning("Invalid choice. Try again.")

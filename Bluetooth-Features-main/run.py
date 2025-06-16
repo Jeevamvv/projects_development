@@ -9,4 +9,6 @@ subprocess.run("python opp.py", shell=True)
 subprocess.run("python pbap.py", shell=True)
 subprocess.run("python a2dp.py", shell=True)
 
+subprocess.run("python hfp.py", shell=True)
+
 
