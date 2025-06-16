@@ -228,3 +228,4 @@ Connecting...failed: connect
 The user may have rejected the transfer: Connection refused
  
    ERROR :   root :   16-06-2025 04:26:14 PM :      a2dp  :Failed to get volume: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+CRITICAL :   root :   16-06-2025 05:16:33 PM :       gap  :org.bluez.Error.AlreadyExists: Already Exists 

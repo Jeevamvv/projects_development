@@ -26562,3 +26562,1112 @@ The user may have rejected the transfer: Connection refused
     INFO :   root :   16-06-2025 04:26:14 PM :   trigger  :6. 🔊 Volume Up 
     INFO :   root :   16-06-2025 04:26:14 PM :   trigger  :7. 🔉 Volume Down 
     INFO :   root :   16-06-2025 04:26:14 PM :   trigger  :8. 🚪 Exit A2DP Media Test 
+    INFO :   root :   16-06-2025 04:42:16 PM :     utils  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 04:42:16 PM :     utils  : D-bus Daemon Initiated.... 
+    INFO :   root :   16-06-2025 04:42:16 PM :     utils  : Bluetooth-d Daemon Initiated.... 
+    INFO :   root :   16-06-2025 04:42:16 PM :     utils  :**************************************************************************************************** 
+    INFO : numexpr.utils :   16-06-2025 04:42:16 PM :     utils  :NumExpr defaulting to 8 threads. 
+    INFO :   root :   16-06-2025 04:42:16 PM :     utils  :======= List of Active Dongles ======== 
+    INFO :   root :   16-06-2025 04:42:16 PM :     utils  :1: /org/bluez/hci0 
+    INFO :   root :   16-06-2025 04:42:16 PM :     utils  :2: /org/bluez/hci1 
+    INFO :   root :   16-06-2025 04:42:18 PM :   trigger  : Selected interface: /org/bluez/hci0 
+    INFO :   root :   16-06-2025 04:42:18 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 04:42:18 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO :   root :   16-06-2025 04:42:18 PM :   trigger  :0.  Properties 
+    INFO :   root :   16-06-2025 04:42:18 PM :   trigger  :1.  Scan on 
+    INFO :   root :   16-06-2025 04:42:18 PM :   trigger  :2.  Scan off 
+    INFO :   root :   16-06-2025 04:42:18 PM :   trigger  :3.  Devices 
+    INFO :   root :   16-06-2025 04:42:18 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO :   root :   16-06-2025 04:42:18 PM :   trigger  :5.  Register the agent 
+    INFO :   root :   16-06-2025 04:42:18 PM :   trigger  :6.  Pair 
+    INFO :   root :   16-06-2025 04:42:18 PM :   trigger  :7.  Check paired Devices 
+    INFO :   root :   16-06-2025 04:42:18 PM :   trigger  :8.  Check Connected Devices 
+    INFO :   root :   16-06-2025 04:42:18 PM :   trigger  :9.  Connect 
+    INFO :   root :   16-06-2025 04:42:18 PM :   trigger  :10. Disconnect 
+    INFO :   root :   16-06-2025 04:42:18 PM :   trigger  :11. Remove Device 
+    INFO :   root :   16-06-2025 04:42:18 PM :   trigger  :12. Discoverable on 
+    INFO :   root :   16-06-2025 04:42:18 PM :   trigger  :13. Discoverable off 
+    INFO :   root :   16-06-2025 04:42:18 PM :   trigger  :14. Trusted 
+    INFO :   root :   16-06-2025 04:42:18 PM :   trigger  :15. Register Agent as Default 
+    INFO :   root :   16-06-2025 04:42:18 PM :   trigger  :16. Print UUID's  
+    INFO :   root :   16-06-2025 04:42:18 PM :   trigger  :17. Controller Supported UUID's 
+    INFO :   root :   16-06-2025 04:42:18 PM :   trigger  :18. Set Pairable Timeout 
+    INFO :   root :   16-06-2025 04:42:18 PM :   trigger  :19. Get Pairable Timeout 
+    INFO :   root :   16-06-2025 04:42:18 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO :   root :   16-06-2025 04:42:18 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO :   root :   16-06-2025 04:42:18 PM :   trigger  :22. opp file transfer file  
+    INFO :   root :   16-06-2025 04:42:18 PM :   trigger  :23. phone contact details  
+    INFO :   root :   16-06-2025 04:42:18 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO :   root :   16-06-2025 04:42:18 PM :   trigger  :30. Exit 
+    INFO :   root :   16-06-2025 04:42:18 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 04:42:20 PM :   trigger  :#################################################################################################### 
+   DEBUG :   root :   16-06-2025 04:42:20 PM :   trigger  : User is trying to access the D-Bus Api's  
+   DEBUG :   root :   16-06-2025 04:42:20 PM :   trigger  :  User started scan operation  
+    INFO :   root :   16-06-2025 04:42:22 PM :       gap  : Scanning Started!  
+    INFO :   root :   16-06-2025 04:42:25 PM :       gap  :Scanning completed after 3 Sec 
+    INFO :   root :   16-06-2025 04:42:25 PM :       gap  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :Name:       b'1B-2C-0F-7D-CB-C9' 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :Bd_address: b'1B:2C:0F:7D:CB:C9' 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :Name:       b'ColorFit Pro 4_A1AB' 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :Bd_address: b'D6:25:12:21:A1:AB' 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :Name:       b'64-21-FF-18-0D-9F' 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :Bd_address: b'64:21:FF:18:0D:9F' 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :Name:       b'DIZO Watch R' 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :Bd_address: b'BB:EA:FF:AD:15:46' 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :Name:       b'47-BB-A7-F5-74-CF' 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :Bd_address: b'47:BB:A7:F5:74:CF' 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :Name:       b'54-2A-6F-51-35-61' 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :Bd_address: b'54:2A:6F:51:35:61' 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :Name:       b'Noise Pulse_E79F' 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :Bd_address: b'D3:1A:1B:30:E7:9F' 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :Name:       b'45-63-78-A7-4B-DC' 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :Bd_address: b'45:63:78:A7:4B:DC' 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :Name:       b'2C-8F-1D-80-70-7D' 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :Bd_address: b'2C:8F:1D:80:70:7D' 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :Name:       b'F4-B6-2D-B0-F8-2A' 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :Bd_address: b'F4:B6:2D:B0:F8:2A' 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :Name:       b'6D-E8-45-C1-FE-01' 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :Bd_address: b'6D:E8:45:C1:FE:01' 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :Name:       b'67-70-3F-A2-25-1E' 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :Bd_address: b'67:70:3F:A2:25:1E' 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :Name:       b'09-3B-A0-FB-4D-1A' 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :Bd_address: b'09:3B:A0:FB:4D:1A' 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :Name:       b'Vivo T2x5G' 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :Bd_address: b'D4:CB:CC:86:9D:8C' 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :Name:       b'engineer-ThinkPad-E15-Gen-2' 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :Bd_address: b'F8:9E:94:33:BD:04' 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :0.  Properties 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :1.  Scan on 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :2.  Scan off 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :3.  Devices 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :5.  Register the agent 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :6.  Pair 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :7.  Check paired Devices 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :8.  Check Connected Devices 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :9.  Connect 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :10. Disconnect 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :11. Remove Device 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :12. Discoverable on 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :13. Discoverable off 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :14. Trusted 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :15. Register Agent as Default 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :16. Print UUID's  
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :17. Controller Supported UUID's 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :18. Set Pairable Timeout 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :19. Get Pairable Timeout 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :22. opp file transfer file  
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :23. phone contact details  
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :30. Exit 
+    INFO :   root :   16-06-2025 04:42:25 PM :   trigger  :**************************************************************************************************** 
+   DEBUG :   root :   16-06-2025 05:02:20 PM :   trigger  : User is trying to access the D-Bus Api's  
+    INFO :   root :   16-06-2025 05:02:21 PM :     utils  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:02:21 PM :     utils  : D-bus Daemon Initiated.... 
+    INFO :   root :   16-06-2025 05:02:21 PM :     utils  : Bluetooth-d Daemon Initiated.... 
+    INFO :   root :   16-06-2025 05:02:21 PM :     utils  :**************************************************************************************************** 
+    INFO : numexpr.utils :   16-06-2025 05:02:22 PM :     utils  :NumExpr defaulting to 8 threads. 
+    INFO :   root :   16-06-2025 05:02:22 PM :     utils  :======= List of Active Dongles ======== 
+    INFO :   root :   16-06-2025 05:02:22 PM :     utils  :1: /org/bluez/hci0 
+    INFO :   root :   16-06-2025 05:02:22 PM :     utils  :2: /org/bluez/hci1 
+    INFO :   root :   16-06-2025 05:02:27 PM :     utils  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:02:27 PM :     utils  : D-bus Daemon Initiated.... 
+    INFO :   root :   16-06-2025 05:02:27 PM :     utils  : Bluetooth-d Daemon Initiated.... 
+    INFO :   root :   16-06-2025 05:02:27 PM :     utils  :**************************************************************************************************** 
+    INFO : numexpr.utils :   16-06-2025 05:02:28 PM :     utils  :NumExpr defaulting to 8 threads. 
+    INFO :   root :   16-06-2025 05:02:28 PM :     utils  :======= List of Active Dongles ======== 
+    INFO :   root :   16-06-2025 05:02:28 PM :     utils  :1: /org/bluez/hci0 
+    INFO :   root :   16-06-2025 05:02:28 PM :     utils  :2: /org/bluez/hci1 
+    INFO :   root :   16-06-2025 05:02:41 PM :     utils  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:02:41 PM :     utils  : D-bus Daemon Initiated.... 
+    INFO :   root :   16-06-2025 05:02:41 PM :     utils  : Bluetooth-d Daemon Initiated.... 
+    INFO :   root :   16-06-2025 05:02:41 PM :     utils  :**************************************************************************************************** 
+    INFO : numexpr.utils :   16-06-2025 05:02:41 PM :     utils  :NumExpr defaulting to 8 threads. 
+    INFO :   root :   16-06-2025 05:02:41 PM :     utils  :======= List of Active Dongles ======== 
+    INFO :   root :   16-06-2025 05:02:41 PM :     utils  :1: /org/bluez/hci0 
+    INFO :   root :   16-06-2025 05:02:41 PM :     utils  :2: /org/bluez/hci1 
+    INFO :   root :   16-06-2025 05:16:01 PM :     utils  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:16:01 PM :     utils  : D-bus Daemon Initiated.... 
+    INFO :   root :   16-06-2025 05:16:01 PM :     utils  : Bluetooth-d Daemon Initiated.... 
+    INFO :   root :   16-06-2025 05:16:01 PM :     utils  :**************************************************************************************************** 
+    INFO : numexpr.utils :   16-06-2025 05:16:01 PM :     utils  :NumExpr defaulting to 8 threads. 
+    INFO :   root :   16-06-2025 05:16:02 PM :     utils  :======= List of Active Dongles ======== 
+    INFO :   root :   16-06-2025 05:16:02 PM :     utils  :1: /org/bluez/hci0 
+    INFO :   root :   16-06-2025 05:16:02 PM :     utils  :2: /org/bluez/hci1 
+    INFO : battery :   16-06-2025 05:16:03 PM :   trigger  : Selected interface: /org/bluez/hci0 
+    INFO : battery :   16-06-2025 05:16:03 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:16:03 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO : battery :   16-06-2025 05:16:03 PM :   trigger  :0.  Properties 
+    INFO : battery :   16-06-2025 05:16:03 PM :   trigger  :1.  Scan on 
+    INFO : battery :   16-06-2025 05:16:03 PM :   trigger  :2.  Scan off 
+    INFO : battery :   16-06-2025 05:16:03 PM :   trigger  :3.  Devices 
+    INFO : battery :   16-06-2025 05:16:03 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO : battery :   16-06-2025 05:16:03 PM :   trigger  :5.  Register the agent 
+    INFO : battery :   16-06-2025 05:16:03 PM :   trigger  :6.  Pair 
+    INFO : battery :   16-06-2025 05:16:03 PM :   trigger  :7.  Check paired Devices 
+    INFO : battery :   16-06-2025 05:16:03 PM :   trigger  :8.  Check Connected Devices 
+    INFO : battery :   16-06-2025 05:16:03 PM :   trigger  :9.  Connect 
+    INFO : battery :   16-06-2025 05:16:03 PM :   trigger  :10. Disconnect 
+    INFO : battery :   16-06-2025 05:16:03 PM :   trigger  :11. Remove Device 
+    INFO : battery :   16-06-2025 05:16:03 PM :   trigger  :12. Discoverable on 
+    INFO : battery :   16-06-2025 05:16:03 PM :   trigger  :13. Discoverable off 
+    INFO : battery :   16-06-2025 05:16:03 PM :   trigger  :14. Trusted 
+    INFO : battery :   16-06-2025 05:16:03 PM :   trigger  :15. Register Agent as Default 
+    INFO : battery :   16-06-2025 05:16:03 PM :   trigger  :16. Print UUID's  
+    INFO : battery :   16-06-2025 05:16:03 PM :   trigger  :17. Controller Supported UUID's 
+    INFO : battery :   16-06-2025 05:16:03 PM :   trigger  :18. Set Pairable Timeout 
+    INFO : battery :   16-06-2025 05:16:03 PM :   trigger  :19. Get Pairable Timeout 
+    INFO : battery :   16-06-2025 05:16:03 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO : battery :   16-06-2025 05:16:03 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO : battery :   16-06-2025 05:16:03 PM :   trigger  :22. opp file transfer file  
+    INFO : battery :   16-06-2025 05:16:03 PM :   trigger  :23. phone contact details  
+    INFO : battery :   16-06-2025 05:16:03 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO : battery :   16-06-2025 05:16:03 PM :   trigger  :25. battery percentage check.  
+    INFO : battery :   16-06-2025 05:16:03 PM :   trigger  :30. Exit 
+    INFO : battery :   16-06-2025 05:16:03 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:16:06 PM :   trigger  :#################################################################################################### 
+   DEBUG : battery :   16-06-2025 05:16:06 PM :   trigger  : User is trying to access the D-Bus Api's  
+    INFO : battery :   16-06-2025 05:16:06 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:16:06 PM :   trigger  :1. Powered 
+    INFO : battery :   16-06-2025 05:16:06 PM :   trigger  :2. Address 
+    INFO : battery :   16-06-2025 05:16:06 PM :   trigger  :3. Address_Type 
+    INFO : battery :   16-06-2025 05:16:06 PM :   trigger  :4. Alias 
+    INFO : battery :   16-06-2025 05:16:06 PM :   trigger  : 5. Name 
+    INFO : battery :   16-06-2025 05:16:06 PM :   trigger  :6. Class 
+    INFO : battery :   16-06-2025 05:16:06 PM :   trigger  :7. DiscoverableTimeout 
+    INFO : battery :   16-06-2025 05:16:06 PM :   trigger  :8. PairableTimeout 
+    INFO : battery :   16-06-2025 05:16:06 PM :   trigger  : 9. Exit 
+    INFO : battery :   16-06-2025 05:16:07 PM :   trigger  :#################################################################################################### 
+    INFO : battery :   16-06-2025 05:16:07 PM :   trigger  :5C:F3:70:79:93:F8 
+    INFO : battery :   16-06-2025 05:16:07 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:16:07 PM :   trigger  :1. Powered 
+    INFO : battery :   16-06-2025 05:16:07 PM :   trigger  :2. Address 
+    INFO : battery :   16-06-2025 05:16:07 PM :   trigger  :3. Address_Type 
+    INFO : battery :   16-06-2025 05:16:07 PM :   trigger  :4. Alias 
+    INFO : battery :   16-06-2025 05:16:07 PM :   trigger  : 5. Name 
+    INFO : battery :   16-06-2025 05:16:07 PM :   trigger  :6. Class 
+    INFO : battery :   16-06-2025 05:16:07 PM :   trigger  :7. DiscoverableTimeout 
+    INFO : battery :   16-06-2025 05:16:07 PM :   trigger  :8. PairableTimeout 
+    INFO : battery :   16-06-2025 05:16:07 PM :   trigger  : 9. Exit 
+    INFO : battery :   16-06-2025 05:16:09 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:16:09 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO : battery :   16-06-2025 05:16:09 PM :   trigger  :0.  Properties 
+    INFO : battery :   16-06-2025 05:16:09 PM :   trigger  :1.  Scan on 
+    INFO : battery :   16-06-2025 05:16:09 PM :   trigger  :2.  Scan off 
+    INFO : battery :   16-06-2025 05:16:09 PM :   trigger  :3.  Devices 
+    INFO : battery :   16-06-2025 05:16:09 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO : battery :   16-06-2025 05:16:09 PM :   trigger  :5.  Register the agent 
+    INFO : battery :   16-06-2025 05:16:09 PM :   trigger  :6.  Pair 
+    INFO : battery :   16-06-2025 05:16:09 PM :   trigger  :7.  Check paired Devices 
+    INFO : battery :   16-06-2025 05:16:09 PM :   trigger  :8.  Check Connected Devices 
+    INFO : battery :   16-06-2025 05:16:09 PM :   trigger  :9.  Connect 
+    INFO : battery :   16-06-2025 05:16:09 PM :   trigger  :10. Disconnect 
+    INFO : battery :   16-06-2025 05:16:09 PM :   trigger  :11. Remove Device 
+    INFO : battery :   16-06-2025 05:16:09 PM :   trigger  :12. Discoverable on 
+    INFO : battery :   16-06-2025 05:16:09 PM :   trigger  :13. Discoverable off 
+    INFO : battery :   16-06-2025 05:16:09 PM :   trigger  :14. Trusted 
+    INFO : battery :   16-06-2025 05:16:09 PM :   trigger  :15. Register Agent as Default 
+    INFO : battery :   16-06-2025 05:16:09 PM :   trigger  :16. Print UUID's  
+    INFO : battery :   16-06-2025 05:16:09 PM :   trigger  :17. Controller Supported UUID's 
+    INFO : battery :   16-06-2025 05:16:09 PM :   trigger  :18. Set Pairable Timeout 
+    INFO : battery :   16-06-2025 05:16:09 PM :   trigger  :19. Get Pairable Timeout 
+    INFO : battery :   16-06-2025 05:16:09 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO : battery :   16-06-2025 05:16:09 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO : battery :   16-06-2025 05:16:09 PM :   trigger  :22. opp file transfer file  
+    INFO : battery :   16-06-2025 05:16:09 PM :   trigger  :23. phone contact details  
+    INFO : battery :   16-06-2025 05:16:09 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO : battery :   16-06-2025 05:16:09 PM :   trigger  :25. battery percentage check.  
+    INFO : battery :   16-06-2025 05:16:09 PM :   trigger  :30. Exit 
+    INFO : battery :   16-06-2025 05:16:09 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:16:16 PM :   trigger  :#################################################################################################### 
+   DEBUG : battery :   16-06-2025 05:16:16 PM :   trigger  : User is trying to access the D-Bus Api's  
+   DEBUG : battery :   16-06-2025 05:16:16 PM :   trigger  :  User started scan operation  
+    INFO :   root :   16-06-2025 05:16:18 PM :       gap  : Scanning Started!  
+    INFO :   root :   16-06-2025 05:16:22 PM :       gap  :Scanning completed after 4 Sec 
+    INFO :   root :   16-06-2025 05:16:22 PM :       gap  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :Name:       b'DIZO Watch R' 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :Bd_address: b'BB:EA:FF:AD:15:46' 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :Name:       b'5E-32-B9-DA-61-CE' 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :Bd_address: b'5E:32:B9:DA:61:CE' 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :Name:       b'74-CA-3D-5A-01-F3' 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :Bd_address: b'74:CA:3D:5A:01:F3' 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :Name:       b'7C-59-B0-1F-FF-74' 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :Bd_address: b'7C:59:B0:1F:FF:74' 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :Name:       b'75-15-DE-BC-9C-16' 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :Bd_address: b'75:15:DE:BC:9C:16' 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :Name:       b'F4-B6-2D-B0-F8-2A' 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :Bd_address: b'F4:B6:2D:B0:F8:2A' 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :Name:       b'51-55-16-72-45-EC' 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :Bd_address: b'51:55:16:72:45:EC' 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :Name:       b'78-52-B8-B7-43-6F' 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :Bd_address: b'78:52:B8:B7:43:6F' 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :Name:       b'5D-5B-B2-32-DF-64' 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :Bd_address: b'5D:5B:B2:32:DF:64' 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :Name:       b'79-52-26-A1-9A-A7' 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :Bd_address: b'79:52:26:A1:9A:A7' 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :Name:       b'NimBLE_GATT' 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :Bd_address: b'94:B9:7E:76:4D:F2' 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :Name:       b'10-86-F9-40-FC-ED' 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :Bd_address: b'10:86:F9:40:FC:ED' 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :Name:       b'08-07-93-43-76-20' 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :Bd_address: b'08:07:93:43:76:20' 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :Name:       b'18-F0-4A-B3-E4-E3' 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :Bd_address: b'18:F0:4A:B3:E4:E3' 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :Name:       b'54-70-37-87-D8-99' 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :Bd_address: b'54:70:37:87:D8:99' 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :Name:       b'Vivo T2x5G' 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :Bd_address: b'D4:CB:CC:86:9D:8C' 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :Name:       b'engineer-ThinkPad-E15-Gen-2' 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :Bd_address: b'F8:9E:94:33:BD:04' 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :0.  Properties 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :1.  Scan on 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :2.  Scan off 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :3.  Devices 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :5.  Register the agent 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :6.  Pair 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :7.  Check paired Devices 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :8.  Check Connected Devices 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :9.  Connect 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :10. Disconnect 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :11. Remove Device 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :12. Discoverable on 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :13. Discoverable off 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :14. Trusted 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :15. Register Agent as Default 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :16. Print UUID's  
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :17. Controller Supported UUID's 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :18. Set Pairable Timeout 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :19. Get Pairable Timeout 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :22. opp file transfer file  
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :23. phone contact details  
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :25. battery percentage check.  
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :30. Exit 
+    INFO : battery :   16-06-2025 05:16:23 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:16:30 PM :   trigger  :#################################################################################################### 
+   DEBUG : battery :   16-06-2025 05:16:30 PM :   trigger  : User is trying to access the D-Bus Api's  
+   DEBUG : battery :   16-06-2025 05:16:30 PM :   trigger  : User selected pair operation 
+    INFO :   root :   16-06-2025 05:16:33 PM :       gap  :D4:CB:CC:86:9D:8C 
+    INFO :   root :   16-06-2025 05:16:33 PM :       gap  : Pairing Initiated!!!.......... 
+CRITICAL :   root :   16-06-2025 05:16:33 PM :       gap  :org.bluez.Error.AlreadyExists: Already Exists 
+    INFO :   root :   16-06-2025 05:16:33 PM :       gap  : Failed to pair the device 
+    INFO : battery :   16-06-2025 05:16:33 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:16:33 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO : battery :   16-06-2025 05:16:33 PM :   trigger  :0.  Properties 
+    INFO : battery :   16-06-2025 05:16:33 PM :   trigger  :1.  Scan on 
+    INFO : battery :   16-06-2025 05:16:33 PM :   trigger  :2.  Scan off 
+    INFO : battery :   16-06-2025 05:16:33 PM :   trigger  :3.  Devices 
+    INFO : battery :   16-06-2025 05:16:33 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO : battery :   16-06-2025 05:16:33 PM :   trigger  :5.  Register the agent 
+    INFO : battery :   16-06-2025 05:16:33 PM :   trigger  :6.  Pair 
+    INFO : battery :   16-06-2025 05:16:33 PM :   trigger  :7.  Check paired Devices 
+    INFO : battery :   16-06-2025 05:16:33 PM :   trigger  :8.  Check Connected Devices 
+    INFO : battery :   16-06-2025 05:16:33 PM :   trigger  :9.  Connect 
+    INFO : battery :   16-06-2025 05:16:33 PM :   trigger  :10. Disconnect 
+    INFO : battery :   16-06-2025 05:16:33 PM :   trigger  :11. Remove Device 
+    INFO : battery :   16-06-2025 05:16:33 PM :   trigger  :12. Discoverable on 
+    INFO : battery :   16-06-2025 05:16:33 PM :   trigger  :13. Discoverable off 
+    INFO : battery :   16-06-2025 05:16:33 PM :   trigger  :14. Trusted 
+    INFO : battery :   16-06-2025 05:16:33 PM :   trigger  :15. Register Agent as Default 
+    INFO : battery :   16-06-2025 05:16:33 PM :   trigger  :16. Print UUID's  
+    INFO : battery :   16-06-2025 05:16:33 PM :   trigger  :17. Controller Supported UUID's 
+    INFO : battery :   16-06-2025 05:16:33 PM :   trigger  :18. Set Pairable Timeout 
+    INFO : battery :   16-06-2025 05:16:33 PM :   trigger  :19. Get Pairable Timeout 
+    INFO : battery :   16-06-2025 05:16:33 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO : battery :   16-06-2025 05:16:33 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO : battery :   16-06-2025 05:16:33 PM :   trigger  :22. opp file transfer file  
+    INFO : battery :   16-06-2025 05:16:33 PM :   trigger  :23. phone contact details  
+    INFO : battery :   16-06-2025 05:16:33 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO : battery :   16-06-2025 05:16:33 PM :   trigger  :25. battery percentage check.  
+    INFO : battery :   16-06-2025 05:16:33 PM :   trigger  :30. Exit 
+    INFO : battery :   16-06-2025 05:16:33 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:16:41 PM :   trigger  :#################################################################################################### 
+   DEBUG : battery :   16-06-2025 05:16:41 PM :   trigger  : User is trying to access the D-Bus Api's  
+   DEBUG : battery :   16-06-2025 05:16:41 PM :   trigger  : User selected to display the list of paired devices 
+   DEBUG :   root :   16-06-2025 05:16:41 PM :       gap  : User wants the list of paired devices. 
+    INFO : battery :   16-06-2025 05:16:41 PM :   trigger  :D4:CB:CC:86:9D:8C 
+    INFO : battery :   16-06-2025 05:16:41 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:16:41 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO : battery :   16-06-2025 05:16:41 PM :   trigger  :0.  Properties 
+    INFO : battery :   16-06-2025 05:16:41 PM :   trigger  :1.  Scan on 
+    INFO : battery :   16-06-2025 05:16:41 PM :   trigger  :2.  Scan off 
+    INFO : battery :   16-06-2025 05:16:41 PM :   trigger  :3.  Devices 
+    INFO : battery :   16-06-2025 05:16:41 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO : battery :   16-06-2025 05:16:41 PM :   trigger  :5.  Register the agent 
+    INFO : battery :   16-06-2025 05:16:41 PM :   trigger  :6.  Pair 
+    INFO : battery :   16-06-2025 05:16:41 PM :   trigger  :7.  Check paired Devices 
+    INFO : battery :   16-06-2025 05:16:41 PM :   trigger  :8.  Check Connected Devices 
+    INFO : battery :   16-06-2025 05:16:41 PM :   trigger  :9.  Connect 
+    INFO : battery :   16-06-2025 05:16:41 PM :   trigger  :10. Disconnect 
+    INFO : battery :   16-06-2025 05:16:41 PM :   trigger  :11. Remove Device 
+    INFO : battery :   16-06-2025 05:16:41 PM :   trigger  :12. Discoverable on 
+    INFO : battery :   16-06-2025 05:16:41 PM :   trigger  :13. Discoverable off 
+    INFO : battery :   16-06-2025 05:16:41 PM :   trigger  :14. Trusted 
+    INFO : battery :   16-06-2025 05:16:41 PM :   trigger  :15. Register Agent as Default 
+    INFO : battery :   16-06-2025 05:16:41 PM :   trigger  :16. Print UUID's  
+    INFO : battery :   16-06-2025 05:16:41 PM :   trigger  :17. Controller Supported UUID's 
+    INFO : battery :   16-06-2025 05:16:41 PM :   trigger  :18. Set Pairable Timeout 
+    INFO : battery :   16-06-2025 05:16:41 PM :   trigger  :19. Get Pairable Timeout 
+    INFO : battery :   16-06-2025 05:16:41 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO : battery :   16-06-2025 05:16:41 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO : battery :   16-06-2025 05:16:41 PM :   trigger  :22. opp file transfer file  
+    INFO : battery :   16-06-2025 05:16:41 PM :   trigger  :23. phone contact details  
+    INFO : battery :   16-06-2025 05:16:41 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO : battery :   16-06-2025 05:16:41 PM :   trigger  :25. battery percentage check.  
+    INFO : battery :   16-06-2025 05:16:41 PM :   trigger  :30. Exit 
+    INFO : battery :   16-06-2025 05:16:41 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:16:43 PM :   trigger  :#################################################################################################### 
+   DEBUG : battery :   16-06-2025 05:16:43 PM :   trigger  : User is trying to access the D-Bus Api's  
+   DEBUG : battery :   16-06-2025 05:16:43 PM :   trigger  : User selected to check the current connected device 
+   DEBUG :   root :   16-06-2025 05:16:43 PM :       gap  : User wants the list of paired devices. 
+    INFO : battery :   16-06-2025 05:16:43 PM :   trigger  : NO Active connection found  
+    INFO : battery :   16-06-2025 05:16:43 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:16:43 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO : battery :   16-06-2025 05:16:43 PM :   trigger  :0.  Properties 
+    INFO : battery :   16-06-2025 05:16:43 PM :   trigger  :1.  Scan on 
+    INFO : battery :   16-06-2025 05:16:43 PM :   trigger  :2.  Scan off 
+    INFO : battery :   16-06-2025 05:16:43 PM :   trigger  :3.  Devices 
+    INFO : battery :   16-06-2025 05:16:43 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO : battery :   16-06-2025 05:16:43 PM :   trigger  :5.  Register the agent 
+    INFO : battery :   16-06-2025 05:16:43 PM :   trigger  :6.  Pair 
+    INFO : battery :   16-06-2025 05:16:43 PM :   trigger  :7.  Check paired Devices 
+    INFO : battery :   16-06-2025 05:16:43 PM :   trigger  :8.  Check Connected Devices 
+    INFO : battery :   16-06-2025 05:16:43 PM :   trigger  :9.  Connect 
+    INFO : battery :   16-06-2025 05:16:43 PM :   trigger  :10. Disconnect 
+    INFO : battery :   16-06-2025 05:16:43 PM :   trigger  :11. Remove Device 
+    INFO : battery :   16-06-2025 05:16:43 PM :   trigger  :12. Discoverable on 
+    INFO : battery :   16-06-2025 05:16:43 PM :   trigger  :13. Discoverable off 
+    INFO : battery :   16-06-2025 05:16:43 PM :   trigger  :14. Trusted 
+    INFO : battery :   16-06-2025 05:16:43 PM :   trigger  :15. Register Agent as Default 
+    INFO : battery :   16-06-2025 05:16:43 PM :   trigger  :16. Print UUID's  
+    INFO : battery :   16-06-2025 05:16:43 PM :   trigger  :17. Controller Supported UUID's 
+    INFO : battery :   16-06-2025 05:16:43 PM :   trigger  :18. Set Pairable Timeout 
+    INFO : battery :   16-06-2025 05:16:43 PM :   trigger  :19. Get Pairable Timeout 
+    INFO : battery :   16-06-2025 05:16:43 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO : battery :   16-06-2025 05:16:43 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO : battery :   16-06-2025 05:16:43 PM :   trigger  :22. opp file transfer file  
+    INFO : battery :   16-06-2025 05:16:43 PM :   trigger  :23. phone contact details  
+    INFO : battery :   16-06-2025 05:16:43 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO : battery :   16-06-2025 05:16:43 PM :   trigger  :25. battery percentage check.  
+    INFO : battery :   16-06-2025 05:16:43 PM :   trigger  :30. Exit 
+    INFO : battery :   16-06-2025 05:16:43 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:16:45 PM :   trigger  :#################################################################################################### 
+   DEBUG : battery :   16-06-2025 05:16:45 PM :   trigger  : User is trying to access the D-Bus Api's  
+    INFO :   root :   16-06-2025 05:16:45 PM :     utils  : Pulseaudio Daemon Initiated.... 
+   DEBUG : battery :   16-06-2025 05:16:45 PM :   trigger  : User selected connect option  
+   DEBUG :   root :   16-06-2025 05:16:45 PM :       gap  : User wants the list of paired devices. 
+    INFO : battery :   16-06-2025 05:16:45 PM :   trigger  :1. D4:CB:CC:86:9D:8C 
+    INFO :   root :   16-06-2025 05:16:46 PM :       gap  : Connecting........ 
+   DEBUG :   root :   16-06-2025 05:16:46 PM :       gap  :  Connection Initiated  
+    INFO :   root :   16-06-2025 05:16:47 PM :       gap  : Connected successfully to the device   
+    INFO : battery :   16-06-2025 05:16:47 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:16:47 PM :   trigger  : Connected Successfully!  
+    INFO : battery :   16-06-2025 05:16:47 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:16:47 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO : battery :   16-06-2025 05:16:47 PM :   trigger  :0.  Properties 
+    INFO : battery :   16-06-2025 05:16:47 PM :   trigger  :1.  Scan on 
+    INFO : battery :   16-06-2025 05:16:47 PM :   trigger  :2.  Scan off 
+    INFO : battery :   16-06-2025 05:16:47 PM :   trigger  :3.  Devices 
+    INFO : battery :   16-06-2025 05:16:47 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO : battery :   16-06-2025 05:16:47 PM :   trigger  :5.  Register the agent 
+    INFO : battery :   16-06-2025 05:16:47 PM :   trigger  :6.  Pair 
+    INFO : battery :   16-06-2025 05:16:47 PM :   trigger  :7.  Check paired Devices 
+    INFO : battery :   16-06-2025 05:16:47 PM :   trigger  :8.  Check Connected Devices 
+    INFO : battery :   16-06-2025 05:16:47 PM :   trigger  :9.  Connect 
+    INFO : battery :   16-06-2025 05:16:47 PM :   trigger  :10. Disconnect 
+    INFO : battery :   16-06-2025 05:16:47 PM :   trigger  :11. Remove Device 
+    INFO : battery :   16-06-2025 05:16:47 PM :   trigger  :12. Discoverable on 
+    INFO : battery :   16-06-2025 05:16:47 PM :   trigger  :13. Discoverable off 
+    INFO : battery :   16-06-2025 05:16:47 PM :   trigger  :14. Trusted 
+    INFO : battery :   16-06-2025 05:16:47 PM :   trigger  :15. Register Agent as Default 
+    INFO : battery :   16-06-2025 05:16:47 PM :   trigger  :16. Print UUID's  
+    INFO : battery :   16-06-2025 05:16:47 PM :   trigger  :17. Controller Supported UUID's 
+    INFO : battery :   16-06-2025 05:16:47 PM :   trigger  :18. Set Pairable Timeout 
+    INFO : battery :   16-06-2025 05:16:47 PM :   trigger  :19. Get Pairable Timeout 
+    INFO : battery :   16-06-2025 05:16:47 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO : battery :   16-06-2025 05:16:47 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO : battery :   16-06-2025 05:16:47 PM :   trigger  :22. opp file transfer file  
+    INFO : battery :   16-06-2025 05:16:47 PM :   trigger  :23. phone contact details  
+    INFO : battery :   16-06-2025 05:16:47 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO : battery :   16-06-2025 05:16:47 PM :   trigger  :25. battery percentage check.  
+    INFO : battery :   16-06-2025 05:16:47 PM :   trigger  :30. Exit 
+    INFO : battery :   16-06-2025 05:16:47 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:16:55 PM :   trigger  :#################################################################################################### 
+   DEBUG : battery :   16-06-2025 05:16:55 PM :   trigger  : User is trying to access the D-Bus Api's  
+   DEBUG : battery :   16-06-2025 05:16:55 PM :   trigger  :User selected battery percentage check. 
+    INFO : battery :   16-06-2025 05:16:55 PM :   trigger  :Checking battery for D4:CB:CC:86:9D:8C 
+ WARNING : battery :   16-06-2025 05:16:55 PM :   battery  :Battery percentage not found. 
+ WARNING : battery :   16-06-2025 05:16:55 PM :   trigger  :Could not fetch battery for D4:CB:CC:86:9D:8C 
+    INFO : battery :   16-06-2025 05:16:55 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:16:55 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO : battery :   16-06-2025 05:16:55 PM :   trigger  :0.  Properties 
+    INFO : battery :   16-06-2025 05:16:55 PM :   trigger  :1.  Scan on 
+    INFO : battery :   16-06-2025 05:16:55 PM :   trigger  :2.  Scan off 
+    INFO : battery :   16-06-2025 05:16:55 PM :   trigger  :3.  Devices 
+    INFO : battery :   16-06-2025 05:16:55 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO : battery :   16-06-2025 05:16:55 PM :   trigger  :5.  Register the agent 
+    INFO : battery :   16-06-2025 05:16:55 PM :   trigger  :6.  Pair 
+    INFO : battery :   16-06-2025 05:16:55 PM :   trigger  :7.  Check paired Devices 
+    INFO : battery :   16-06-2025 05:16:55 PM :   trigger  :8.  Check Connected Devices 
+    INFO : battery :   16-06-2025 05:16:55 PM :   trigger  :9.  Connect 
+    INFO : battery :   16-06-2025 05:16:55 PM :   trigger  :10. Disconnect 
+    INFO : battery :   16-06-2025 05:16:55 PM :   trigger  :11. Remove Device 
+    INFO : battery :   16-06-2025 05:16:55 PM :   trigger  :12. Discoverable on 
+    INFO : battery :   16-06-2025 05:16:55 PM :   trigger  :13. Discoverable off 
+    INFO : battery :   16-06-2025 05:16:55 PM :   trigger  :14. Trusted 
+    INFO : battery :   16-06-2025 05:16:55 PM :   trigger  :15. Register Agent as Default 
+    INFO : battery :   16-06-2025 05:16:55 PM :   trigger  :16. Print UUID's  
+    INFO : battery :   16-06-2025 05:16:55 PM :   trigger  :17. Controller Supported UUID's 
+    INFO : battery :   16-06-2025 05:16:55 PM :   trigger  :18. Set Pairable Timeout 
+    INFO : battery :   16-06-2025 05:16:55 PM :   trigger  :19. Get Pairable Timeout 
+    INFO : battery :   16-06-2025 05:16:55 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO : battery :   16-06-2025 05:16:55 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO : battery :   16-06-2025 05:16:55 PM :   trigger  :22. opp file transfer file  
+    INFO : battery :   16-06-2025 05:16:55 PM :   trigger  :23. phone contact details  
+    INFO : battery :   16-06-2025 05:16:55 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO : battery :   16-06-2025 05:16:55 PM :   trigger  :25. battery percentage check.  
+    INFO : battery :   16-06-2025 05:16:55 PM :   trigger  :30. Exit 
+    INFO : battery :   16-06-2025 05:16:55 PM :   trigger  :**************************************************************************************************** 
+   DEBUG : battery :   16-06-2025 05:18:02 PM :   trigger  : User is trying to access the D-Bus Api's  
+    INFO :   root :   16-06-2025 05:20:24 PM :     utils  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:20:24 PM :     utils  : D-bus Daemon Initiated.... 
+    INFO :   root :   16-06-2025 05:20:24 PM :     utils  : Bluetooth-d Daemon Initiated.... 
+    INFO :   root :   16-06-2025 05:20:24 PM :     utils  :**************************************************************************************************** 
+    INFO : numexpr.utils :   16-06-2025 05:20:24 PM :     utils  :NumExpr defaulting to 8 threads. 
+    INFO :   root :   16-06-2025 05:20:24 PM :     utils  :======= List of Active Dongles ======== 
+    INFO :   root :   16-06-2025 05:20:24 PM :     utils  :1: /org/bluez/hci0 
+    INFO :   root :   16-06-2025 05:20:24 PM :     utils  :2: /org/bluez/hci1 
+    INFO : battery :   16-06-2025 05:20:26 PM :   trigger  : Selected interface: /org/bluez/hci0 
+    INFO : battery :   16-06-2025 05:20:26 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:20:26 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO : battery :   16-06-2025 05:20:26 PM :   trigger  :0.  Properties 
+    INFO : battery :   16-06-2025 05:20:26 PM :   trigger  :1.  Scan on 
+    INFO : battery :   16-06-2025 05:20:26 PM :   trigger  :2.  Scan off 
+    INFO : battery :   16-06-2025 05:20:26 PM :   trigger  :3.  Devices 
+    INFO : battery :   16-06-2025 05:20:26 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO : battery :   16-06-2025 05:20:26 PM :   trigger  :5.  Register the agent 
+    INFO : battery :   16-06-2025 05:20:26 PM :   trigger  :6.  Pair 
+    INFO : battery :   16-06-2025 05:20:26 PM :   trigger  :7.  Check paired Devices 
+    INFO : battery :   16-06-2025 05:20:26 PM :   trigger  :8.  Check Connected Devices 
+    INFO : battery :   16-06-2025 05:20:26 PM :   trigger  :9.  Connect 
+    INFO : battery :   16-06-2025 05:20:26 PM :   trigger  :10. Disconnect 
+    INFO : battery :   16-06-2025 05:20:26 PM :   trigger  :11. Remove Device 
+    INFO : battery :   16-06-2025 05:20:26 PM :   trigger  :12. Discoverable on 
+    INFO : battery :   16-06-2025 05:20:26 PM :   trigger  :13. Discoverable off 
+    INFO : battery :   16-06-2025 05:20:26 PM :   trigger  :14. Trusted 
+    INFO : battery :   16-06-2025 05:20:26 PM :   trigger  :15. Register Agent as Default 
+    INFO : battery :   16-06-2025 05:20:26 PM :   trigger  :16. Print UUID's  
+    INFO : battery :   16-06-2025 05:20:26 PM :   trigger  :17. Controller Supported UUID's 
+    INFO : battery :   16-06-2025 05:20:26 PM :   trigger  :18. Set Pairable Timeout 
+    INFO : battery :   16-06-2025 05:20:26 PM :   trigger  :19. Get Pairable Timeout 
+    INFO : battery :   16-06-2025 05:20:26 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO : battery :   16-06-2025 05:20:26 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO : battery :   16-06-2025 05:20:26 PM :   trigger  :22. opp file transfer file  
+    INFO : battery :   16-06-2025 05:20:26 PM :   trigger  :23. phone contact details  
+    INFO : battery :   16-06-2025 05:20:26 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO : battery :   16-06-2025 05:20:26 PM :   trigger  :25. battery percentage check.  
+    INFO : battery :   16-06-2025 05:20:26 PM :   trigger  :30. Exit 
+    INFO : battery :   16-06-2025 05:20:26 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :#################################################################################################### 
+   DEBUG : battery :   16-06-2025 05:20:28 PM :   trigger  : User is trying to access the D-Bus Api's  
+   DEBUG : battery :   16-06-2025 05:20:28 PM :   trigger  :  User selected the option show controller supported UUID  
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :====== List of Supported UUID in Device======  
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :Profile: A/V Remote Control  : 0000110e-0000-1000-8000-00805f9b34fb 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :Profile: OBEXObjectPush  : 00001105-0000-1000-8000-00805f9b34fb 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :Profile: Message Access Server  : 00001132-0000-1000-8000-00805f9b34fb 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :Profile: PnP Information  : 00001200-0000-1000-8000-00805f9b34fb 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :Profile: Headset AG  : 00001112-0000-1000-8000-00805f9b34fb 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :Profile: A/V Remote Control Target  : 0000110c-0000-1000-8000-00805f9b34fb 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :Profile: Phonebook Access Server  : 0000112f-0000-1000-8000-00805f9b34fb 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :Profile: Generic Attribute Profile  : 00001801-0000-1000-8000-00805f9b34fb 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :Profile: Generic Access Profile  : 00001800-0000-1000-8000-00805f9b34fb 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :Profile: Audio Source  : 0000110a-0000-1000-8000-00805f9b34fb 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :Profile: OBEX File Transfer  : 00001106-0000-1000-8000-00805f9b34fb 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :**************************************************************************************************** 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :0.  Properties 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :1.  Scan on 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :2.  Scan off 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :3.  Devices 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :5.  Register the agent 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :6.  Pair 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :7.  Check paired Devices 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :8.  Check Connected Devices 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :9.  Connect 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :10. Disconnect 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :11. Remove Device 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :12. Discoverable on 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :13. Discoverable off 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :14. Trusted 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :15. Register Agent as Default 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :16. Print UUID's  
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :17. Controller Supported UUID's 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :18. Set Pairable Timeout 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :19. Get Pairable Timeout 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :22. opp file transfer file  
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :23. phone contact details  
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :25. battery percentage check.  
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :30. Exit 
+    INFO : battery :   16-06-2025 05:20:28 PM :   trigger  :**************************************************************************************************** 
+   DEBUG : battery :   16-06-2025 05:24:42 PM :   trigger  : User is trying to access the D-Bus Api's  
+    INFO :   root :   16-06-2025 05:24:43 PM :     utils  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:24:43 PM :     utils  : D-bus Daemon Initiated.... 
+    INFO :   root :   16-06-2025 05:24:43 PM :     utils  : Bluetooth-d Daemon Initiated.... 
+    INFO :   root :   16-06-2025 05:24:43 PM :     utils  :**************************************************************************************************** 
+    INFO : numexpr.utils :   16-06-2025 05:24:43 PM :     utils  :NumExpr defaulting to 8 threads. 
+    INFO :   root :   16-06-2025 05:24:43 PM :     utils  :======= List of Active Dongles ======== 
+    INFO :   root :   16-06-2025 05:24:43 PM :     utils  :1: /org/bluez/hci0 
+    INFO :   root :   16-06-2025 05:24:43 PM :     utils  :2: /org/bluez/hci1 
+    INFO :   root :   16-06-2025 05:25:03 PM :   trigger  : Selected interface: /org/bluez/hci0 
+    INFO :   root :   16-06-2025 05:25:03 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:25:03 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO :   root :   16-06-2025 05:25:03 PM :   trigger  :0.  Properties 
+    INFO :   root :   16-06-2025 05:25:03 PM :   trigger  :1.  Scan on 
+    INFO :   root :   16-06-2025 05:25:03 PM :   trigger  :2.  Scan off 
+    INFO :   root :   16-06-2025 05:25:03 PM :   trigger  :3.  Devices 
+    INFO :   root :   16-06-2025 05:25:03 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO :   root :   16-06-2025 05:25:03 PM :   trigger  :5.  Register the agent 
+    INFO :   root :   16-06-2025 05:25:03 PM :   trigger  :6.  Pair 
+    INFO :   root :   16-06-2025 05:25:03 PM :   trigger  :7.  Check paired Devices 
+    INFO :   root :   16-06-2025 05:25:03 PM :   trigger  :8.  Check Connected Devices 
+    INFO :   root :   16-06-2025 05:25:03 PM :   trigger  :9.  Connect 
+    INFO :   root :   16-06-2025 05:25:03 PM :   trigger  :10. Disconnect 
+    INFO :   root :   16-06-2025 05:25:03 PM :   trigger  :11. Remove Device 
+    INFO :   root :   16-06-2025 05:25:03 PM :   trigger  :12. Discoverable on 
+    INFO :   root :   16-06-2025 05:25:03 PM :   trigger  :13. Discoverable off 
+    INFO :   root :   16-06-2025 05:25:03 PM :   trigger  :14. Trusted 
+    INFO :   root :   16-06-2025 05:25:03 PM :   trigger  :15. Register Agent as Default 
+    INFO :   root :   16-06-2025 05:25:03 PM :   trigger  :16. Print UUID's  
+    INFO :   root :   16-06-2025 05:25:03 PM :   trigger  :17. Controller Supported UUID's 
+    INFO :   root :   16-06-2025 05:25:03 PM :   trigger  :18. Set Pairable Timeout 
+    INFO :   root :   16-06-2025 05:25:03 PM :   trigger  :19. Get Pairable Timeout 
+    INFO :   root :   16-06-2025 05:25:03 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO :   root :   16-06-2025 05:25:03 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO :   root :   16-06-2025 05:25:03 PM :   trigger  :22. opp file transfer file  
+    INFO :   root :   16-06-2025 05:25:03 PM :   trigger  :23. phone contact details  
+    INFO :   root :   16-06-2025 05:25:03 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO :   root :   16-06-2025 05:25:03 PM :   trigger  :25. battery percentage check.  
+    INFO :   root :   16-06-2025 05:25:03 PM :   trigger  :30. Exit 
+    INFO :   root :   16-06-2025 05:25:03 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:25:09 PM :   trigger  :#################################################################################################### 
+   DEBUG :   root :   16-06-2025 05:25:09 PM :   trigger  : User is trying to access the D-Bus Api's  
+    INFO :   root :   16-06-2025 05:25:09 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:25:09 PM :   trigger  :1. Powered 
+    INFO :   root :   16-06-2025 05:25:09 PM :   trigger  :2. Address 
+    INFO :   root :   16-06-2025 05:25:09 PM :   trigger  :3. Address_Type 
+    INFO :   root :   16-06-2025 05:25:09 PM :   trigger  :4. Alias 
+    INFO :   root :   16-06-2025 05:25:09 PM :   trigger  : 5. Name 
+    INFO :   root :   16-06-2025 05:25:09 PM :   trigger  :6. Class 
+    INFO :   root :   16-06-2025 05:25:09 PM :   trigger  :7. DiscoverableTimeout 
+    INFO :   root :   16-06-2025 05:25:09 PM :   trigger  :8. PairableTimeout 
+    INFO :   root :   16-06-2025 05:25:09 PM :   trigger  : 9. Exit 
+    INFO :   root :   16-06-2025 05:25:12 PM :   trigger  :#################################################################################################### 
+    INFO :   root :   16-06-2025 05:25:12 PM :   trigger  :5C:F3:70:79:93:F8 
+    INFO :   root :   16-06-2025 05:25:12 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:25:12 PM :   trigger  :1. Powered 
+    INFO :   root :   16-06-2025 05:25:12 PM :   trigger  :2. Address 
+    INFO :   root :   16-06-2025 05:25:12 PM :   trigger  :3. Address_Type 
+    INFO :   root :   16-06-2025 05:25:12 PM :   trigger  :4. Alias 
+    INFO :   root :   16-06-2025 05:25:12 PM :   trigger  : 5. Name 
+    INFO :   root :   16-06-2025 05:25:12 PM :   trigger  :6. Class 
+    INFO :   root :   16-06-2025 05:25:12 PM :   trigger  :7. DiscoverableTimeout 
+    INFO :   root :   16-06-2025 05:25:12 PM :   trigger  :8. PairableTimeout 
+    INFO :   root :   16-06-2025 05:25:12 PM :   trigger  : 9. Exit 
+    INFO :   root :   16-06-2025 05:25:16 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:25:16 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO :   root :   16-06-2025 05:25:16 PM :   trigger  :0.  Properties 
+    INFO :   root :   16-06-2025 05:25:16 PM :   trigger  :1.  Scan on 
+    INFO :   root :   16-06-2025 05:25:16 PM :   trigger  :2.  Scan off 
+    INFO :   root :   16-06-2025 05:25:16 PM :   trigger  :3.  Devices 
+    INFO :   root :   16-06-2025 05:25:16 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO :   root :   16-06-2025 05:25:16 PM :   trigger  :5.  Register the agent 
+    INFO :   root :   16-06-2025 05:25:16 PM :   trigger  :6.  Pair 
+    INFO :   root :   16-06-2025 05:25:16 PM :   trigger  :7.  Check paired Devices 
+    INFO :   root :   16-06-2025 05:25:16 PM :   trigger  :8.  Check Connected Devices 
+    INFO :   root :   16-06-2025 05:25:16 PM :   trigger  :9.  Connect 
+    INFO :   root :   16-06-2025 05:25:16 PM :   trigger  :10. Disconnect 
+    INFO :   root :   16-06-2025 05:25:16 PM :   trigger  :11. Remove Device 
+    INFO :   root :   16-06-2025 05:25:16 PM :   trigger  :12. Discoverable on 
+    INFO :   root :   16-06-2025 05:25:16 PM :   trigger  :13. Discoverable off 
+    INFO :   root :   16-06-2025 05:25:16 PM :   trigger  :14. Trusted 
+    INFO :   root :   16-06-2025 05:25:16 PM :   trigger  :15. Register Agent as Default 
+    INFO :   root :   16-06-2025 05:25:16 PM :   trigger  :16. Print UUID's  
+    INFO :   root :   16-06-2025 05:25:16 PM :   trigger  :17. Controller Supported UUID's 
+    INFO :   root :   16-06-2025 05:25:16 PM :   trigger  :18. Set Pairable Timeout 
+    INFO :   root :   16-06-2025 05:25:16 PM :   trigger  :19. Get Pairable Timeout 
+    INFO :   root :   16-06-2025 05:25:16 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO :   root :   16-06-2025 05:25:16 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO :   root :   16-06-2025 05:25:16 PM :   trigger  :22. opp file transfer file  
+    INFO :   root :   16-06-2025 05:25:16 PM :   trigger  :23. phone contact details  
+    INFO :   root :   16-06-2025 05:25:16 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO :   root :   16-06-2025 05:25:16 PM :   trigger  :25. battery percentage check.  
+    INFO :   root :   16-06-2025 05:25:16 PM :   trigger  :30. Exit 
+    INFO :   root :   16-06-2025 05:25:16 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:25:20 PM :   trigger  :#################################################################################################### 
+   DEBUG :   root :   16-06-2025 05:25:20 PM :   trigger  : User is trying to access the D-Bus Api's  
+   DEBUG :   root :   16-06-2025 05:25:20 PM :   trigger  : User selected to display the list of paired devices 
+   DEBUG :   root :   16-06-2025 05:25:20 PM :       gap  : User wants the list of paired devices. 
+    INFO :   root :   16-06-2025 05:25:20 PM :   trigger  :D4:CB:CC:86:9D:8C 
+    INFO :   root :   16-06-2025 05:25:20 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:25:20 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO :   root :   16-06-2025 05:25:20 PM :   trigger  :0.  Properties 
+    INFO :   root :   16-06-2025 05:25:20 PM :   trigger  :1.  Scan on 
+    INFO :   root :   16-06-2025 05:25:20 PM :   trigger  :2.  Scan off 
+    INFO :   root :   16-06-2025 05:25:20 PM :   trigger  :3.  Devices 
+    INFO :   root :   16-06-2025 05:25:20 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO :   root :   16-06-2025 05:25:20 PM :   trigger  :5.  Register the agent 
+    INFO :   root :   16-06-2025 05:25:20 PM :   trigger  :6.  Pair 
+    INFO :   root :   16-06-2025 05:25:20 PM :   trigger  :7.  Check paired Devices 
+    INFO :   root :   16-06-2025 05:25:20 PM :   trigger  :8.  Check Connected Devices 
+    INFO :   root :   16-06-2025 05:25:20 PM :   trigger  :9.  Connect 
+    INFO :   root :   16-06-2025 05:25:20 PM :   trigger  :10. Disconnect 
+    INFO :   root :   16-06-2025 05:25:20 PM :   trigger  :11. Remove Device 
+    INFO :   root :   16-06-2025 05:25:20 PM :   trigger  :12. Discoverable on 
+    INFO :   root :   16-06-2025 05:25:20 PM :   trigger  :13. Discoverable off 
+    INFO :   root :   16-06-2025 05:25:20 PM :   trigger  :14. Trusted 
+    INFO :   root :   16-06-2025 05:25:20 PM :   trigger  :15. Register Agent as Default 
+    INFO :   root :   16-06-2025 05:25:20 PM :   trigger  :16. Print UUID's  
+    INFO :   root :   16-06-2025 05:25:20 PM :   trigger  :17. Controller Supported UUID's 
+    INFO :   root :   16-06-2025 05:25:20 PM :   trigger  :18. Set Pairable Timeout 
+    INFO :   root :   16-06-2025 05:25:20 PM :   trigger  :19. Get Pairable Timeout 
+    INFO :   root :   16-06-2025 05:25:20 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO :   root :   16-06-2025 05:25:20 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO :   root :   16-06-2025 05:25:20 PM :   trigger  :22. opp file transfer file  
+    INFO :   root :   16-06-2025 05:25:20 PM :   trigger  :23. phone contact details  
+    INFO :   root :   16-06-2025 05:25:20 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO :   root :   16-06-2025 05:25:20 PM :   trigger  :25. battery percentage check.  
+    INFO :   root :   16-06-2025 05:25:20 PM :   trigger  :30. Exit 
+    INFO :   root :   16-06-2025 05:25:20 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:25:23 PM :   trigger  :#################################################################################################### 
+   DEBUG :   root :   16-06-2025 05:25:23 PM :   trigger  : User is trying to access the D-Bus Api's  
+   DEBUG :   root :   16-06-2025 05:25:23 PM :   trigger  :  User selected to remove paired devices  
+   DEBUG :   root :   16-06-2025 05:25:23 PM :       gap  : User wants the list of paired devices. 
+    INFO :   root :   16-06-2025 05:25:23 PM :   trigger  :1. D4:CB:CC:86:9D:8C 
+    INFO :   root :   16-06-2025 05:25:24 PM :       gap  : Initiated to Remove the device!..............  
+    INFO :   root :   16-06-2025 05:25:26 PM :       gap  :  DEVICE: D4:CB:CC:86:9D:8C removed successfully  
+    INFO :   root :   16-06-2025 05:25:26 PM :   trigger  : Device Removed Successfully!  
+    INFO :   root :   16-06-2025 05:25:26 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:25:26 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO :   root :   16-06-2025 05:25:26 PM :   trigger  :0.  Properties 
+    INFO :   root :   16-06-2025 05:25:26 PM :   trigger  :1.  Scan on 
+    INFO :   root :   16-06-2025 05:25:26 PM :   trigger  :2.  Scan off 
+    INFO :   root :   16-06-2025 05:25:26 PM :   trigger  :3.  Devices 
+    INFO :   root :   16-06-2025 05:25:26 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO :   root :   16-06-2025 05:25:26 PM :   trigger  :5.  Register the agent 
+    INFO :   root :   16-06-2025 05:25:26 PM :   trigger  :6.  Pair 
+    INFO :   root :   16-06-2025 05:25:26 PM :   trigger  :7.  Check paired Devices 
+    INFO :   root :   16-06-2025 05:25:26 PM :   trigger  :8.  Check Connected Devices 
+    INFO :   root :   16-06-2025 05:25:26 PM :   trigger  :9.  Connect 
+    INFO :   root :   16-06-2025 05:25:26 PM :   trigger  :10. Disconnect 
+    INFO :   root :   16-06-2025 05:25:26 PM :   trigger  :11. Remove Device 
+    INFO :   root :   16-06-2025 05:25:26 PM :   trigger  :12. Discoverable on 
+    INFO :   root :   16-06-2025 05:25:26 PM :   trigger  :13. Discoverable off 
+    INFO :   root :   16-06-2025 05:25:26 PM :   trigger  :14. Trusted 
+    INFO :   root :   16-06-2025 05:25:26 PM :   trigger  :15. Register Agent as Default 
+    INFO :   root :   16-06-2025 05:25:26 PM :   trigger  :16. Print UUID's  
+    INFO :   root :   16-06-2025 05:25:26 PM :   trigger  :17. Controller Supported UUID's 
+    INFO :   root :   16-06-2025 05:25:26 PM :   trigger  :18. Set Pairable Timeout 
+    INFO :   root :   16-06-2025 05:25:26 PM :   trigger  :19. Get Pairable Timeout 
+    INFO :   root :   16-06-2025 05:25:26 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO :   root :   16-06-2025 05:25:26 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO :   root :   16-06-2025 05:25:26 PM :   trigger  :22. opp file transfer file  
+    INFO :   root :   16-06-2025 05:25:26 PM :   trigger  :23. phone contact details  
+    INFO :   root :   16-06-2025 05:25:26 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO :   root :   16-06-2025 05:25:26 PM :   trigger  :25. battery percentage check.  
+    INFO :   root :   16-06-2025 05:25:26 PM :   trigger  :30. Exit 
+    INFO :   root :   16-06-2025 05:25:26 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:25:39 PM :   trigger  :#################################################################################################### 
+   DEBUG :   root :   16-06-2025 05:25:39 PM :   trigger  : User is trying to access the D-Bus Api's  
+    INFO :   root :   16-06-2025 05:25:40 PM :     utils  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:25:40 PM :     utils  : D-bus Daemon Initiated.... 
+    INFO :   root :   16-06-2025 05:25:40 PM :     utils  : Bluetooth-d Daemon Initiated.... 
+    INFO :   root :   16-06-2025 05:25:40 PM :     utils  :**************************************************************************************************** 
+    INFO : numexpr.utils :   16-06-2025 05:25:40 PM :     utils  :NumExpr defaulting to 8 threads. 
+    INFO :   root :   16-06-2025 05:25:40 PM :     utils  :======= List of Active Dongles ======== 
+    INFO :   root :   16-06-2025 05:25:40 PM :     utils  :1: /org/bluez/hci0 
+    INFO :   root :   16-06-2025 05:25:40 PM :     utils  :2: /org/bluez/hci1 
+    INFO :   root :   16-06-2025 05:25:42 PM :   trigger  : Selected interface: /org/bluez/hci1 
+    INFO :   root :   16-06-2025 05:25:42 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:25:42 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO :   root :   16-06-2025 05:25:42 PM :   trigger  :0.  Properties 
+    INFO :   root :   16-06-2025 05:25:42 PM :   trigger  :1.  Scan on 
+    INFO :   root :   16-06-2025 05:25:42 PM :   trigger  :2.  Scan off 
+    INFO :   root :   16-06-2025 05:25:42 PM :   trigger  :3.  Devices 
+    INFO :   root :   16-06-2025 05:25:42 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO :   root :   16-06-2025 05:25:42 PM :   trigger  :5.  Register the agent 
+    INFO :   root :   16-06-2025 05:25:42 PM :   trigger  :6.  Pair 
+    INFO :   root :   16-06-2025 05:25:42 PM :   trigger  :7.  Check paired Devices 
+    INFO :   root :   16-06-2025 05:25:42 PM :   trigger  :8.  Check Connected Devices 
+    INFO :   root :   16-06-2025 05:25:42 PM :   trigger  :9.  Connect 
+    INFO :   root :   16-06-2025 05:25:42 PM :   trigger  :10. Disconnect 
+    INFO :   root :   16-06-2025 05:25:42 PM :   trigger  :11. Remove Device 
+    INFO :   root :   16-06-2025 05:25:42 PM :   trigger  :12. Discoverable on 
+    INFO :   root :   16-06-2025 05:25:42 PM :   trigger  :13. Discoverable off 
+    INFO :   root :   16-06-2025 05:25:42 PM :   trigger  :14. Trusted 
+    INFO :   root :   16-06-2025 05:25:42 PM :   trigger  :15. Register Agent as Default 
+    INFO :   root :   16-06-2025 05:25:42 PM :   trigger  :16. Print UUID's  
+    INFO :   root :   16-06-2025 05:25:42 PM :   trigger  :17. Controller Supported UUID's 
+    INFO :   root :   16-06-2025 05:25:42 PM :   trigger  :18. Set Pairable Timeout 
+    INFO :   root :   16-06-2025 05:25:42 PM :   trigger  :19. Get Pairable Timeout 
+    INFO :   root :   16-06-2025 05:25:42 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO :   root :   16-06-2025 05:25:42 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO :   root :   16-06-2025 05:25:42 PM :   trigger  :22. opp file transfer file  
+    INFO :   root :   16-06-2025 05:25:42 PM :   trigger  :23. phone contact details  
+    INFO :   root :   16-06-2025 05:25:42 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO :   root :   16-06-2025 05:25:42 PM :   trigger  :25. battery percentage check.  
+    INFO :   root :   16-06-2025 05:25:42 PM :   trigger  :30. Exit 
+    INFO :   root :   16-06-2025 05:25:42 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:25:54 PM :   trigger  :#################################################################################################### 
+   DEBUG :   root :   16-06-2025 05:25:54 PM :   trigger  : User is trying to access the D-Bus Api's  
+    INFO :   root :   16-06-2025 05:25:54 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:25:54 PM :   trigger  :1. Powered 
+    INFO :   root :   16-06-2025 05:25:54 PM :   trigger  :2. Address 
+    INFO :   root :   16-06-2025 05:25:54 PM :   trigger  :3. Address_Type 
+    INFO :   root :   16-06-2025 05:25:54 PM :   trigger  :4. Alias 
+    INFO :   root :   16-06-2025 05:25:54 PM :   trigger  : 5. Name 
+    INFO :   root :   16-06-2025 05:25:54 PM :   trigger  :6. Class 
+    INFO :   root :   16-06-2025 05:25:54 PM :   trigger  :7. DiscoverableTimeout 
+    INFO :   root :   16-06-2025 05:25:54 PM :   trigger  :8. PairableTimeout 
+    INFO :   root :   16-06-2025 05:25:54 PM :   trigger  : 9. Exit 
+    INFO :   root :   16-06-2025 05:25:56 PM :   trigger  :#################################################################################################### 
+    INFO :   root :   16-06-2025 05:25:56 PM :   trigger  :F8:9E:94:33:BD:04 
+    INFO :   root :   16-06-2025 05:25:56 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:25:56 PM :   trigger  :1. Powered 
+    INFO :   root :   16-06-2025 05:25:56 PM :   trigger  :2. Address 
+    INFO :   root :   16-06-2025 05:25:56 PM :   trigger  :3. Address_Type 
+    INFO :   root :   16-06-2025 05:25:56 PM :   trigger  :4. Alias 
+    INFO :   root :   16-06-2025 05:25:56 PM :   trigger  : 5. Name 
+    INFO :   root :   16-06-2025 05:25:56 PM :   trigger  :6. Class 
+    INFO :   root :   16-06-2025 05:25:56 PM :   trigger  :7. DiscoverableTimeout 
+    INFO :   root :   16-06-2025 05:25:56 PM :   trigger  :8. PairableTimeout 
+    INFO :   root :   16-06-2025 05:25:56 PM :   trigger  : 9. Exit 
+    INFO :   root :   16-06-2025 05:26:02 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:26:02 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO :   root :   16-06-2025 05:26:02 PM :   trigger  :0.  Properties 
+    INFO :   root :   16-06-2025 05:26:02 PM :   trigger  :1.  Scan on 
+    INFO :   root :   16-06-2025 05:26:02 PM :   trigger  :2.  Scan off 
+    INFO :   root :   16-06-2025 05:26:02 PM :   trigger  :3.  Devices 
+    INFO :   root :   16-06-2025 05:26:02 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO :   root :   16-06-2025 05:26:02 PM :   trigger  :5.  Register the agent 
+    INFO :   root :   16-06-2025 05:26:02 PM :   trigger  :6.  Pair 
+    INFO :   root :   16-06-2025 05:26:02 PM :   trigger  :7.  Check paired Devices 
+    INFO :   root :   16-06-2025 05:26:02 PM :   trigger  :8.  Check Connected Devices 
+    INFO :   root :   16-06-2025 05:26:02 PM :   trigger  :9.  Connect 
+    INFO :   root :   16-06-2025 05:26:02 PM :   trigger  :10. Disconnect 
+    INFO :   root :   16-06-2025 05:26:02 PM :   trigger  :11. Remove Device 
+    INFO :   root :   16-06-2025 05:26:02 PM :   trigger  :12. Discoverable on 
+    INFO :   root :   16-06-2025 05:26:02 PM :   trigger  :13. Discoverable off 
+    INFO :   root :   16-06-2025 05:26:02 PM :   trigger  :14. Trusted 
+    INFO :   root :   16-06-2025 05:26:02 PM :   trigger  :15. Register Agent as Default 
+    INFO :   root :   16-06-2025 05:26:02 PM :   trigger  :16. Print UUID's  
+    INFO :   root :   16-06-2025 05:26:02 PM :   trigger  :17. Controller Supported UUID's 
+    INFO :   root :   16-06-2025 05:26:02 PM :   trigger  :18. Set Pairable Timeout 
+    INFO :   root :   16-06-2025 05:26:02 PM :   trigger  :19. Get Pairable Timeout 
+    INFO :   root :   16-06-2025 05:26:02 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO :   root :   16-06-2025 05:26:02 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO :   root :   16-06-2025 05:26:02 PM :   trigger  :22. opp file transfer file  
+    INFO :   root :   16-06-2025 05:26:02 PM :   trigger  :23. phone contact details  
+    INFO :   root :   16-06-2025 05:26:02 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO :   root :   16-06-2025 05:26:02 PM :   trigger  :25. battery percentage check.  
+    INFO :   root :   16-06-2025 05:26:02 PM :   trigger  :30. Exit 
+    INFO :   root :   16-06-2025 05:26:02 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:26:04 PM :   trigger  :#################################################################################################### 
+   DEBUG :   root :   16-06-2025 05:26:04 PM :   trigger  : User is trying to access the D-Bus Api's  
+   DEBUG :   root :   16-06-2025 05:26:04 PM :   trigger  : User selected to display the list of paired devices 
+   DEBUG :   root :   16-06-2025 05:26:04 PM :       gap  : User wants the list of paired devices. 
+    INFO :   root :   16-06-2025 05:26:04 PM :       gap  : No paired devices 
+    INFO :   root :   16-06-2025 05:26:04 PM :   trigger  : No paired Devices!  
+    INFO :   root :   16-06-2025 05:26:04 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:26:04 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO :   root :   16-06-2025 05:26:04 PM :   trigger  :0.  Properties 
+    INFO :   root :   16-06-2025 05:26:04 PM :   trigger  :1.  Scan on 
+    INFO :   root :   16-06-2025 05:26:04 PM :   trigger  :2.  Scan off 
+    INFO :   root :   16-06-2025 05:26:04 PM :   trigger  :3.  Devices 
+    INFO :   root :   16-06-2025 05:26:04 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO :   root :   16-06-2025 05:26:04 PM :   trigger  :5.  Register the agent 
+    INFO :   root :   16-06-2025 05:26:04 PM :   trigger  :6.  Pair 
+    INFO :   root :   16-06-2025 05:26:04 PM :   trigger  :7.  Check paired Devices 
+    INFO :   root :   16-06-2025 05:26:04 PM :   trigger  :8.  Check Connected Devices 
+    INFO :   root :   16-06-2025 05:26:04 PM :   trigger  :9.  Connect 
+    INFO :   root :   16-06-2025 05:26:04 PM :   trigger  :10. Disconnect 
+    INFO :   root :   16-06-2025 05:26:04 PM :   trigger  :11. Remove Device 
+    INFO :   root :   16-06-2025 05:26:04 PM :   trigger  :12. Discoverable on 
+    INFO :   root :   16-06-2025 05:26:04 PM :   trigger  :13. Discoverable off 
+    INFO :   root :   16-06-2025 05:26:04 PM :   trigger  :14. Trusted 
+    INFO :   root :   16-06-2025 05:26:04 PM :   trigger  :15. Register Agent as Default 
+    INFO :   root :   16-06-2025 05:26:04 PM :   trigger  :16. Print UUID's  
+    INFO :   root :   16-06-2025 05:26:04 PM :   trigger  :17. Controller Supported UUID's 
+    INFO :   root :   16-06-2025 05:26:04 PM :   trigger  :18. Set Pairable Timeout 
+    INFO :   root :   16-06-2025 05:26:04 PM :   trigger  :19. Get Pairable Timeout 
+    INFO :   root :   16-06-2025 05:26:04 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO :   root :   16-06-2025 05:26:04 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO :   root :   16-06-2025 05:26:04 PM :   trigger  :22. opp file transfer file  
+    INFO :   root :   16-06-2025 05:26:04 PM :   trigger  :23. phone contact details  
+    INFO :   root :   16-06-2025 05:26:04 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO :   root :   16-06-2025 05:26:04 PM :   trigger  :25. battery percentage check.  
+    INFO :   root :   16-06-2025 05:26:04 PM :   trigger  :30. Exit 
+    INFO :   root :   16-06-2025 05:26:04 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:26:06 PM :   trigger  :#################################################################################################### 
+   DEBUG :   root :   16-06-2025 05:26:06 PM :   trigger  : User is trying to access the D-Bus Api's  
+   DEBUG :   root :   16-06-2025 05:26:06 PM :   trigger  : User selected to check the current connected device 
+   DEBUG :   root :   16-06-2025 05:26:06 PM :       gap  : User wants the list of paired devices. 
+    INFO :   root :   16-06-2025 05:26:06 PM :       gap  : No paired devices 
+    INFO :   root :   16-06-2025 05:26:06 PM :   trigger  : No Active Connection Found!  
+    INFO :   root :   16-06-2025 05:26:06 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:26:06 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO :   root :   16-06-2025 05:26:06 PM :   trigger  :0.  Properties 
+    INFO :   root :   16-06-2025 05:26:06 PM :   trigger  :1.  Scan on 
+    INFO :   root :   16-06-2025 05:26:06 PM :   trigger  :2.  Scan off 
+    INFO :   root :   16-06-2025 05:26:06 PM :   trigger  :3.  Devices 
+    INFO :   root :   16-06-2025 05:26:06 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO :   root :   16-06-2025 05:26:06 PM :   trigger  :5.  Register the agent 
+    INFO :   root :   16-06-2025 05:26:06 PM :   trigger  :6.  Pair 
+    INFO :   root :   16-06-2025 05:26:06 PM :   trigger  :7.  Check paired Devices 
+    INFO :   root :   16-06-2025 05:26:06 PM :   trigger  :8.  Check Connected Devices 
+    INFO :   root :   16-06-2025 05:26:06 PM :   trigger  :9.  Connect 
+    INFO :   root :   16-06-2025 05:26:06 PM :   trigger  :10. Disconnect 
+    INFO :   root :   16-06-2025 05:26:06 PM :   trigger  :11. Remove Device 
+    INFO :   root :   16-06-2025 05:26:06 PM :   trigger  :12. Discoverable on 
+    INFO :   root :   16-06-2025 05:26:06 PM :   trigger  :13. Discoverable off 
+    INFO :   root :   16-06-2025 05:26:06 PM :   trigger  :14. Trusted 
+    INFO :   root :   16-06-2025 05:26:06 PM :   trigger  :15. Register Agent as Default 
+    INFO :   root :   16-06-2025 05:26:06 PM :   trigger  :16. Print UUID's  
+    INFO :   root :   16-06-2025 05:26:06 PM :   trigger  :17. Controller Supported UUID's 
+    INFO :   root :   16-06-2025 05:26:06 PM :   trigger  :18. Set Pairable Timeout 
+    INFO :   root :   16-06-2025 05:26:06 PM :   trigger  :19. Get Pairable Timeout 
+    INFO :   root :   16-06-2025 05:26:06 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO :   root :   16-06-2025 05:26:06 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO :   root :   16-06-2025 05:26:06 PM :   trigger  :22. opp file transfer file  
+    INFO :   root :   16-06-2025 05:26:06 PM :   trigger  :23. phone contact details  
+    INFO :   root :   16-06-2025 05:26:06 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO :   root :   16-06-2025 05:26:06 PM :   trigger  :25. battery percentage check.  
+    INFO :   root :   16-06-2025 05:26:06 PM :   trigger  :30. Exit 
+    INFO :   root :   16-06-2025 05:26:06 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:26:07 PM :   trigger  :#################################################################################################### 
+   DEBUG :   root :   16-06-2025 05:26:07 PM :   trigger  : User is trying to access the D-Bus Api's  
+   DEBUG :   root :   16-06-2025 05:26:07 PM :   trigger  : User selected to display the list of paired devices 
+   DEBUG :   root :   16-06-2025 05:26:07 PM :       gap  : User wants the list of paired devices. 
+    INFO :   root :   16-06-2025 05:26:07 PM :       gap  : No paired devices 
+    INFO :   root :   16-06-2025 05:26:07 PM :   trigger  : No paired Devices!  
+    INFO :   root :   16-06-2025 05:26:07 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:26:07 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO :   root :   16-06-2025 05:26:07 PM :   trigger  :0.  Properties 
+    INFO :   root :   16-06-2025 05:26:07 PM :   trigger  :1.  Scan on 
+    INFO :   root :   16-06-2025 05:26:07 PM :   trigger  :2.  Scan off 
+    INFO :   root :   16-06-2025 05:26:07 PM :   trigger  :3.  Devices 
+    INFO :   root :   16-06-2025 05:26:07 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO :   root :   16-06-2025 05:26:07 PM :   trigger  :5.  Register the agent 
+    INFO :   root :   16-06-2025 05:26:07 PM :   trigger  :6.  Pair 
+    INFO :   root :   16-06-2025 05:26:07 PM :   trigger  :7.  Check paired Devices 
+    INFO :   root :   16-06-2025 05:26:07 PM :   trigger  :8.  Check Connected Devices 
+    INFO :   root :   16-06-2025 05:26:07 PM :   trigger  :9.  Connect 
+    INFO :   root :   16-06-2025 05:26:07 PM :   trigger  :10. Disconnect 
+    INFO :   root :   16-06-2025 05:26:07 PM :   trigger  :11. Remove Device 
+    INFO :   root :   16-06-2025 05:26:07 PM :   trigger  :12. Discoverable on 
+    INFO :   root :   16-06-2025 05:26:07 PM :   trigger  :13. Discoverable off 
+    INFO :   root :   16-06-2025 05:26:07 PM :   trigger  :14. Trusted 
+    INFO :   root :   16-06-2025 05:26:07 PM :   trigger  :15. Register Agent as Default 
+    INFO :   root :   16-06-2025 05:26:07 PM :   trigger  :16. Print UUID's  
+    INFO :   root :   16-06-2025 05:26:07 PM :   trigger  :17. Controller Supported UUID's 
+    INFO :   root :   16-06-2025 05:26:07 PM :   trigger  :18. Set Pairable Timeout 
+    INFO :   root :   16-06-2025 05:26:07 PM :   trigger  :19. Get Pairable Timeout 
+    INFO :   root :   16-06-2025 05:26:07 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO :   root :   16-06-2025 05:26:07 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO :   root :   16-06-2025 05:26:07 PM :   trigger  :22. opp file transfer file  
+    INFO :   root :   16-06-2025 05:26:07 PM :   trigger  :23. phone contact details  
+    INFO :   root :   16-06-2025 05:26:07 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO :   root :   16-06-2025 05:26:07 PM :   trigger  :25. battery percentage check.  
+    INFO :   root :   16-06-2025 05:26:07 PM :   trigger  :30. Exit 
+    INFO :   root :   16-06-2025 05:26:07 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :#################################################################################################### 
+   DEBUG :   root :   16-06-2025 05:26:08 PM :   trigger  : User is trying to access the D-Bus Api's  
+   DEBUG :   root :   16-06-2025 05:26:08 PM :   trigger  : User selected to check the current connected device 
+   DEBUG :   root :   16-06-2025 05:26:08 PM :       gap  : User wants the list of paired devices. 
+    INFO :   root :   16-06-2025 05:26:08 PM :       gap  : No paired devices 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  : No Active Connection Found!  
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :0.  Properties 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :1.  Scan on 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :2.  Scan off 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :3.  Devices 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :5.  Register the agent 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :6.  Pair 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :7.  Check paired Devices 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :8.  Check Connected Devices 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :9.  Connect 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :10. Disconnect 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :11. Remove Device 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :12. Discoverable on 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :13. Discoverable off 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :14. Trusted 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :15. Register Agent as Default 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :16. Print UUID's  
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :17. Controller Supported UUID's 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :18. Set Pairable Timeout 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :19. Get Pairable Timeout 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :22. opp file transfer file  
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :23. phone contact details  
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :25. battery percentage check.  
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :30. Exit 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :#################################################################################################### 
+   DEBUG :   root :   16-06-2025 05:26:08 PM :   trigger  : User is trying to access the D-Bus Api's  
+   DEBUG :   root :   16-06-2025 05:26:08 PM :   trigger  : User selected to display the list of paired devices 
+   DEBUG :   root :   16-06-2025 05:26:08 PM :       gap  : User wants the list of paired devices. 
+    INFO :   root :   16-06-2025 05:26:08 PM :       gap  : No paired devices 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  : No paired Devices!  
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :0.  Properties 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :1.  Scan on 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :2.  Scan off 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :3.  Devices 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :5.  Register the agent 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :6.  Pair 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :7.  Check paired Devices 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :8.  Check Connected Devices 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :9.  Connect 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :10. Disconnect 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :11. Remove Device 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :12. Discoverable on 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :13. Discoverable off 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :14. Trusted 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :15. Register Agent as Default 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :16. Print UUID's  
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :17. Controller Supported UUID's 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :18. Set Pairable Timeout 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :19. Get Pairable Timeout 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :22. opp file transfer file  
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :23. phone contact details  
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :25. battery percentage check.  
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :30. Exit 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :#################################################################################################### 
+   DEBUG :   root :   16-06-2025 05:26:08 PM :   trigger  : User is trying to access the D-Bus Api's  
+   DEBUG :   root :   16-06-2025 05:26:08 PM :   trigger  : User selected to check the current connected device 
+   DEBUG :   root :   16-06-2025 05:26:08 PM :       gap  : User wants the list of paired devices. 
+    INFO :   root :   16-06-2025 05:26:08 PM :       gap  : No paired devices 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  : No Active Connection Found!  
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :0.  Properties 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :1.  Scan on 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :2.  Scan off 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :3.  Devices 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :5.  Register the agent 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :6.  Pair 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :7.  Check paired Devices 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :8.  Check Connected Devices 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :9.  Connect 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :10. Disconnect 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :11. Remove Device 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :12. Discoverable on 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :13. Discoverable off 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :14. Trusted 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :15. Register Agent as Default 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :16. Print UUID's  
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :17. Controller Supported UUID's 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :18. Set Pairable Timeout 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :19. Get Pairable Timeout 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :22. opp file transfer file  
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :23. phone contact details  
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :25. battery percentage check.  
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :30. Exit 
+    INFO :   root :   16-06-2025 05:26:08 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:26:09 PM :   trigger  :#################################################################################################### 
+   DEBUG :   root :   16-06-2025 05:26:09 PM :   trigger  : User is trying to access the D-Bus Api's  
+   DEBUG :   root :   16-06-2025 05:26:09 PM :   trigger  : User selected to display the list of paired devices 
+   DEBUG :   root :   16-06-2025 05:26:09 PM :       gap  : User wants the list of paired devices. 
+    INFO :   root :   16-06-2025 05:26:09 PM :       gap  : No paired devices 
+    INFO :   root :   16-06-2025 05:26:09 PM :   trigger  : No paired Devices!  
+    INFO :   root :   16-06-2025 05:26:09 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:26:09 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO :   root :   16-06-2025 05:26:09 PM :   trigger  :0.  Properties 
+    INFO :   root :   16-06-2025 05:26:09 PM :   trigger  :1.  Scan on 
+    INFO :   root :   16-06-2025 05:26:09 PM :   trigger  :2.  Scan off 
+    INFO :   root :   16-06-2025 05:26:09 PM :   trigger  :3.  Devices 
+    INFO :   root :   16-06-2025 05:26:09 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO :   root :   16-06-2025 05:26:09 PM :   trigger  :5.  Register the agent 
+    INFO :   root :   16-06-2025 05:26:09 PM :   trigger  :6.  Pair 
+    INFO :   root :   16-06-2025 05:26:09 PM :   trigger  :7.  Check paired Devices 
+    INFO :   root :   16-06-2025 05:26:09 PM :   trigger  :8.  Check Connected Devices 
+    INFO :   root :   16-06-2025 05:26:09 PM :   trigger  :9.  Connect 
+    INFO :   root :   16-06-2025 05:26:09 PM :   trigger  :10. Disconnect 
+    INFO :   root :   16-06-2025 05:26:09 PM :   trigger  :11. Remove Device 
+    INFO :   root :   16-06-2025 05:26:09 PM :   trigger  :12. Discoverable on 
+    INFO :   root :   16-06-2025 05:26:09 PM :   trigger  :13. Discoverable off 
+    INFO :   root :   16-06-2025 05:26:09 PM :   trigger  :14. Trusted 
+    INFO :   root :   16-06-2025 05:26:09 PM :   trigger  :15. Register Agent as Default 
+    INFO :   root :   16-06-2025 05:26:09 PM :   trigger  :16. Print UUID's  
+    INFO :   root :   16-06-2025 05:26:09 PM :   trigger  :17. Controller Supported UUID's 
+    INFO :   root :   16-06-2025 05:26:09 PM :   trigger  :18. Set Pairable Timeout 
+    INFO :   root :   16-06-2025 05:26:09 PM :   trigger  :19. Get Pairable Timeout 
+    INFO :   root :   16-06-2025 05:26:09 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO :   root :   16-06-2025 05:26:09 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO :   root :   16-06-2025 05:26:09 PM :   trigger  :22. opp file transfer file  
+    INFO :   root :   16-06-2025 05:26:09 PM :   trigger  :23. phone contact details  
+    INFO :   root :   16-06-2025 05:26:09 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO :   root :   16-06-2025 05:26:09 PM :   trigger  :25. battery percentage check.  
+    INFO :   root :   16-06-2025 05:26:09 PM :   trigger  :30. Exit 
+    INFO :   root :   16-06-2025 05:26:09 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   16-06-2025 05:26:12 PM :   trigger  :#################################################################################################### 
+   DEBUG :   root :   16-06-2025 05:26:12 PM :   trigger  : User is trying to access the D-Bus Api's  

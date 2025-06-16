@@ -21,8 +21,6 @@ from Bluetooth_Profile import opp, pbap, a2dp
 from Bluetooth_Profile.opp import *
 from Bluetooth_Profile.pbap import *
 from Bluetooth_Profile.a2dp import *
-
-
 bus = dbus.SystemBus()
 
 # Code to select the adapter out of active adapters
@@ -66,6 +64,7 @@ while True:
     log.info("22. opp file transfer file ")
     log.info("23. phone contact details ")
     log.info("24. A2DP Profile and A2DP Media Control ")
+    log.info("25. battery percentage check. ")
     log.info("30. Exit")
     log.info("*"*100)
 
@@ -513,12 +512,6 @@ while True:
             except Exception as e:
                 log.error(f"Error during OPP file transfer: {e}")
 
-
-
-    # trigger.py
-
-
-
     if val == 23:
         # phone contact details in Excel sheet format with name and number.
         log.debug("User selected the option to send details about phone contact details in Excel sheet format with name and number.")
@@ -533,21 +526,8 @@ while True:
         else:
             print("❌ Failed to export contacts.")
 
-    # if val == 23:
-    #     #phone contact details in Excel sheet format with name and number.
-        
-    #     log.debug("User selected the option to send details about phone contact details in Excel sheet format with name and number.")
-    
-    #     device_address = input("Enter the connected device Bluetooth address (e.g. D4:CB:CC:86:9D:8C): ").strip()
-    #     output_file = input("Enter the output Excel file path (e.g. /home/user/contacts.xlsx): ").strip()
-
-    #     if fetch_contacts(device_address, output_file):
-    #         print(f"Contacts successfully exported to {output_file}")
-    #     else:
-    #         print("Failed to export contacts.")
-
-
     if val == 24:
+        #A2DP Profile and A2DP Media Control Test Menu
         log.debug("User selected the option to A2DP Profile and A2DP Media Control Test Menu")
 
         # Initialize volume_level from current system volume (0-100), scale it to 0-10
@@ -609,10 +589,6 @@ while True:
                 break
             else:
                 log.warning("Invalid choice. Try again.")
-
-
-
-   
 
     if val == 30:
         # Exit
