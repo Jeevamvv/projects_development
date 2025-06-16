@@ -75,8 +75,6 @@ def simulate_call_interrupt():
     except Exception as e:
         log.error(f"Failed during call simulation.\n{e}")
 
-
-
 def get_volume():
     """
     Get the current system volume (0-100 scale).
@@ -105,7 +103,6 @@ def set_volume(level):
         log.info(f"System volume set to {volume_percent}%")
     except subprocess.CalledProcessError as e:
         log.error(f"Failed to set volume.\n{e}")
-
 
 def previous_track():
     """

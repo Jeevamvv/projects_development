@@ -229,3 +229,20 @@ The user may have rejected the transfer: Connection refused
  
    ERROR :   root :   16-06-2025 04:26:14 PM :      a2dp  :Failed to get volume: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
 CRITICAL :   root :   16-06-2025 05:16:33 PM :       gap  :org.bluez.Error.AlreadyExists: Already Exists 
+   ERROR :   root :   16-06-2025 06:04:35 PM :      a2dp  :Failed to get volume: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   16-06-2025 06:04:54 PM :      a2dp  :Failed to pause media.
+Command '['playerctl', 'pause']' returned non-zero exit status 1. 
+   ERROR :   root :   16-06-2025 06:04:55 PM :      a2dp  :Failed to pause media.
+Command '['playerctl', 'pause']' returned non-zero exit status 1. 
+   ERROR :   root :   16-06-2025 06:05:02 PM :      a2dp  :Failed to play media.
+Command '['playerctl', 'play']' returned non-zero exit status 1. 
+   ERROR :   root :   16-06-2025 06:05:03 PM :      a2dp  :Failed to skip track.
+Command '['playerctl', 'next']' returned non-zero exit status 1. 
+   ERROR :   root :   16-06-2025 06:05:05 PM :      a2dp  :Failed to skip track.
+Command '['playerctl', 'next']' returned non-zero exit status 1. 
+   ERROR :   root :   16-06-2025 06:05:16 PM :      a2dp  :Failed to get volume: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+CRITICAL :   root :   16-06-2025 06:09:52 PM :       gap  :org.bluez.Error.ConnectionAttemptFailed: Page Timeout 
+CRITICAL :   root :   16-06-2025 06:10:28 PM :       gap  :org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken. 
+   ERROR :   root :   16-06-2025 06:53:29 PM :      a2dp  :Failed to get volume: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   16-06-2025 07:02:37 PM :      a2dp  :Failed to get volume: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+CRITICAL :   root :   16-06-2025 07:03:28 PM :       gap  :org.bluez.Error.Failed: Resource temporarily unavailable 
