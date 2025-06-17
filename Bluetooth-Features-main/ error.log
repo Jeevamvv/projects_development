@@ -246,3 +246,22 @@ CRITICAL :   root :   16-06-2025 06:10:28 PM :       gap  :org.freedesktop.DBus.
    ERROR :   root :   16-06-2025 06:53:29 PM :      a2dp  :Failed to get volume: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
    ERROR :   root :   16-06-2025 07:02:37 PM :      a2dp  :Failed to get volume: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
 CRITICAL :   root :   16-06-2025 07:03:28 PM :       gap  :org.bluez.Error.Failed: Resource temporarily unavailable 
+   ERROR :   root :   17-06-2025 11:43:13 AM :      a2dp  :Failed to get volume: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   17-06-2025 11:44:06 AM :      a2dp  :Failed to pause media.
+Command '['playerctl', 'pause']' returned non-zero exit status 1. 
+   ERROR :   root :   17-06-2025 11:44:55 AM :      a2dp  :Failed to go to previous track.
+Command '['playerctl', 'previous']' returned non-zero exit status 1. 
+   ERROR :   root :   17-06-2025 11:45:09 AM :      a2dp  :Failed to skip track.
+Command '['playerctl', 'next']' returned non-zero exit status 1. 
+   ERROR :   root :   17-06-2025 05:04:50 PM :      a2dp  :Failed to get volume: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   17-06-2025 05:05:00 PM :      a2dp  :Failed to pause media.
+Command '['playerctl', 'pause']' returned non-zero exit status 1. 
+   ERROR :   root :   17-06-2025 05:05:03 PM :      a2dp  :Failed to play media.
+Command '['playerctl', 'play']' returned non-zero exit status 1. 
+   ERROR :   root :   17-06-2025 05:05:04 PM :      a2dp  :Failed to skip track.
+Command '['playerctl', 'next']' returned non-zero exit status 1. 
+   ERROR :   root :   17-06-2025 05:05:04 PM :      a2dp  :Failed to go to previous track.
+Command '['playerctl', 'previous']' returned non-zero exit status 1. 
+   ERROR :   root :   17-06-2025 05:05:05 PM :      a2dp  :Failed to pause media.
+Command '['playerctl', 'pause']' returned non-zero exit status 1. 
+   ERROR :   root :   17-06-2025 05:06:19 PM :      a2dp  :Failed to get volume: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 

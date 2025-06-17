@@ -17,11 +17,11 @@ from logger_mod import Logger
 logger_obj = Logger()
 
 import time 
-from Bluetooth_Profile import opp, pbap, a2dp, hfp
-from Bluetooth_Profile.opp import *
-from Bluetooth_Profile.pbap import *
-from Bluetooth_Profile.a2dp import *
-from Bluetooth_Profile.hfp import *
+from Classic_Bluetooth_Profile import opp, pbap, a2dp, hfp
+from Classic_Bluetooth_Profile.opp import *
+from Classic_Bluetooth_Profile.pbap import *
+from Classic_Bluetooth_Profile.a2dp import *
+from Classic_Bluetooth_Profile.hfp import *
 
 
 bus = dbus.SystemBus()
