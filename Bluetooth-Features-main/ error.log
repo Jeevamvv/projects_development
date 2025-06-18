@@ -480,3 +480,12 @@ Still trying to connect
    ERROR :   root :   18-06-2025 08:35:14 PM :      a2dp  :❌ Play failed: Command '['playerctl', 'play']' returned non-zero exit status 1. 
    ERROR :   root :   18-06-2025 08:35:29 PM :      a2dp  :❌ Media control error: volume_up() missing 1 required positional argument: 'player' 
    ERROR :   root :   18-06-2025 08:35:40 PM :      a2dp  :❌ Media control error: volume_up() missing 1 required positional argument: 'player' 
+   ERROR :   root :   18-06-2025 08:40:22 PM :      a2dp  :❌ Playback control error: volume_up() takes 0 positional arguments but 1 was given 
+   ERROR :   root :   18-06-2025 08:40:48 PM :      a2dp  :❌ Playback control error: get_volume() takes 0 positional arguments but 1 was given 
+   ERROR :   root :   18-06-2025 08:53:02 PM :      a2dp  :❌ Get system volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   18-06-2025 08:53:07 PM :      a2dp  :❌ Get system volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   18-06-2025 08:53:11 PM :      a2dp  :❌ Get system volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   18-06-2025 08:53:12 PM :      a2dp  :❌ Get system volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   18-06-2025 08:53:13 PM :      a2dp  :❌ Get system volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   18-06-2025 08:53:13 PM :      a2dp  :❌ Get system volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   18-06-2025 08:53:15 PM :      a2dp  :❌ Get system volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 

@@ -36,42 +36,235 @@ def disconnect_a2dp(device_mac):
 
 # ========== SYSTEM VOLUME CONTROL ==========
 
-def get_volume():
+# def get_volume():
+#     try:
+#         output = subprocess.check_output(["pactl", "get-sink-volume", "@DEFAULT_SINK@"]).decode()
+#         for line in output.splitlines():
+#             if "Volume:" in line:
+#                 percent = line.split('/')[1].strip().replace('%', '')
+#                 log.info(f"🔈 Current volume: {percent}%")
+#                 return int(percent)
+#     except Exception as e:
+#         log.error(f"❌ Get volume failed: {e}")
+#     return 0
+
+
+# def set_volume(level_percent):
+#     try:
+#         level = max(0, min(level_percent, 100))
+#         subprocess.run(["pactl", "set-sink-volume", "@DEFAULT_SINK@", f"{level}%"], check=True)
+#         log.info(f"🔊 Volume set to {level}%")
+#     except subprocess.CalledProcessError as e:
+#         log.error(f"❌ Set volume failed: {e}")
+
+
+# def volume_up():
+#     current = get_volume()
+#     new_level = min(current + 10, 100)
+#     set_volume(new_level)
+#     log.info("🔊 Increased volume.")
+
+
+# def volume_down():
+#     current = get_volume()
+#     new_level = max(current - 10, 0)
+#     set_volume(new_level)
+#     log.info("🔉 Decreased volume.")
+
+
+
+# ========== SYSTEM VOLUME CONTROL ===========================================================
+# ====== SYSTEM VOLUME CONTROL (for mpv/local player) ======
+
+# def get_system_volume_local():
+#     try:
+#         output = subprocess.check_output(["pactl", "get-sink-volume", "@DEFAULT_SINK@"]).decode()
+#         for line in output.splitlines():
+#             if "Volume:" in line:
+#                 percent = line.split('/')[1].strip().replace('%', '')
+#                 log.info(f"🔈 Current system volume: {percent}%")
+#                 return int(percent)
+#     except Exception as e:
+#         log.error(f"❌ Get system volume failed: {e}")
+#     return 0
+
+# def set_system_volume_local(level_percent):
+#     try:
+#         level = max(0, min(level_percent, 100))
+#         subprocess.run(["pactl", "set-sink-volume", "@DEFAULT_SINK@", f"{level}%"], check=True)
+#         log.info(f"🔊 System volume set to {level}%")
+#     except subprocess.CalledProcessError as e:
+#         log.error(f"❌ Set system volume failed: {e}")
+
+# def increase_system_volume_local():
+#     current = get_system_volume_local()
+#     new_level = min(current + 10, 100)
+#     set_system_volume_local(new_level)
+#     log.info("🔊 Increased system volume.")
+
+# def decrease_system_volume_local():
+#     current = get_system_volume_local()
+#     new_level = max(current - 10, 0)
+#     set_system_volume_local(new_level)
+#     log.info("🔉 Decreased system volume.")
+
+
+
+# # ====== PLAYERCTL VOLUME CONTROL (for online players like Spotify, Chrome) ======
+
+# def get_player_volume_online(player):
+#     try:
+#         result = subprocess.check_output(["playerctl", "--player", player, "volume"]).decode().strip()
+#         vol_percent = round(float(result) * 100)
+#         log.info(f"🔈 Current media player volume: {vol_percent}%")
+#         return vol_percent
+#     except Exception as e:
+#         log.error(f"❌ Get player volume failed: {e}")
+#         return 0
+
+# def set_player_volume_online(player, level_percent):
+#     try:
+#         level = max(0, min(level_percent, 100)) / 100
+#         subprocess.run(["playerctl", "--player", player, "volume", str(level)], check=True)
+#         log.info(f"🔊 Media player volume set to {level_percent}%")
+#     except subprocess.CalledProcessError as e:
+#         log.error(f"❌ Set player volume failed: {e}")
+
+# def increase_player_volume_online(player):
+#     current = get_player_volume_online(player)
+#     set_player_volume_online(player, min(current + 10, 100))
+
+# def decrease_player_volume_online(player):
+#     current = get_player_volume_online(player)
+#     set_player_volume_online(player, max(current - 10, 0))
+
+
+
+
+# =================== A2DP / Bluetooth Sink Volume Control ===================
+
+def get_active_sink_name():
+    try:
+        output = subprocess.check_output(["pactl", "list", "short", "sinks"]).decode()
+        for line in output.splitlines():
+            if "bluez" in line or "a2dp" in line:
+                sink_name = line.split()[1]
+                log.info(f"🎧 Using Bluetooth sink: {sink_name}")
+                return sink_name
+        if output:
+            sink_name = output.splitlines()[0].split()[1]
+            log.info(f"🔊 Using default sink: {sink_name}")
+            return sink_name
+    except Exception as e:
+        log.error(f"❌ Failed to get sink name: {e}")
+    return None
+
+def get_system_volume_bt():
+    sink = get_active_sink_name()
+    if not sink:
+        return 0
+    try:
+        output = subprocess.check_output(["pactl", "get-sink-volume", sink]).decode()
+        for line in output.splitlines():
+            if "Volume:" in line:
+                percent = line.split('/')[1].strip().replace('%', '')
+                log.info(f"🔈 Bluetooth volume: {percent}%")
+                return int(percent)
+    except Exception as e:
+        log.error(f"❌ Bluetooth volume get failed: {e}")
+    return 0
+
+def set_system_volume_bt(level_percent):
+    sink = get_active_sink_name()
+    if not sink:
+        return
+    try:
+        level = max(0, min(level_percent, 100))
+        subprocess.run(["pactl", "set-sink-volume", sink, f"{level}%"], check=True)
+        log.info(f"🔊 Bluetooth volume set to {level}%")
+    except subprocess.CalledProcessError as e:
+        log.error(f"❌ Bluetooth volume set failed: {e}")
+
+def increase_system_volume_bt():
+    current = get_system_volume_bt()
+    set_system_volume_bt(min(current + 10, 100))
+    log.info("🔊 Increased Bluetooth volume.")
+
+def decrease_system_volume_bt():
+    current = get_system_volume_bt()
+    set_system_volume_bt(max(current - 10, 0))
+    log.info("🔉 Decreased Bluetooth volume.")
+
+# =================== Local Sink Volume Control ===================
+
+def get_system_volume_local():
     try:
         output = subprocess.check_output(["pactl", "get-sink-volume", "@DEFAULT_SINK@"]).decode()
         for line in output.splitlines():
             if "Volume:" in line:
                 percent = line.split('/')[1].strip().replace('%', '')
-                log.info(f"🔈 Current volume: {percent}%")
+                log.info(f"🔈 Local system volume: {percent}%")
                 return int(percent)
     except Exception as e:
-        log.error(f"❌ Get volume failed: {e}")
+        log.error(f"❌ Local volume get failed: {e}")
     return 0
 
-
-def set_volume(level_percent):
+def set_system_volume_local(level_percent):
     try:
         level = max(0, min(level_percent, 100))
         subprocess.run(["pactl", "set-sink-volume", "@DEFAULT_SINK@", f"{level}%"], check=True)
-        log.info(f"🔊 Volume set to {level}%")
+        log.info(f"🔊 Local volume set to {level}%")
     except subprocess.CalledProcessError as e:
-        log.error(f"❌ Set volume failed: {e}")
+        log.error(f"❌ Local volume set failed: {e}")
+
+def increase_system_volume_local():
+    current = get_system_volume_local()
+    set_system_volume_local(min(current + 10, 100))
+    log.info("🔊 Increased local volume.")
+
+def decrease_system_volume_local():
+    current = get_system_volume_local()
+    set_system_volume_local(max(current - 10, 0))
+    log.info("🔉 Decreased local volume.")
+
+# =================== Playerctl Online Media Volume Control ===================
+
+def get_player_volume_online(player):
+    try:
+        result = subprocess.check_output(["playerctl", "--player", player, "volume"]).decode().strip()
+        vol_percent = round(float(result) * 100)
+        log.info(f"🔈 {player} volume: {vol_percent}%")
+        return vol_percent
+    except Exception as e:
+        log.error(f"❌ {player} volume get failed: {e}")
+        return 0
+
+def set_player_volume_online(player, level_percent):
+    try:
+        level = max(0, min(level_percent, 100)) / 100
+        subprocess.run(["playerctl", "--player", player, "volume", str(level)], check=True)
+        log.info(f"🔊 {player} volume set to {level_percent}%")
+    except subprocess.CalledProcessError as e:
+        log.error(f"❌ {player} volume set failed: {e}")
+
+def increase_player_volume_online(player):
+    current = get_player_volume_online(player)
+    set_player_volume_online(player, min(current + 10, 100))
+    log.info(f"🔊 Increased {player} volume.")
+
+def decrease_player_volume_online(player):
+    current = get_player_volume_online(player)
+    set_player_volume_online(player, max(current - 10, 0))
+    log.info(f"🔉 Decreased {player} volume.")
 
 
-def volume_up():
-    current = get_volume()
-    new_level = min(current + 10, 100)
-    set_volume(new_level)
-    log.info("🔊 Increased volume.")
 
 
-def volume_down():
-    current = get_volume()
-    new_level = max(current - 10, 0)
-    set_volume(new_level)
-    log.info("🔉 Decreased volume.")
 
 
+
+
+    
 #########################################################################################################################################
 # ========== PLAYERCTL MUSIC CONTROLS ==========
 # ========== INTERACTIVE MENU FOR PLAYER BOX CONTROL ==========
@@ -132,11 +325,11 @@ def Player_Box_MUSIC_CONTROL_Control():
             elif choice == "4":
                 previous_track()
             elif choice == "5":
-                volume_up()
+                increase_system_volume_local()
             elif choice == "6":
-                volume_down()
+                decrease_system_volume_local()
             elif choice == "7":
-                vol = get_volume()
+                vol = get_system_volume_local()
                 log.info(f"🔈 Current Volume: {vol}%")
             elif choice == "8":
                 log.info("❌ Exiting media control menu.")
@@ -237,11 +430,11 @@ def list_and_play_local_music(music_dir="/home/engineer/Music"):
             elif choice == "4":
                 previous_track_local(music_dir)
             elif choice == "5":
-                volume_up()       # 🔁 Integrated system volume
+                increase_system_volume_local()       # 🔁 Integrated system volume
             elif choice == "6":
-                volume_down()     # 🔁 Integrated system volume
+                decrease_system_volume_local()     # 🔁 Integrated system volume
             elif choice == "7":
-                get_volume()     # 🔁 Integrated system volume
+                get_system_volume_local()     # 🔁 Integrated system volume
             elif choice == "8":
                 send_to_mpv("quit")
                 log.info("🛑 Stopping playback.")
@@ -303,27 +496,6 @@ def online_previous(player):
     except Exception as e:
         log.error(f"❌ Previous track error: {e}")
 
-def volume_up(player):
-    try:
-        subprocess.run(["playerctl", "--player", player, "volume", "0.1+"], check=True)
-        log.info("🔊 Volume up.")
-    except Exception as e:
-        log.error(f"❌ Volume up error: {e}")
-
-def volume_down(player):
-    try:
-        subprocess.run(["playerctl", "--player", player, "volume", "0.1-"], check=True)
-        log.info("🔉 Volume down.")
-    except Exception as e:
-        log.error(f"❌ Volume down error: {e}")
-
-def get_volume(player):
-    try:
-        result = subprocess.check_output(["playerctl", "--player", player, "volume"]).decode().strip()
-        vol_percent = round(float(result) * 100)
-        log.info(f"🔈 Current volume: {vol_percent}%")
-    except Exception as e:
-        log.error(f"❌ Get volume failed: {e}")
 
 def Online_Play_Music_Control():
     player = get_active_online_player()
@@ -353,11 +525,11 @@ def Online_Play_Music_Control():
             elif choice == "4":
                 online_previous(player)
             elif choice == "5":
-                volume_up(player)
+                increase_player_volume_online(player)
             elif choice == "6":
-                volume_down(player)
+                decrease_player_volume_online(player)
             elif choice == "7":
-                get_volume(player)
+                get_player_volume_online(player)
             elif choice == "8":
                 log.info("❌ Stopping media control.")
                 break
