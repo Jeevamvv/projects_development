@@ -17,7 +17,7 @@ from logger_mod import Logger
 logger_obj = Logger()
 
 import time 
-from Classic_Bluetooth_Profile import opp, pbap, a2dp, hfp
+from Classic_Bluetooth_Profile import opp, a2dp, hfp
 from Classic_Bluetooth_Profile.opp import *
 from Classic_Bluetooth_Profile.pbap import *
 from Classic_Bluetooth_Profile.a2dp import *
@@ -516,12 +516,11 @@ while True:
                 log.error(f"Error during OPP file transfer: {e}")
 
     if val == 23:
-        # phone contact details in Excel sheet format with name and number.
-        log.debug("User selected the option to send details about phone contact details in Excel sheet format with name and number.")
-
+        log.debug("User selected phone contact fetch via PBAP.")
         device_address = input("Enter the connected device Bluetooth address (e.g. D4:CB:CC:86:9D:8C): ").strip()
         output_file = input("Enter the output Excel file path (e.g. /home/engineer/contacts.xlsx): ").strip()
 
+        from Classic_Bluetooth_Profile.pbap import fetch_contacts
         success = fetch_contacts(device_address, output_file)
 
         if success:
@@ -546,8 +545,9 @@ while True:
             log.info("5. Full Sequence: Pause ➝ Play ➝ Skip")
             log.info("6. 🔊 Volume Up")
             log.info("7. 🔉 Volume Down")
-            log.info("8. 🚪 Exit A2DP Media Test")
-
+            log.info("8. 🎶 Select and Play Local Media File")
+            log.info("9. 🚪 Exit A2DP Media Test")
+        
             try:
                 choice = int(input("Enter your choice: ").strip())
             except ValueError:
@@ -588,10 +588,12 @@ while True:
                 else:
                     log.info("🔇 Volume is already at minimum (0/10).")
             elif choice == 8:
+                a2dp.list_and_play_local_music()
+            elif choice == 9:
                 log.info("Exiting A2DP Media Test Menu...")
-                break
             else:
                 log.warning("Invalid choice. Try again.")
+             
 
     if val == 25:
         log.debug("User selected the option to HFP Profile and Call Control Test Menu")
@@ -615,7 +617,7 @@ while True:
                 log.warning("Invalid input. Please enter a number between 1-9.")
                 continue
 
-            import Bluetooth_Profile.hfp as hfp  # Make sure this file contains the test functions
+            import Classic_Bluetooth_Profile.hfp as hfp  # Make sure this file contains the test functions
 
             if choice == 1:
                 hfp.simulate_music_switch()
