@@ -489,3 +489,69 @@ Still trying to connect
    ERROR :   root :   18-06-2025 08:53:13 PM :      a2dp  :❌ Get system volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
    ERROR :   root :   18-06-2025 08:53:13 PM :      a2dp  :❌ Get system volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
    ERROR :   root :   18-06-2025 08:53:15 PM :      a2dp  :❌ Get system volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:36:20 AM :      a2dp  :❌ Playback control error: name 'Volume_up' is not defined 
+   ERROR :   root :   19-06-2025 11:47:36 AM :      a2dp  :❌ Playback control error: get_player_volume() takes 0 positional arguments but 1 was given 
+   ERROR :   root :   19-06-2025 11:49:01 AM :      a2dp  :❌ Playback control error: get_volume() takes 0 positional arguments but 1 was given 
+   ERROR :   root :   19-06-2025 11:50:17 AM :      a2dp  :❌ Playback control error: Volume_up() takes 0 positional arguments but 1 was given 
+   ERROR :   root :   19-06-2025 11:50:27 AM :      a2dp  :❌ Playback control error: Volume_up() takes 0 positional arguments but 1 was given 
+   ERROR :   root :   19-06-2025 11:52:33 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:52:36 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:52:37 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:52:37 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:52:38 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:52:38 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:52:39 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:52:39 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:52:39 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:52:40 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:52:40 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:52:41 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:52:41 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:52:43 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:52:59 AM :      a2dp  :❌ Playback control error: get_volume() takes 0 positional arguments but 1 was given 
+   ERROR :   root :   19-06-2025 11:54:03 AM :      a2dp  :❌ Playback control error: online_play() missing 1 required positional argument: 'player' 
+   ERROR :   root :   19-06-2025 11:54:24 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:54:26 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:54:27 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:54:33 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:54:39 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:54:40 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:54:41 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:54:41 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:54:41 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:54:42 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:54:42 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:54:43 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:54:43 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:54:44 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:54:44 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:54:46 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:54:49 AM :      a2dp  :❌ Playback control error: online_pause() missing 1 required positional argument: 'player' 
+   ERROR :   root :   19-06-2025 11:56:55 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:56:56 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:56:57 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:56:57 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:56:58 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:56:59 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:56:59 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:57:00 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:57:01 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:57:01 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:57:25 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 11:57:30 AM :      a2dp  :Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 12:07:27 PM :      a2dp  :❌ Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 12:07:30 PM :      a2dp  :❌ Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 12:07:32 PM :      a2dp  :❌ Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 12:07:33 PM :      a2dp  :❌ Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 12:07:34 PM :      a2dp  :❌ Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 12:07:35 PM :      a2dp  :❌ Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 12:07:36 PM :      a2dp  :❌ Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 12:07:42 PM :      a2dp  :❌ Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 12:08:04 PM :      a2dp  :❌ Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 12:08:10 PM :      a2dp  :❌ Get volume failed: Command '['pactl', 'get-sink-volume', '@DEFAULT_SINK@']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 12:09:59 PM :      a2dp  :❌ Get volume failed: Command '['pactl', 'get-sink-volume', 'bluez_sink.A4_05_6E_1F_04_67.a2dp_sink']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 12:10:05 PM :      a2dp  :❌ Get volume failed: Command '['pactl', 'get-sink-volume', 'bluez_sink.A4_05_6E_1F_04_67.a2dp_sink']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 12:10:07 PM :      a2dp  :❌ Get volume failed: Command '['pactl', 'get-sink-volume', 'bluez_sink.A4_05_6E_1F_04_67.a2dp_sink']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 12:10:13 PM :      a2dp  :❌ Get volume failed: Command '['pactl', 'get-sink-volume', 'bluez_sink.A4_05_6E_1F_04_67.a2dp_sink']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 12:10:20 PM :      a2dp  :❌ Get volume failed: Command '['pactl', 'get-sink-volume', 'bluez_sink.A4_05_6E_1F_04_67.a2dp_sink']' returned non-zero exit status 1. 
+   ERROR :   root :   19-06-2025 12:23:24 PM :      a2dp  :❌ Play failed: Command '['playerctl', 'play']' returned non-zero exit status 1. 
