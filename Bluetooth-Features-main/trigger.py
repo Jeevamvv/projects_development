@@ -201,8 +201,6 @@ while True:
                 log.critical(e)
                 log.info(" Failed to power OFF the adapter")
 
-   
-
     if val == 5:
     # Agent Code
         path = "/test/agent"
