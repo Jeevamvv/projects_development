@@ -370,8 +370,6 @@ def get_player_volume():
     return current
 
 
-
-
 if __name__ == "__main__":
     Player_Box_MUSIC_CONTROL_Control()
     list_and_play_local_music()

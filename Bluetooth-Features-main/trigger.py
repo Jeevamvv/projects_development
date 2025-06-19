@@ -503,8 +503,6 @@ while True:
             device_address = gl.list_of_pair_device[0]  # Auto-select first paired device
             log.info(f"Using paired device for OPP transfer: {device_address}")
         
-           
-
             try:
                 file_path = input("Enter full path of file to send (ex. /home/engineer/a.py ): ").strip()
                 print(f"DEBUG_INFO: entered file path = {file_path}")
