@@ -542,20 +542,6 @@ while True:
             log.info("2. 🎶  Select OFFLINE MUSIC CONTROL")
             log.info("3. 🎶  Select Online MUSIC CONTROL")
             log.info("4. 🚪 Exit A2DP Media Test")
-
-            # log.info("1.  ⏸️   Pause Media")
-            # log.info("2.  🟢   Play Media")
-            # log.info("3.  ⏭️   Skip Track")
-            # log.info("4.  ⏮️   Previous Track")
-            # log.info("5.  🎶   Full Sequence: Pause ➝ Play ➝ Skip")
-            # log.info("6.  🔊   Volume Up")
-            # log.info("7.  🔉   Volume Down")
-            # log.info("8.  🎶   Select and Play Local Media File")
-            # log.info("9.  🎶  Online Music Play")
-            # # log.info("10. ⏸️  Online Music Pause")
-            # # log.info("11. ⏭️  Online Music Next Track")
-            # # log.info("12. ⏮️  Online Music Previous Track")
-            #log.info("10. 🚪  Exit A2DP Media Test")
         
             try:
                 choice = int(input("Enter your choice: ").strip())
@@ -566,111 +552,18 @@ while True:
             if choice == 1:
                 log.info("🎶 Select Player box MUSIC CONTROL")
                 a2dp.Player_Box_MUSIC_CONTROL_Control()
-
             elif choice == 2:
                 log.info("🎶 Select OFFLINE MUSIC CONTROL")
                 a2dp.list_and_play_local_music()
-
-
             elif choice == 3:
                 log.info("🎶 Select Online MUSIC CONTROL")
                 a2dp.Online_Play_Music_Control()
-
-
             elif choice == 4:
                 log.info("Exiting A2DP Media Test Menu...")
                 break
             else:
                 log.warning("Invalid choice. Try again.")
             
-
-
-
-
-
-
-
-
-
-
-
-
-            # if choice == 1:
-            #     a2dp.pause_media()
-            # elif choice == 2:
-            #     a2dp.play_media()
-            # elif choice == 3:
-            #     a2dp.skip_track()
-            # elif choice == 4:
-            #     a2dp.previous_track()
-            # elif choice == 5:
-            #     a2dp.pause_media()
-            #     time.sleep(5)
-            #     a2dp.play_media()
-            #     time.sleep(4)
-            #     a2dp.pause_media()
-            #     time.sleep(3)
-            #     a2dp.play_media()
-            #     time.sleep(3)
-            #     a2dp.skip_track()
-            #     a2dp.play_media()
-            #     a2dp.previous_track()
-            #     a2dp.play_media()
-            # elif choice == 6:
-            #     if volume_level < 10:
-            #         volume_level += 1
-            #         a2dp.set_volume(volume_level)
-            #     else:
-            #         log.info("🔊 Volume is already at maximum (10/10).")
-            # elif choice == 7:
-            #     if volume_level > 0:
-            #         volume_level -= 1
-            #         a2dp.set_volume(volume_level)
-            #     else:
-            #         log.info("🔇 Volume is already at minimum (0/10).")
-            # elif choice == 8:
-            #     log.info("🎶 Select OFFLINE MUSIC CONTROL")
-            #     a2dp.list_and_play_local_music()
-
-
-            # elif choice == 9:
-            #     log.info("🎶 Select Online MUSIC CONTROL")
-            #     a2dp.Online_Play_Music_Control()
-            # elif choice == 9:
-            #     log.info("🟢 Online Music - Play")
-            #     a2dp.online_play()
-            # elif choice == 10:
-            #     log.info("⏸️ Online Music - Pause")
-            #     a2dp.online_pause()
-            # elif choice == 11:
-            #     log.info("⏭️ Online Music - Next Track")
-            #     a2dp.online_next()
-            # elif choice == 12:
-            #     log.info("⏮️ Online Music - Previous Track")
-            #     a2dp.online_previous()
-
-            # elif choice == 10:
-            #     log.info("Exiting A2DP Media Test Menu...")
-            # else:
-            #     log.warning("Invalid choice. Try again.")
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     if val == 25:
         log.debug("User selected the option to HFP Profile and Call Control Test Menu")
 
