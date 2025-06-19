@@ -1,0 +1,815 @@
+    INFO :   root :   19-06-2025 03:07:17 PM :     utils  :**************************************************************************************************** 
+    INFO :   root :   19-06-2025 03:07:17 PM :     utils  : D-bus Daemon Initiated.... 
+    INFO :   root :   19-06-2025 03:07:17 PM :     utils  : Bluetooth-d Daemon Initiated.... 
+    INFO :   root :   19-06-2025 03:07:17 PM :     utils  :**************************************************************************************************** 
+    INFO : numexpr.utils :   19-06-2025 03:07:17 PM :     utils  :NumExpr defaulting to 8 threads. 
+    INFO :   root :   19-06-2025 03:07:17 PM :     utils  :======= List of Active Dongles ======== 
+    INFO :   root :   19-06-2025 03:07:17 PM :     utils  :1: /org/bluez/hci1 
+    INFO :   root :   19-06-2025 03:07:17 PM :     utils  :2: /org/bluez/hci0 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:18 PM :   trigger  : Selected interface: /org/bluez/hci0 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:18 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:18 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:18 PM :   trigger  :0.  Properties 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:18 PM :   trigger  :1.  Scan on 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:18 PM :   trigger  :2.  Scan off 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:18 PM :   trigger  :3.  Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:18 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:18 PM :   trigger  :5.  Register the agent 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:18 PM :   trigger  :6.  Pair 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:18 PM :   trigger  :7.  Check paired Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:18 PM :   trigger  :8.  Check Connected Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:18 PM :   trigger  :9.  Connect 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:18 PM :   trigger  :10. Disconnect 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:18 PM :   trigger  :11. Remove Device 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:18 PM :   trigger  :12. Discoverable on 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:18 PM :   trigger  :13. Discoverable off 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:18 PM :   trigger  :14. Trusted 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:18 PM :   trigger  :15. Register Agent as Default 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:18 PM :   trigger  :16. Print UUID's  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:18 PM :   trigger  :17. Controller Supported UUID's 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:18 PM :   trigger  :18. Set Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:18 PM :   trigger  :19. Get Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:18 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:18 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:18 PM :   trigger  :22. opp file transfer file  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:18 PM :   trigger  :23. phone contact details  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:18 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:18 PM :   trigger  :25. HFP Profile testing.   
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:18 PM :   trigger  :30. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:18 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:21 PM :   trigger  :#################################################################################################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:21 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:21 PM :   trigger  :1. Powered 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:21 PM :   trigger  :2. Address 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:21 PM :   trigger  :3. Address_Type 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:21 PM :   trigger  :4. Alias 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:21 PM :   trigger  : 5. Name 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:21 PM :   trigger  :6. Class 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:21 PM :   trigger  :7. DiscoverableTimeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:21 PM :   trigger  :8. PairableTimeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:21 PM :   trigger  : 9. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:22 PM :   trigger  :#################################################################################################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:22 PM :   trigger  :5C:F3:70:79:93:F8 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:22 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:22 PM :   trigger  :1. Powered 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:22 PM :   trigger  :2. Address 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:22 PM :   trigger  :3. Address_Type 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:22 PM :   trigger  :4. Alias 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:22 PM :   trigger  : 5. Name 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:22 PM :   trigger  :6. Class 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:22 PM :   trigger  :7. DiscoverableTimeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:22 PM :   trigger  :8. PairableTimeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:22 PM :   trigger  : 9. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:24 PM :   trigger  :#################################################################################################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:24 PM :   trigger  :  public 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:24 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:24 PM :   trigger  :1. Powered 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:24 PM :   trigger  :2. Address 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:24 PM :   trigger  :3. Address_Type 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:24 PM :   trigger  :4. Alias 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:24 PM :   trigger  : 5. Name 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:24 PM :   trigger  :6. Class 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:24 PM :   trigger  :7. DiscoverableTimeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:24 PM :   trigger  :8. PairableTimeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:24 PM :   trigger  : 9. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:24 PM :   trigger  :#################################################################################################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:24 PM :   trigger  :engineer-ThinkPad-E15-Gen-2 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:24 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:24 PM :   trigger  :1. Powered 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:24 PM :   trigger  :2. Address 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:24 PM :   trigger  :3. Address_Type 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:24 PM :   trigger  :4. Alias 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:24 PM :   trigger  : 5. Name 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:24 PM :   trigger  :6. Class 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:24 PM :   trigger  :7. DiscoverableTimeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:24 PM :   trigger  :8. PairableTimeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:24 PM :   trigger  : 9. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:25 PM :   trigger  :#################################################################################################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:25 PM :   trigger  :engineer-ThinkPad-E15-Gen-2 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:25 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:25 PM :   trigger  :1. Powered 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:25 PM :   trigger  :2. Address 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:25 PM :   trigger  :3. Address_Type 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:25 PM :   trigger  :4. Alias 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:25 PM :   trigger  : 5. Name 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:25 PM :   trigger  :6. Class 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:25 PM :   trigger  :7. DiscoverableTimeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:25 PM :   trigger  :8. PairableTimeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:25 PM :   trigger  : 9. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:25 PM :   trigger  :#################################################################################################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:25 PM :   trigger  :  public 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:25 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:25 PM :   trigger  :1. Powered 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:25 PM :   trigger  :2. Address 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:25 PM :   trigger  :3. Address_Type 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:25 PM :   trigger  :4. Alias 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:25 PM :   trigger  : 5. Name 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:25 PM :   trigger  :6. Class 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:25 PM :   trigger  :7. DiscoverableTimeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:25 PM :   trigger  :8. PairableTimeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:25 PM :   trigger  : 9. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:26 PM :   trigger  : Invalid choise, please enter the choise within the range 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:26 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:26 PM :   trigger  :1. Powered 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:26 PM :   trigger  :2. Address 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:26 PM :   trigger  :3. Address_Type 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:26 PM :   trigger  :4. Alias 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:26 PM :   trigger  : 5. Name 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:26 PM :   trigger  :6. Class 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:26 PM :   trigger  :7. DiscoverableTimeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:26 PM :   trigger  :8. PairableTimeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:26 PM :   trigger  : 9. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:27 PM :   trigger  :#################################################################################################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:27 PM :   trigger  :       0 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:27 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:27 PM :   trigger  :1. Powered 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:27 PM :   trigger  :2. Address 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:27 PM :   trigger  :3. Address_Type 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:27 PM :   trigger  :4. Alias 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:27 PM :   trigger  : 5. Name 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:27 PM :   trigger  :6. Class 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:27 PM :   trigger  :7. DiscoverableTimeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:27 PM :   trigger  :8. PairableTimeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:27 PM :   trigger  : 9. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:28 PM :   trigger  : Invalid choise, please enter the choise within the range 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:28 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:28 PM :   trigger  :1. Powered 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:28 PM :   trigger  :2. Address 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:28 PM :   trigger  :3. Address_Type 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:28 PM :   trigger  :4. Alias 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:28 PM :   trigger  : 5. Name 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:28 PM :   trigger  :6. Class 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:28 PM :   trigger  :7. DiscoverableTimeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:28 PM :   trigger  :8. PairableTimeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:28 PM :   trigger  : 9. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:28 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:28 PM :   trigger  :  Invalid Entry  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:28 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:28 PM :   trigger  :1. Powered 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:28 PM :   trigger  :2. Address 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:28 PM :   trigger  :3. Address_Type 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:28 PM :   trigger  :4. Alias 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:28 PM :   trigger  : 5. Name 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:28 PM :   trigger  :6. Class 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:28 PM :   trigger  :7. DiscoverableTimeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:28 PM :   trigger  :8. PairableTimeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:28 PM :   trigger  : 9. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:30 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:30 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:30 PM :   trigger  :0.  Properties 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:30 PM :   trigger  :1.  Scan on 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:30 PM :   trigger  :2.  Scan off 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:30 PM :   trigger  :3.  Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:30 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:30 PM :   trigger  :5.  Register the agent 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:30 PM :   trigger  :6.  Pair 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:30 PM :   trigger  :7.  Check paired Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:30 PM :   trigger  :8.  Check Connected Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:30 PM :   trigger  :9.  Connect 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:30 PM :   trigger  :10. Disconnect 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:30 PM :   trigger  :11. Remove Device 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:30 PM :   trigger  :12. Discoverable on 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:30 PM :   trigger  :13. Discoverable off 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:30 PM :   trigger  :14. Trusted 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:30 PM :   trigger  :15. Register Agent as Default 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:30 PM :   trigger  :16. Print UUID's  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:30 PM :   trigger  :17. Controller Supported UUID's 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:30 PM :   trigger  :18. Set Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:30 PM :   trigger  :19. Get Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:30 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:30 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:30 PM :   trigger  :22. opp file transfer file  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:30 PM :   trigger  :23. phone contact details  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:30 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:30 PM :   trigger  :25. HFP Profile testing.   
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:30 PM :   trigger  :30. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:30 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:34 PM :   trigger  :#################################################################################################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:34 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:34 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:34 PM :   trigger  :0.  Properties 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:34 PM :   trigger  :1.  Scan on 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:34 PM :   trigger  :2.  Scan off 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:34 PM :   trigger  :3.  Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:34 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:34 PM :   trigger  :5.  Register the agent 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:34 PM :   trigger  :6.  Pair 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:34 PM :   trigger  :7.  Check paired Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:34 PM :   trigger  :8.  Check Connected Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:34 PM :   trigger  :9.  Connect 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:34 PM :   trigger  :10. Disconnect 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:34 PM :   trigger  :11. Remove Device 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:34 PM :   trigger  :12. Discoverable on 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:34 PM :   trigger  :13. Discoverable off 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:34 PM :   trigger  :14. Trusted 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:34 PM :   trigger  :15. Register Agent as Default 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:34 PM :   trigger  :16. Print UUID's  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:34 PM :   trigger  :17. Controller Supported UUID's 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:34 PM :   trigger  :18. Set Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:34 PM :   trigger  :19. Get Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:34 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:34 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:34 PM :   trigger  :22. opp file transfer file  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:34 PM :   trigger  :23. phone contact details  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:34 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:34 PM :   trigger  :25. HFP Profile testing.   
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:34 PM :   trigger  :30. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:34 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:07:35 PM :   trigger  :#################################################################################################### 
+    INFO :   root :   19-06-2025 03:09:35 PM :     utils  :**************************************************************************************************** 
+    INFO :   root :   19-06-2025 03:09:35 PM :     utils  : D-bus Daemon Initiated.... 
+    INFO :   root :   19-06-2025 03:09:35 PM :     utils  : Bluetooth-d Daemon Initiated.... 
+    INFO :   root :   19-06-2025 03:09:35 PM :     utils  :**************************************************************************************************** 
+    INFO : numexpr.utils :   19-06-2025 03:09:35 PM :     utils  :NumExpr defaulting to 8 threads. 
+    INFO :   root :   19-06-2025 03:09:35 PM :     utils  :======= List of Active Dongles ======== 
+    INFO :   root :   19-06-2025 03:09:35 PM :     utils  :1: /org/bluez/hci1 
+    INFO :   root :   19-06-2025 03:09:35 PM :     utils  :2: /org/bluez/hci0 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:36 PM :   trigger  : Selected interface: /org/bluez/hci0 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:36 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:36 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:36 PM :   trigger  :0.  Properties 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:36 PM :   trigger  :1.  Scan on 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:36 PM :   trigger  :2.  Scan off 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:36 PM :   trigger  :3.  Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:36 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:36 PM :   trigger  :5.  Register the agent 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:36 PM :   trigger  :6.  Pair 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:36 PM :   trigger  :7.  Check paired Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:36 PM :   trigger  :8.  Check Connected Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:36 PM :   trigger  :9.  Connect 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:36 PM :   trigger  :10. Disconnect 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:36 PM :   trigger  :11. Remove Device 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:36 PM :   trigger  :12. Discoverable on 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:36 PM :   trigger  :13. Discoverable off 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:36 PM :   trigger  :14. Trusted 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:36 PM :   trigger  :15. Register Agent as Default 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:36 PM :   trigger  :16. Print UUID's  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:36 PM :   trigger  :17. Controller Supported UUID's 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:36 PM :   trigger  :18. Set Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:36 PM :   trigger  :19. Get Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:36 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:36 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:36 PM :   trigger  :22. opp file transfer file  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:36 PM :   trigger  :23. phone contact details  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:36 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:36 PM :   trigger  :25. HFP Profile testing.   
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:36 PM :   trigger  :30. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:36 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:40 PM :   trigger  :#################################################################################################### 
+    INFO :   root :   19-06-2025 03:09:40 PM :     utils  : Pulseaudio Daemon Initiated.... 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:40 PM :   trigger  :1. D4:CB:CC:86:9D:8C 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:40 PM :   trigger  :2. A4:05:6E:1F:04:67 
+    INFO :   root :   19-06-2025 03:09:42 PM :       gap  : Connecting........ 
+CRITICAL :   root :   19-06-2025 03:09:48 PM :       gap  :org.bluez.Error.Failed: Host is down 
+    INFO :   root :   19-06-2025 03:09:48 PM :       gap  : Failed to connect the device 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:48 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:48 PM :   trigger  : Failed to Connect!  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:48 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:48 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:48 PM :   trigger  :0.  Properties 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:48 PM :   trigger  :1.  Scan on 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:48 PM :   trigger  :2.  Scan off 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:48 PM :   trigger  :3.  Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:48 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:48 PM :   trigger  :5.  Register the agent 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:48 PM :   trigger  :6.  Pair 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:48 PM :   trigger  :7.  Check paired Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:48 PM :   trigger  :8.  Check Connected Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:48 PM :   trigger  :9.  Connect 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:48 PM :   trigger  :10. Disconnect 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:48 PM :   trigger  :11. Remove Device 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:48 PM :   trigger  :12. Discoverable on 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:48 PM :   trigger  :13. Discoverable off 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:48 PM :   trigger  :14. Trusted 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:48 PM :   trigger  :15. Register Agent as Default 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:48 PM :   trigger  :16. Print UUID's  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:48 PM :   trigger  :17. Controller Supported UUID's 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:48 PM :   trigger  :18. Set Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:48 PM :   trigger  :19. Get Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:48 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:48 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:48 PM :   trigger  :22. opp file transfer file  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:48 PM :   trigger  :23. phone contact details  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:48 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:48 PM :   trigger  :25. HFP Profile testing.   
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:48 PM :   trigger  :30. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:09:48 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:00 PM :   trigger  :#################################################################################################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:00 PM :   trigger  : Connected Device :-   
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:00 PM :   trigger  :Address: A4:05:6E:1F:04:67 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:00 PM :   trigger  :Name   : realme Buds Q2 Neo 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:00 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:00 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:00 PM :   trigger  :0.  Properties 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:00 PM :   trigger  :1.  Scan on 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:00 PM :   trigger  :2.  Scan off 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:00 PM :   trigger  :3.  Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:00 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:00 PM :   trigger  :5.  Register the agent 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:00 PM :   trigger  :6.  Pair 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:00 PM :   trigger  :7.  Check paired Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:00 PM :   trigger  :8.  Check Connected Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:00 PM :   trigger  :9.  Connect 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:00 PM :   trigger  :10. Disconnect 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:00 PM :   trigger  :11. Remove Device 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:00 PM :   trigger  :12. Discoverable on 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:00 PM :   trigger  :13. Discoverable off 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:00 PM :   trigger  :14. Trusted 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:00 PM :   trigger  :15. Register Agent as Default 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:00 PM :   trigger  :16. Print UUID's  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:00 PM :   trigger  :17. Controller Supported UUID's 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:00 PM :   trigger  :18. Set Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:00 PM :   trigger  :19. Get Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:00 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:00 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:00 PM :   trigger  :22. opp file transfer file  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:00 PM :   trigger  :23. phone contact details  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:00 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:00 PM :   trigger  :25. HFP Profile testing.   
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:00 PM :   trigger  :30. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:00 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:11 PM :   trigger  :#################################################################################################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:11 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:11 PM :   trigger  :🎵 A2DP Media Control Test Menu 🎵 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:11 PM :   trigger  :1. 🎶  Select Player box MUSIC CONTROL 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:11 PM :   trigger  :2. 🎶  Select OFFLINE MUSIC CONTROL 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:11 PM :   trigger  :3. 🎶  Select Online MUSIC CONTROL 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:11 PM :   trigger  :4. 🚪 Exit A2DP Media Test 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:14 PM :   trigger  :🎶 Select Online MUSIC CONTROL 
+ WARNING :   root :   19-06-2025 03:10:14 PM :      a2dp  :⚠️ No supported online media player found. 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:14 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:14 PM :   trigger  :🎵 A2DP Media Control Test Menu 🎵 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:14 PM :   trigger  :1. 🎶  Select Player box MUSIC CONTROL 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:14 PM :   trigger  :2. 🎶  Select OFFLINE MUSIC CONTROL 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:14 PM :   trigger  :3. 🎶  Select Online MUSIC CONTROL 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:14 PM :   trigger  :4. 🚪 Exit A2DP Media Test 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 03:10:51 PM :   trigger  :🎶 Select Online MUSIC CONTROL 
+    INFO :   root :   19-06-2025 03:10:53 PM :      a2dp  :⏸️ Paused music. 
+    INFO :   root :   19-06-2025 03:10:54 PM :      a2dp  :▶️ Playing music. 
+ WARNING :   root :   19-06-2025 03:10:56 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:10:56 PM :      a2dp  :🔊 Already at max volume. 
+ WARNING :   root :   19-06-2025 03:10:59 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:10:59 PM :      a2dp  :🔊 Already at max volume. 
+ WARNING :   root :   19-06-2025 03:11:04 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:11:04 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:11:04 PM :      a2dp  :🔊 Volume set to 90% 
+ WARNING :   root :   19-06-2025 03:11:04 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:11:04 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:11:04 PM :      a2dp  :🔊 Volume set to 80% 
+ WARNING :   root :   19-06-2025 03:11:05 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:11:05 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:11:05 PM :      a2dp  :🔊 Volume set to 70% 
+ WARNING :   root :   19-06-2025 03:11:05 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:11:05 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:11:05 PM :      a2dp  :🔊 Volume set to 60% 
+ WARNING :   root :   19-06-2025 03:11:06 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:11:06 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:11:06 PM :      a2dp  :🔊 Volume set to 50% 
+ WARNING :   root :   19-06-2025 03:11:06 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:11:06 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:11:06 PM :      a2dp  :🔊 Volume set to 40% 
+ WARNING :   root :   19-06-2025 03:11:07 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:11:07 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:11:07 PM :      a2dp  :🔊 Volume set to 30% 
+ WARNING :   root :   19-06-2025 03:11:08 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:11:08 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:11:08 PM :      a2dp  :🔊 Volume set to 20% 
+ WARNING :   root :   19-06-2025 03:11:09 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:11:09 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:11:09 PM :      a2dp  :🔊 Volume set to 10% 
+ WARNING :   root :   19-06-2025 03:11:09 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:11:09 PM :      a2dp  :🔈 Current system volume: 10% 
+ WARNING :   root :   19-06-2025 03:11:20 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:11:20 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:11:20 PM :      a2dp  :🔊 Volume set to 0% 
+ WARNING :   root :   19-06-2025 03:11:21 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:11:21 PM :      a2dp  :🔉 Already at min volume. 
+ WARNING :   root :   19-06-2025 03:11:21 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:11:22 PM :      a2dp  :🔈 Current system volume: 0% 
+ WARNING :   root :   19-06-2025 03:11:22 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:11:22 PM :      a2dp  :🔈 Current system volume: 0% 
+ WARNING :   root :   19-06-2025 03:11:23 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:11:23 PM :      a2dp  :🔈 Current system volume: 0% 
+ WARNING :   root :   19-06-2025 03:11:24 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:11:24 PM :      a2dp  :🔉 Already at min volume. 
+ WARNING :   root :   19-06-2025 03:11:24 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:11:24 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:11:24 PM :      a2dp  :🔊 Volume set to 10% 
+ WARNING :   root :   19-06-2025 03:11:25 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:11:25 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:11:25 PM :      a2dp  :🔊 Volume set to 20% 
+ WARNING :   root :   19-06-2025 03:11:26 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:11:26 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:11:26 PM :      a2dp  :🔊 Volume set to 30% 
+ WARNING :   root :   19-06-2025 03:11:26 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:11:26 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:11:26 PM :      a2dp  :🔊 Volume set to 40% 
+ WARNING :   root :   19-06-2025 03:11:27 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:11:27 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:11:27 PM :      a2dp  :🔊 Volume set to 50% 
+ WARNING :   root :   19-06-2025 03:11:27 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:11:27 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:11:27 PM :      a2dp  :🔊 Volume set to 60% 
+ WARNING :   root :   19-06-2025 03:11:28 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:11:28 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:11:28 PM :      a2dp  :🔊 Volume set to 70% 
+ WARNING :   root :   19-06-2025 03:11:28 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:11:28 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:11:28 PM :      a2dp  :🔊 Volume set to 80% 
+ WARNING :   root :   19-06-2025 03:11:29 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:11:29 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:11:29 PM :      a2dp  :🔊 Volume set to 90% 
+ WARNING :   root :   19-06-2025 03:11:29 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:11:29 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:11:29 PM :      a2dp  :🔊 Volume set to 100% 
+ WARNING :   root :   19-06-2025 03:11:31 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:11:31 PM :      a2dp  :🔊 Already at max volume. 
+    INFO :   root :   19-06-2025 03:11:45 PM :      a2dp  :⏸️ Paused music. 
+    INFO :   root :   19-06-2025 03:11:46 PM :      a2dp  :▶️ Playing music. 
+    INFO :   root :   19-06-2025 03:11:48 PM :      a2dp  :⏭️ Next track. 
+ WARNING :   root :   19-06-2025 03:11:55 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:11:55 PM :      a2dp  :🔊 Already at max volume. 
+ WARNING :   root :   19-06-2025 03:11:57 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:11:57 PM :      a2dp  :🔊 Already at max volume. 
+ WARNING :   root :   19-06-2025 03:11:58 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:11:58 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:11:58 PM :      a2dp  :🔊 Volume set to 90% 
+ WARNING :   root :   19-06-2025 03:11:59 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:11:59 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:11:59 PM :      a2dp  :🔊 Volume set to 80% 
+ WARNING :   root :   19-06-2025 03:12:00 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:12:00 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:12:00 PM :      a2dp  :🔊 Volume set to 70% 
+ WARNING :   root :   19-06-2025 03:12:00 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:12:00 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:12:00 PM :      a2dp  :🔊 Volume set to 60% 
+ WARNING :   root :   19-06-2025 03:12:01 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:12:01 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:12:01 PM :      a2dp  :🔊 Volume set to 50% 
+ WARNING :   root :   19-06-2025 03:12:01 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:12:01 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:12:01 PM :      a2dp  :🔊 Volume set to 40% 
+ WARNING :   root :   19-06-2025 03:12:01 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:12:02 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:12:02 PM :      a2dp  :🔊 Volume set to 30% 
+ WARNING :   root :   19-06-2025 03:12:02 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:12:02 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:12:02 PM :      a2dp  :🔊 Volume set to 20% 
+ WARNING :   root :   19-06-2025 03:12:02 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:12:02 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:12:02 PM :      a2dp  :🔊 Volume set to 10% 
+ WARNING :   root :   19-06-2025 03:12:03 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:12:03 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:12:03 PM :      a2dp  :🔊 Volume set to 0% 
+ WARNING :   root :   19-06-2025 03:12:09 PM :      a2dp  :⚠️ Invalid option. 
+ WARNING :   root :   19-06-2025 03:12:10 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:12:10 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:12:10 PM :      a2dp  :🔊 Volume set to 10% 
+ WARNING :   root :   19-06-2025 03:12:10 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:12:10 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:12:10 PM :      a2dp  :🔊 Volume set to 20% 
+ WARNING :   root :   19-06-2025 03:12:11 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:12:11 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:12:11 PM :      a2dp  :🔊 Volume set to 30% 
+ WARNING :   root :   19-06-2025 03:12:11 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:12:11 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:12:11 PM :      a2dp  :🔊 Volume set to 40% 
+ WARNING :   root :   19-06-2025 03:12:12 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:12:12 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:12:12 PM :      a2dp  :🔊 Volume set to 50% 
+ WARNING :   root :   19-06-2025 03:12:12 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:12:12 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:12:12 PM :      a2dp  :🔊 Volume set to 60% 
+ WARNING :   root :   19-06-2025 03:12:13 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:12:13 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:12:13 PM :      a2dp  :🔊 Volume set to 70% 
+ WARNING :   root :   19-06-2025 03:12:13 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:12:13 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:12:13 PM :      a2dp  :🔊 Volume set to 80% 
+ WARNING :   root :   19-06-2025 03:12:14 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:12:14 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:12:14 PM :      a2dp  :🔊 Volume set to 90% 
+ WARNING :   root :   19-06-2025 03:12:15 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:12:15 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:12:15 PM :      a2dp  :🔊 Volume set to 80% 
+ WARNING :   root :   19-06-2025 03:12:15 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:12:15 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:12:15 PM :      a2dp  :🔊 Volume set to 70% 
+ WARNING :   root :   19-06-2025 03:12:16 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:12:16 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:12:16 PM :      a2dp  :🔊 Volume set to 60% 
+ WARNING :   root :   19-06-2025 03:12:16 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:12:16 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:12:16 PM :      a2dp  :🔊 Volume set to 50% 
+ WARNING :   root :   19-06-2025 03:12:16 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:12:16 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:12:16 PM :      a2dp  :🔊 Volume set to 40% 
+ WARNING :   root :   19-06-2025 03:12:17 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:12:17 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:12:17 PM :      a2dp  :🔊 Volume set to 30% 
+ WARNING :   root :   19-06-2025 03:12:17 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:12:17 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:12:17 PM :      a2dp  :🔊 Volume set to 20% 
+ WARNING :   root :   19-06-2025 03:12:17 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+ WARNING :   root :   19-06-2025 03:12:17 PM :      a2dp  :⚠️ Falling back to sink: alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_5__sink 
+    INFO :   root :   19-06-2025 03:12:17 PM :      a2dp  :🔊 Volume set to 10% 
+ WARNING :   root :   19-06-2025 03:12:19 PM :      a2dp  :⚠️ Invalid option. 
+    INFO :   root :   19-06-2025 03:12:20 PM :      a2dp  :⏸️ Paused music. 
+    INFO :   root :   19-06-2025 04:35:53 PM :     utils  :**************************************************************************************************** 
+    INFO :   root :   19-06-2025 04:35:53 PM :     utils  : D-bus Daemon Initiated.... 
+    INFO :   root :   19-06-2025 04:35:53 PM :     utils  : Bluetooth-d Daemon Initiated.... 
+    INFO :   root :   19-06-2025 04:35:53 PM :     utils  :**************************************************************************************************** 
+    INFO : numexpr.utils :   19-06-2025 04:35:53 PM :     utils  :NumExpr defaulting to 8 threads. 
+    INFO :   root :   19-06-2025 04:35:54 PM :     utils  :======= List of Active Dongles ======== 
+    INFO :   root :   19-06-2025 04:35:54 PM :     utils  :1: /org/bluez/hci1 
+    INFO :   root :   19-06-2025 04:35:54 PM :     utils  :2: /org/bluez/hci0 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:35:55 PM :   trigger  : Selected interface: /org/bluez/hci0 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:35:55 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:35:55 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:35:55 PM :   trigger  :0.  Properties 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:35:55 PM :   trigger  :1.  Scan on 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:35:55 PM :   trigger  :2.  Scan off 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:35:55 PM :   trigger  :3.  Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:35:55 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:35:55 PM :   trigger  :5.  Register the agent 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:35:55 PM :   trigger  :6.  Pair 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:35:55 PM :   trigger  :7.  Check paired Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:35:55 PM :   trigger  :8.  Check Connected Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:35:55 PM :   trigger  :9.  Connect 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:35:55 PM :   trigger  :10. Disconnect 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:35:55 PM :   trigger  :11. Remove Device 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:35:55 PM :   trigger  :12. Discoverable on 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:35:55 PM :   trigger  :13. Discoverable off 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:35:55 PM :   trigger  :14. Trusted 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:35:55 PM :   trigger  :15. Register Agent as Default 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:35:55 PM :   trigger  :16. Print UUID's  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:35:55 PM :   trigger  :17. Controller Supported UUID's 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:35:55 PM :   trigger  :18. Set Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:35:55 PM :   trigger  :19. Get Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:35:55 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:35:55 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:35:55 PM :   trigger  :22. opp file transfer file  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:35:55 PM :   trigger  :23. phone contact details  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:35:55 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:35:55 PM :   trigger  :25. HFP Profile testing.   
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:35:55 PM :   trigger  :30. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:35:55 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   19-06-2025 04:41:01 PM :     utils  :**************************************************************************************************** 
+    INFO :   root :   19-06-2025 04:41:01 PM :     utils  : D-bus Daemon Initiated.... 
+    INFO :   root :   19-06-2025 04:41:01 PM :     utils  : Bluetooth-d Daemon Initiated.... 
+    INFO :   root :   19-06-2025 04:41:01 PM :     utils  :**************************************************************************************************** 
+    INFO : numexpr.utils :   19-06-2025 04:41:02 PM :     utils  :NumExpr defaulting to 8 threads. 
+    INFO :   root :   19-06-2025 04:41:02 PM :     utils  :======= List of Active Dongles ======== 
+    INFO :   root :   19-06-2025 04:41:02 PM :     utils  :1: /org/bluez/hci1 
+    INFO :   root :   19-06-2025 04:41:02 PM :     utils  :2: /org/bluez/hci0 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:02 PM :   trigger  : Selected interface: /org/bluez/hci0 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:02 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:02 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:02 PM :   trigger  :0.  Properties 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:02 PM :   trigger  :1.  Scan on 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:02 PM :   trigger  :2.  Scan off 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:02 PM :   trigger  :3.  Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:02 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:02 PM :   trigger  :5.  Register the agent 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:02 PM :   trigger  :6.  Pair 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:02 PM :   trigger  :7.  Check paired Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:02 PM :   trigger  :8.  Check Connected Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:02 PM :   trigger  :9.  Connect 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:02 PM :   trigger  :10. Disconnect 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:02 PM :   trigger  :11. Remove Device 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:02 PM :   trigger  :12. Discoverable on 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:02 PM :   trigger  :13. Discoverable off 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:02 PM :   trigger  :14. Trusted 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:02 PM :   trigger  :15. Register Agent as Default 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:02 PM :   trigger  :16. Print UUID's  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:02 PM :   trigger  :17. Controller Supported UUID's 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:02 PM :   trigger  :18. Set Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:02 PM :   trigger  :19. Get Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:02 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:02 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:02 PM :   trigger  :22. opp file transfer file  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:02 PM :   trigger  :23. phone contact details  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:02 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:02 PM :   trigger  :25. HFP Profile testing.   
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:02 PM :   trigger  :30. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:02 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:05 PM :   trigger  :#################################################################################################### 
+    INFO :   root :   19-06-2025 04:41:05 PM :     utils  : Pulseaudio Daemon Initiated.... 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:05 PM :   trigger  :1. D4:CB:CC:86:9D:8C 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:05 PM :   trigger  :2. A4:05:6E:1F:04:67 
+    INFO :   root :   19-06-2025 04:41:06 PM :       gap  : Connecting........ 
+CRITICAL :   root :   19-06-2025 04:41:11 PM :       gap  :org.bluez.Error.Failed: Host is down 
+    INFO :   root :   19-06-2025 04:41:11 PM :       gap  : Failed to connect the device 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:11 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:11 PM :   trigger  : Failed to Connect!  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:11 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:11 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:11 PM :   trigger  :0.  Properties 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:11 PM :   trigger  :1.  Scan on 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:11 PM :   trigger  :2.  Scan off 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:11 PM :   trigger  :3.  Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:11 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:11 PM :   trigger  :5.  Register the agent 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:11 PM :   trigger  :6.  Pair 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:11 PM :   trigger  :7.  Check paired Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:11 PM :   trigger  :8.  Check Connected Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:11 PM :   trigger  :9.  Connect 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:11 PM :   trigger  :10. Disconnect 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:11 PM :   trigger  :11. Remove Device 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:11 PM :   trigger  :12. Discoverable on 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:11 PM :   trigger  :13. Discoverable off 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:11 PM :   trigger  :14. Trusted 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:11 PM :   trigger  :15. Register Agent as Default 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:11 PM :   trigger  :16. Print UUID's  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:11 PM :   trigger  :17. Controller Supported UUID's 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:11 PM :   trigger  :18. Set Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:11 PM :   trigger  :19. Get Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:11 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:11 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:11 PM :   trigger  :22. opp file transfer file  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:11 PM :   trigger  :23. phone contact details  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:11 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:11 PM :   trigger  :25. HFP Profile testing.   
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:11 PM :   trigger  :30. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:11 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:15 PM :   trigger  :#################################################################################################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:15 PM :   trigger  : NO Active connection found  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:15 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:15 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:15 PM :   trigger  :0.  Properties 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:15 PM :   trigger  :1.  Scan on 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:15 PM :   trigger  :2.  Scan off 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:15 PM :   trigger  :3.  Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:15 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:15 PM :   trigger  :5.  Register the agent 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:15 PM :   trigger  :6.  Pair 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:15 PM :   trigger  :7.  Check paired Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:15 PM :   trigger  :8.  Check Connected Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:15 PM :   trigger  :9.  Connect 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:15 PM :   trigger  :10. Disconnect 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:15 PM :   trigger  :11. Remove Device 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:15 PM :   trigger  :12. Discoverable on 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:15 PM :   trigger  :13. Discoverable off 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:15 PM :   trigger  :14. Trusted 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:15 PM :   trigger  :15. Register Agent as Default 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:15 PM :   trigger  :16. Print UUID's  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:15 PM :   trigger  :17. Controller Supported UUID's 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:15 PM :   trigger  :18. Set Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:15 PM :   trigger  :19. Get Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:15 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:15 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:15 PM :   trigger  :22. opp file transfer file  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:15 PM :   trigger  :23. phone contact details  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:15 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:15 PM :   trigger  :25. HFP Profile testing.   
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:15 PM :   trigger  :30. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:15 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:17 PM :   trigger  :#################################################################################################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:17 PM :   trigger  :D4:CB:CC:86:9D:8C 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:17 PM :   trigger  :A4:05:6E:1F:04:67 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:17 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:17 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:17 PM :   trigger  :0.  Properties 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:17 PM :   trigger  :1.  Scan on 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:17 PM :   trigger  :2.  Scan off 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:17 PM :   trigger  :3.  Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:17 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:17 PM :   trigger  :5.  Register the agent 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:17 PM :   trigger  :6.  Pair 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:17 PM :   trigger  :7.  Check paired Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:17 PM :   trigger  :8.  Check Connected Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:17 PM :   trigger  :9.  Connect 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:17 PM :   trigger  :10. Disconnect 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:17 PM :   trigger  :11. Remove Device 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:17 PM :   trigger  :12. Discoverable on 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:17 PM :   trigger  :13. Discoverable off 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:17 PM :   trigger  :14. Trusted 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:17 PM :   trigger  :15. Register Agent as Default 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:17 PM :   trigger  :16. Print UUID's  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:17 PM :   trigger  :17. Controller Supported UUID's 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:17 PM :   trigger  :18. Set Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:17 PM :   trigger  :19. Get Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:17 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:17 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:17 PM :   trigger  :22. opp file transfer file  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:17 PM :   trigger  :23. phone contact details  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:17 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:17 PM :   trigger  :25. HFP Profile testing.   
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:17 PM :   trigger  :30. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:17 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:26 PM :   trigger  :#################################################################################################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:26 PM :   trigger  : NO Active connection found  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:26 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:26 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:26 PM :   trigger  :0.  Properties 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:26 PM :   trigger  :1.  Scan on 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:26 PM :   trigger  :2.  Scan off 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:26 PM :   trigger  :3.  Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:26 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:26 PM :   trigger  :5.  Register the agent 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:26 PM :   trigger  :6.  Pair 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:26 PM :   trigger  :7.  Check paired Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:26 PM :   trigger  :8.  Check Connected Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:26 PM :   trigger  :9.  Connect 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:26 PM :   trigger  :10. Disconnect 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:26 PM :   trigger  :11. Remove Device 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:26 PM :   trigger  :12. Discoverable on 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:26 PM :   trigger  :13. Discoverable off 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:26 PM :   trigger  :14. Trusted 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:26 PM :   trigger  :15. Register Agent as Default 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:26 PM :   trigger  :16. Print UUID's  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:26 PM :   trigger  :17. Controller Supported UUID's 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:26 PM :   trigger  :18. Set Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:26 PM :   trigger  :19. Get Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:26 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:26 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:26 PM :   trigger  :22. opp file transfer file  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:26 PM :   trigger  :23. phone contact details  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:26 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:26 PM :   trigger  :25. HFP Profile testing.   
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:26 PM :   trigger  :30. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:26 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:27 PM :   trigger  :#################################################################################################### 
+    INFO :   root :   19-06-2025 04:41:27 PM :     utils  : Pulseaudio Daemon Initiated.... 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:27 PM :   trigger  :1. D4:CB:CC:86:9D:8C 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:27 PM :   trigger  :2. A4:05:6E:1F:04:67 
+    INFO :   root :   19-06-2025 04:41:29 PM :       gap  : Connecting........ 
+    INFO :   root :   19-06-2025 04:41:30 PM :       gap  : Connected successfully to the device   
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:30 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:30 PM :   trigger  : Connected Successfully!  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:30 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:30 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:30 PM :   trigger  :0.  Properties 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:30 PM :   trigger  :1.  Scan on 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:30 PM :   trigger  :2.  Scan off 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:30 PM :   trigger  :3.  Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:30 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:30 PM :   trigger  :5.  Register the agent 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:30 PM :   trigger  :6.  Pair 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:30 PM :   trigger  :7.  Check paired Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:30 PM :   trigger  :8.  Check Connected Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:30 PM :   trigger  :9.  Connect 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:30 PM :   trigger  :10. Disconnect 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:30 PM :   trigger  :11. Remove Device 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:30 PM :   trigger  :12. Discoverable on 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:30 PM :   trigger  :13. Discoverable off 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:30 PM :   trigger  :14. Trusted 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:30 PM :   trigger  :15. Register Agent as Default 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:30 PM :   trigger  :16. Print UUID's  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:30 PM :   trigger  :17. Controller Supported UUID's 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:30 PM :   trigger  :18. Set Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:30 PM :   trigger  :19. Get Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:30 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:30 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:30 PM :   trigger  :22. opp file transfer file  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:30 PM :   trigger  :23. phone contact details  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:30 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:30 PM :   trigger  :25. HFP Profile testing.   
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:30 PM :   trigger  :30. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:30 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:52 PM :   trigger  :#################################################################################################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:52 PM :   trigger  :1. D4:CB:CC:86:9D:8C 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:52 PM :   trigger  :2. A4:05:6E:1F:04:67 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:55 PM :   trigger  : path: /org/bluez/hci0/dev_A4_05_6E_1F_04_67 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:55 PM :   trigger  :====== List of Supported UUID in Device====== 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:55 PM :   trigger  :profile: A/V Remote Control Target : 0000110c-0000-1000-8000-00805f9b34fb 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:55 PM :   trigger  :profile: A/V Remote Control : 0000110e-0000-1000-8000-00805f9b34fb 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:55 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:55 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:55 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:55 PM :   trigger  :0.  Properties 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:55 PM :   trigger  :1.  Scan on 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:55 PM :   trigger  :2.  Scan off 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:55 PM :   trigger  :3.  Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:55 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:55 PM :   trigger  :5.  Register the agent 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:55 PM :   trigger  :6.  Pair 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:55 PM :   trigger  :7.  Check paired Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:55 PM :   trigger  :8.  Check Connected Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:55 PM :   trigger  :9.  Connect 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:55 PM :   trigger  :10. Disconnect 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:55 PM :   trigger  :11. Remove Device 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:55 PM :   trigger  :12. Discoverable on 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:55 PM :   trigger  :13. Discoverable off 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:55 PM :   trigger  :14. Trusted 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:55 PM :   trigger  :15. Register Agent as Default 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:55 PM :   trigger  :16. Print UUID's  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:55 PM :   trigger  :17. Controller Supported UUID's 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:55 PM :   trigger  :18. Set Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:55 PM :   trigger  :19. Get Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:55 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:55 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:55 PM :   trigger  :22. opp file transfer file  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:55 PM :   trigger  :23. phone contact details  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:55 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:55 PM :   trigger  :25. HFP Profile testing.   
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:55 PM :   trigger  :30. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   19-06-2025 04:41:55 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   19-06-2025 04:49:40 PM :     utils  :**************************************************************************************************** 
+    INFO :   root :   19-06-2025 04:49:40 PM :     utils  : D-bus Daemon Initiated.... 
+    INFO :   root :   19-06-2025 04:49:40 PM :     utils  : Bluetooth-d Daemon Initiated.... 
+    INFO :   root :   19-06-2025 04:49:40 PM :     utils  :**************************************************************************************************** 
+    INFO : numexpr.utils :   19-06-2025 04:49:40 PM :     utils  :NumExpr defaulting to 8 threads. 
+    INFO :   root :   19-06-2025 04:49:40 PM :     utils  :======= List of Active Dongles ======== 
+    INFO :   root :   19-06-2025 04:49:40 PM :     utils  :1: /org/bluez/hci1 
+    INFO :   root :   19-06-2025 04:49:40 PM :     utils  :2: /org/bluez/hci0 
