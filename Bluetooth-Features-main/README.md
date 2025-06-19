@@ -106,10 +106,40 @@ python3 trigger.py
 3. **Select Test Option**
    The CLI will present options like:
 
-   * 22: Send File (OPP)
-   * 23: Pull Contacts (PBAP)
-   * 24: A2DP Media Controls
-   * etc.
+
+################## OPERATIONS #########################
+0.  Properties
+1.  Scan on
+2.  Scan off
+3.  Devices
+4.  Power[ON/OFF]
+5.  Register the agent
+6.  Pair
+7.  Check paired Devices
+8.  Check Connected Devices
+9.  Connect
+10. Disconnect
+11. Remove Device
+12. Discoverable on
+13. Discoverable off
+14. Trusted
+15. Register Agent as Default
+16. Print UUID's 
+17. Controller Supported UUID's
+18. Set Pairable Timeout
+19. Get Pairable Timeout
+20. Set Discoverable Timeout
+21. Get Discoverable Timeout
+22. opp file transfer file 
+23. phone contact details 
+24. A2DP Profile and A2DP Media Control 
+25. HFP Profile testing.  
+30. Exit
+****************************************************************************************************
+Enter your Choise......
+
+
+
 
 ---
 
