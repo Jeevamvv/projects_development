@@ -1,34 +1,40 @@
-# Use Ubuntu base image
+
+# Use Ubuntu as base image
 FROM ubuntu:20.04
 
-# Set non-interactive mode for apt
 ENV DEBIAN_FRONTEND=noninteractive
 
-# Update and install system dependencies
+# Set working directory
+WORKDIR /bluetooth_app
+
 RUN apt-get update && apt-get install -y \
     python3 python3-pip \
-    bluez bluetooth bluez-tools \
-    pulseaudio pulseaudio-utils \
-    playerctl \
-    mpv \
-    dbus udev \
-    sudo \
-    git vim nano \
-    libbluetooth-dev build-essential \
+    bluez bluez-tools bluetooth \
+    libglib2.0-dev libbluetooth-dev \
+    libgirepository1.0-dev gir1.2-glib-2.0 \
+    python3-gi python3-gi-cairo \
+    dbus libdbus-1-dev libdbus-glib-1-dev \
+    build-essential pkg-config cmake \
+    sudo vim \
     && apt-get clean
 
-# Set the working directory
-WORKDIR /docker_bluetooth_app
+# Copy all project files into the container
+COPY . /bluetooth_app
 
-# Copy the project files into the container
-COPY . /docker_bluetooth_app
+# Install Python dependencies
+RUN pip3 install --default-timeout=200 --no-cache-dir -r requirements.txt
 
-# Upgrade pip and install Python requirements
-RUN pip3 install --upgrade pip
-RUN pip3 install -r requirements.txt
+# Create and configure user
+RUN adduser --disabled-password --gecos '' btuser && \
+    adduser btuser sudo && \
+    usermod -a -G bluetooth btuser
 
-# Set up PulseAudio environment variable
-ENV PULSE_SERVER=unix:/run/user/1000/pulse/native
+# Set permissions
+RUN chown -R btuser:btuser /bluetooth_app
 
-# Default command to run the app
-CMD ["python3", "trigger.py"]
+# Switch to non-root user
+USER btuser
+ENV PYTHONPATH=/bluetooth_app
+
+# Default command
+CMD ["python3", "run.py"]

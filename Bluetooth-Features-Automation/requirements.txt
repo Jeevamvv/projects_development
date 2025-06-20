@@ -1,2 +1,6 @@
 pybluez
 openpyxl
+pandas
+numexpr>=2.7.3
+bluepy
+dbus-python
