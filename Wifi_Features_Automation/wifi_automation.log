@@ -1,0 +1,16 @@
+2025-06-21 21:22:03,034 - ERROR - Scan failed: g-io-error-quark: GDBus.Error:org.freedesktop.NetworkManager.Device.NotAllowed: Scanning not allowed while already scanning (36)
+2025-06-21 21:23:33,676 - WARNING - Scan in progress...retrying
+2025-06-21 21:23:35,682 - WARNING - Scan in progress...retrying
+2025-06-21 21:23:37,686 - WARNING - Scan in progress...retrying
+2025-06-21 21:23:39,690 - WARNING - Scan in progress...retrying
+2025-06-21 21:23:41,695 - WARNING - Scan in progress...retrying
+2025-06-21 21:23:43,697 - ERROR - Failed to complete scan after retries.
+2025-06-21 21:23:47,948 - INFO - Scan requested. Waiting for results...
+2025-06-21 21:23:50,954 - ERROR - Scan failed: 'str' object has no attribute 'Ssid'
+2025-06-21 21:23:50,954 - ERROR - Failed to complete scan after retries.
+2025-06-21 21:23:54,812 - WARNING - Scan in progress...retrying
+2025-06-21 21:23:56,816 - WARNING - Scan in progress...retrying
+2025-06-21 21:23:58,820 - WARNING - Scan in progress...retrying
+2025-06-21 21:24:00,825 - WARNING - Scan in progress...retrying
+2025-06-21 21:24:02,829 - WARNING - Scan in progress...retrying
+2025-06-21 21:24:04,831 - ERROR - Failed to complete scan after retries.
