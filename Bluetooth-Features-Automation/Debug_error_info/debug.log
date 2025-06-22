@@ -578,3 +578,10 @@
     INFO : Classic_Bluetooth_Profile.hfp :   22-06-2025 10:07:29 PM :   trigger  :25. HFP Profile testing.   
     INFO : Classic_Bluetooth_Profile.hfp :   22-06-2025 10:07:29 PM :   trigger  :30. Exit 
     INFO : Classic_Bluetooth_Profile.hfp :   22-06-2025 10:07:29 PM :   trigger  :**************************************************************************************************** 
+    INFO :   root :   22-06-2025 10:10:45 PM :     utils  :**************************************************************************************************** 
+    INFO :   root :   22-06-2025 10:10:45 PM :     utils  : D-bus Daemon Initiated.... 
+    INFO :   root :   22-06-2025 10:10:45 PM :     utils  : Bluetooth-d Daemon Initiated.... 
+    INFO :   root :   22-06-2025 10:10:45 PM :     utils  :**************************************************************************************************** 
+    INFO : numexpr.utils :   22-06-2025 10:10:45 PM :     utils  :NumExpr defaulting to 8 threads. 
+    INFO :   root :   22-06-2025 10:10:45 PM :     utils  :======= List of Active Dongles ======== 
+    INFO :   root :   22-06-2025 10:10:45 PM :     utils  :1: /org/bluez/hci0 

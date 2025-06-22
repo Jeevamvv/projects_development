@@ -27,7 +27,7 @@ import subprocess
 # # subprocess.run(["python3", "Classic_Bluetooth_Profile/pbap.py"])
 
 
-
+subprocess.run("python3 trigger.py", shell=True)
 subprocess.run("python3 opp.py", shell=True)
 subprocess.run("python3 pbap.py", shell=True)
 subprocess.run("python3 a2dp.py", shell=True)
