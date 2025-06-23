@@ -108,6 +108,7 @@ python3 trigger.py
 
 
 ################## OPERATIONS #########################
+
 0.  Properties
 1.  Scan on
 2.  Scan off
