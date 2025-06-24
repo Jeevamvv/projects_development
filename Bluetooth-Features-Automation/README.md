@@ -147,8 +147,9 @@ Enter your Choise......
 ## 📌 Future Enhancements (Planned)
 
 * BLE profile testing (`Bluetooth_Low_Energy/`)
-* More robust error handling and exception coverage
-* UI-based control panel for selecting and viewing test results
+* Wifi Automation Testing.
+* More robust error handling and exception coverage.
+* UI-based control panel for selecting and viewing test results.
 
 ---
 
