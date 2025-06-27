@@ -559,7 +559,7 @@ while True:
                 break
             else:
                 log.warning("Invalid choice. Try again.")
-            
+
     if val == 25:
         log.debug("User selected the option to HFP Profile and Call Control Test Menu")
 
@@ -613,3 +613,5 @@ while True:
         if gl.pulseaudio_daemon != "NULL":
             os.killpg(os.getpgid(gl.pulseaudio_daemon.pid),signal.SIGTERM)
         sys.exit(1)
+
+   

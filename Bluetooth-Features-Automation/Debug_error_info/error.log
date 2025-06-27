@@ -1,0 +1,69 @@
+CRITICAL :   root :   25-06-2025 11:07:06 PM :       gap  :org.bluez.Error.DoesNotExist: Does Not Exist 
+CRITICAL :   root :   25-06-2025 11:09:30 PM :       gap  :org.bluez.Error.Failed: No discovery started 
+CRITICAL :   root :   25-06-2025 11:12:47 PM :       gap  :org.bluez.Error.Failed: Host is down 
+CRITICAL :   root :   25-06-2025 11:13:27 PM :       gap  :org.bluez.Error.Failed: Host is down 
+CRITICAL :   root :   26-06-2025 10:31:08 AM :     utils  :org.freedesktop.systemd1.NoSuchUnit: Unit dbus-org.bluez.service not found. 
+CRITICAL :   root :   26-06-2025 10:31:27 AM :     utils  :org.freedesktop.systemd1.NoSuchUnit: Unit dbus-org.bluez.service not found. 
+CRITICAL :   root :   26-06-2025 10:33:33 AM :     utils  :org.freedesktop.systemd1.NoSuchUnit: Unit dbus-org.bluez.service not found. 
+CRITICAL :   root :   26-06-2025 10:33:38 AM :     utils  :org.freedesktop.systemd1.NoSuchUnit: Unit dbus-org.bluez.service not found. 
+CRITICAL :   root :   26-06-2025 10:34:27 AM :     utils  :org.freedesktop.systemd1.NoSuchUnit: Unit dbus-org.bluez.service not found. 
+CRITICAL :   root :   26-06-2025 10:36:39 AM :       gap  :org.bluez.Error.ConnectionAttemptFailed: Page Timeout 
+CRITICAL :   root :   26-06-2025 10:37:21 AM :       gap  :org.bluez.Error.AuthenticationCanceled: Authentication Canceled 
+CRITICAL :   root :   26-06-2025 10:50:58 AM :       gap  :org.freedesktop.DBus.Error.UnknownObject: Method "Connect" with signature "" on interface "org.bluez.Device1" doesn't exist
+ 
+CRITICAL : Classic_Bluetooth_Profile.hfp :   26-06-2025 10:56:50 AM :   trigger  :org.freedesktop.DBus.Error.UnknownObject: Method "Get" with signature "ss" on interface "org.freedesktop.DBus.Properties" doesn't exist
+ 
+CRITICAL :   root :   26-06-2025 10:57:34 AM :       gap  :org.freedesktop.DBus.Error.UnknownObject: Method "Connect" with signature "" on interface "org.bluez.Device1" doesn't exist
+ 
+CRITICAL :   root :   26-06-2025 10:58:21 AM :       gap  :org.freedesktop.DBus.Error.UnknownObject: Method "Connect" with signature "" on interface "org.bluez.Device1" doesn't exist
+ 
+CRITICAL : Classic_Bluetooth_Profile.hfp :   26-06-2025 10:59:25 AM :   trigger  :Exception during agent registration: org.bluez.Error.AlreadyExists: Already Exists 
+   ERROR :   root :   26-06-2025 11:03:41 AM :      pbap  :❌ Could not find PBAP channel on the device. 
+   ERROR :   root :   26-06-2025 11:04:09 AM :      pbap  :❌ Could not find PBAP channel on the device. 
+CRITICAL : Classic_Bluetooth_Profile.hfp :   26-06-2025 11:06:58 AM :   trigger  :Exception during agent registration: org.bluez.Error.AlreadyExists: Already Exists 
+CRITICAL : Classic_Bluetooth_Profile.hfp :   26-06-2025 11:19:47 AM :   trigger  :org.freedesktop.DBus.Error.UnknownObject: Method "Get" with signature "ss" on interface "org.freedesktop.DBus.Properties" doesn't exist
+ 
+CRITICAL :   root :   26-06-2025 11:19:50 AM :       gap  :org.freedesktop.DBus.Error.UnknownObject: Method "Connect" with signature "" on interface "org.bluez.Device1" doesn't exist
+ 
+CRITICAL : Classic_Bluetooth_Profile.hfp :   26-06-2025 11:27:35 AM :   trigger  :org.freedesktop.DBus.Error.UnknownObject: Method "Get" with signature "ss" on interface "org.freedesktop.DBus.Properties" doesn't exist
+ 
+CRITICAL :   root :   26-06-2025 11:27:53 AM :       gap  :org.freedesktop.DBus.Error.UnknownObject: Method "Connect" with signature "" on interface "org.bluez.Device1" doesn't exist
+ 
+CRITICAL :   root :   26-06-2025 11:29:20 AM :       gap  :org.freedesktop.DBus.Error.UnknownObject: Method "Get" with signature "ss" on interface "org.freedesktop.DBus.Properties" doesn't exist
+ 
+CRITICAL :   root :   26-06-2025 11:29:20 AM :       gap  :org.freedesktop.DBus.Error.UnknownObject: Method "Get" with signature "ss" on interface "org.freedesktop.DBus.Properties" doesn't exist
+ 
+CRITICAL :   root :   26-06-2025 11:29:20 AM :       gap  :org.freedesktop.DBus.Error.UnknownObject: Method "Get" with signature "ss" on interface "org.freedesktop.DBus.Properties" doesn't exist
+ 
+CRITICAL :   root :   26-06-2025 11:29:20 AM :       gap  :org.freedesktop.DBus.Error.UnknownObject: Method "Get" with signature "ss" on interface "org.freedesktop.DBus.Properties" doesn't exist
+ 
+CRITICAL :   root :   26-06-2025 11:29:20 AM :       gap  :org.freedesktop.DBus.Error.UnknownObject: Method "Get" with signature "ss" on interface "org.freedesktop.DBus.Properties" doesn't exist
+ 
+CRITICAL :   root :   26-06-2025 11:29:20 AM :       gap  :org.freedesktop.DBus.Error.UnknownObject: Method "Get" with signature "ss" on interface "org.freedesktop.DBus.Properties" doesn't exist
+ 
+CRITICAL :   root :   26-06-2025 11:29:20 AM :       gap  :org.freedesktop.DBus.Error.UnknownObject: Method "Get" with signature "ss" on interface "org.freedesktop.DBus.Properties" doesn't exist
+ 
+CRITICAL :   root :   26-06-2025 11:29:20 AM :       gap  :org.freedesktop.DBus.Error.UnknownObject: Method "Get" with signature "ss" on interface "org.freedesktop.DBus.Properties" doesn't exist
+ 
+CRITICAL :   root :   26-06-2025 11:29:20 AM :       gap  :org.freedesktop.DBus.Error.UnknownObject: Method "Get" with signature "ss" on interface "org.freedesktop.DBus.Properties" doesn't exist
+ 
+CRITICAL :   root :   26-06-2025 11:29:20 AM :       gap  :org.freedesktop.DBus.Error.UnknownObject: Method "Get" with signature "ss" on interface "org.freedesktop.DBus.Properties" doesn't exist
+ 
+CRITICAL :   root :   26-06-2025 11:29:20 AM :       gap  :org.freedesktop.DBus.Error.UnknownObject: Method "Get" with signature "ss" on interface "org.freedesktop.DBus.Properties" doesn't exist
+ 
+CRITICAL :   root :   26-06-2025 11:29:20 AM :       gap  :org.freedesktop.DBus.Error.UnknownObject: Method "Get" with signature "ss" on interface "org.freedesktop.DBus.Properties" doesn't exist
+ 
+CRITICAL :   root :   26-06-2025 11:29:20 AM :       gap  :org.freedesktop.DBus.Error.UnknownObject: Method "Get" with signature "ss" on interface "org.freedesktop.DBus.Properties" doesn't exist
+ 
+CRITICAL : Classic_Bluetooth_Profile.hfp :   26-06-2025 11:29:20 AM :   trigger  :org.freedesktop.DBus.Error.UnknownObject: Method "Get" with signature "ss" on interface "org.freedesktop.DBus.Properties" doesn't exist
+ 
+CRITICAL : Classic_Bluetooth_Profile.hfp :   26-06-2025 11:29:54 AM :   trigger  :org.freedesktop.DBus.Error.UnknownObject: Method "Get" with signature "ss" on interface "org.freedesktop.DBus.Properties" doesn't exist
+ 
+   ERROR :   root :   26-06-2025 11:30:59 AM :       opp  :Could not determine OBEX OPP channel from device. 
+   ERROR :   root :   26-06-2025 11:31:59 AM :       opp  :Could not determine OBEX OPP channel from device. 
+CRITICAL :   root :   26-06-2025 11:33:06 AM :     utils  :org.freedesktop.systemd1.NoSuchUnit: Unit dbus-org.bluez.service not found. 
+CRITICAL :   root :   26-06-2025 11:33:09 AM :     utils  :org.freedesktop.systemd1.NoSuchUnit: Unit dbus-org.bluez.service not found. 
+CRITICAL :   root :   26-06-2025 11:33:24 AM :     utils  :org.freedesktop.systemd1.NoSuchUnit: Unit dbus-org.bluez.service not found. 
+CRITICAL :   root :   26-06-2025 12:58:08 PM :       gap  :org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken. 
+CRITICAL :   root :   26-06-2025 12:58:19 PM :       gap  :org.bluez.Error.InProgress: In Progress 
+CRITICAL :   root :   26-06-2025 12:59:39 PM :       gap  :org.bluez.Error.InProgress: In Progress 
