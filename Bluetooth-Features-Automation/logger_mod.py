@@ -3,6 +3,7 @@ import os
 
 
 class Logger():
+
     def __init__(self):
         """
         Initializes the logger with DEBUG level and sets up formatting.
