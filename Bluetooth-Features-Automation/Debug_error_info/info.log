@@ -10770,3 +10770,558 @@ CRITICAL :   root :   26-06-2025 12:59:39 PM :       gap  :org.bluez.Error.InPro
     INFO : Classic_Bluetooth_Profile.hfp :   26-06-2025 12:59:39 PM :   trigger  :30. Exit 
     INFO : Classic_Bluetooth_Profile.hfp :   26-06-2025 12:59:39 PM :   trigger  :**************************************************************************************************** 
     INFO : Classic_Bluetooth_Profile.hfp :   26-06-2025 01:00:42 PM :   trigger  :#################################################################################################### 
+    INFO :   root :   09-07-2025 03:42:04 PM :     utils  :**************************************************************************************************** 
+    INFO :   root :   09-07-2025 03:42:04 PM :     utils  : D-bus Daemon Initiated.... 
+    INFO :   root :   09-07-2025 03:42:04 PM :     utils  : Bluetooth-d Daemon Initiated.... 
+    INFO :   root :   09-07-2025 03:42:04 PM :     utils  :**************************************************************************************************** 
+    INFO : numexpr.utils :   09-07-2025 03:42:04 PM :     utils  :NumExpr defaulting to 8 threads. 
+    INFO :   root :   09-07-2025 03:42:04 PM :     utils  :======= List of Active Dongles ======== 
+    INFO :   root :   09-07-2025 03:42:04 PM :     utils  :1: /org/bluez/hci0 
+    INFO :   root :   09-07-2025 03:42:04 PM :     utils  :2: /org/bluez/hci1 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:40 PM :   trigger  : Selected interface: /org/bluez/hci0 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:40 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:40 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:40 PM :   trigger  :0.  Properties 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:40 PM :   trigger  :1.  Scan on 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:40 PM :   trigger  :2.  Scan off 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:40 PM :   trigger  :3.  Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:40 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:40 PM :   trigger  :5.  Register the agent 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:40 PM :   trigger  :6.  Pair 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:40 PM :   trigger  :7.  Check paired Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:40 PM :   trigger  :8.  Check Connected Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:40 PM :   trigger  :9.  Connect 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:40 PM :   trigger  :10. Disconnect 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:40 PM :   trigger  :11. Remove Device 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:40 PM :   trigger  :12. Discoverable on 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:40 PM :   trigger  :13. Discoverable off 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:40 PM :   trigger  :14. Trusted 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:40 PM :   trigger  :15. Register Agent as Default 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:40 PM :   trigger  :16. Print UUID's  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:40 PM :   trigger  :17. Controller Supported UUID's 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:40 PM :   trigger  :18. Set Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:40 PM :   trigger  :19. Get Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:40 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:40 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:40 PM :   trigger  :22. opp file transfer file  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:40 PM :   trigger  :23. phone contact details  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:40 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:40 PM :   trigger  :25. HFP Profile testing.   
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:40 PM :   trigger  :30. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:40 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:48 PM :   trigger  :#################################################################################################### 
+    INFO :   root :   09-07-2025 03:42:53 PM :       gap  : Scanning Started!  
+    INFO :   root :   09-07-2025 03:42:58 PM :       gap  :Scanning completed after 5 Sec 
+    INFO :   root :   09-07-2025 03:42:58 PM :       gap  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :Name:       b'53-F3-58-C0-78-7F' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :Bd_address: b'53:F3:58:C0:78:7F' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :Name:       b'5A-07-38-24-66-58' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :Bd_address: b'5A:07:38:24:66:58' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :Name:       b'48-6D-50-C6-C8-D7' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :Bd_address: b'48:6D:50:C6:C8:D7' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :Name:       b'Noise Pulse_E79F' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :Bd_address: b'D3:1A:1B:30:E7:9F' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :Name:       b'5F-AA-3D-68-BD-4D' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :Bd_address: b'5F:AA:3D:68:BD:4D' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :Name:       b'4F-BC-FB-7A-2C-0B' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :Bd_address: b'4F:BC:FB:7A:2C:0B' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :Name:       b'6A-56-9F-FF-60-87' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :Bd_address: b'6A:56:9F:FF:60:87' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :Name:       b'4E-A5-12-46-C5-9A' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :Bd_address: b'4E:A5:12:46:C5:9A' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :Name:       b'6E-2F-10-6F-70-95' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :Bd_address: b'6E:2F:10:6F:70:95' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :Name:       b'68-DA-EC-1A-BD-D9' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :Bd_address: b'68:DA:EC:1A:BD:D9' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :Name:       b'79-E9-3B-A8-38-95' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :Bd_address: b'79:E9:3B:A8:38:95' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :Name:       b'zopch' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :Bd_address: b'C4:DF:39:66:A3:F4' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :Name:       b'vivo T3 5G' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :Bd_address: b'18:04:03:59:50:7C' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :Name:       b'Vivo T2x5G' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :Bd_address: b'D4:CB:CC:86:9D:8C' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :Name:       b'engineer-ThinkPad-E15-Gen-2' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :Bd_address: b'F8:9E:94:33:BD:04' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :0.  Properties 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :1.  Scan on 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :2.  Scan off 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :3.  Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :5.  Register the agent 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :6.  Pair 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :7.  Check paired Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :8.  Check Connected Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :9.  Connect 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :10. Disconnect 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :11. Remove Device 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :12. Discoverable on 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :13. Discoverable off 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :14. Trusted 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :15. Register Agent as Default 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :16. Print UUID's  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :17. Controller Supported UUID's 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :18. Set Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :19. Get Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :22. opp file transfer file  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :23. phone contact details  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :25. HFP Profile testing.   
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :30. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:42:58 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:14 PM :   trigger  :#################################################################################################### 
+    INFO :   root :   09-07-2025 03:43:22 PM :       gap  :D4:CB:CC:86:9D:8C 
+    INFO :   root :   09-07-2025 03:43:22 PM :       gap  : Pairing Initiated!!!.......... 
+CRITICAL :   root :   09-07-2025 03:43:22 PM :       gap  :org.bluez.Error.AlreadyExists: Already Exists 
+    INFO :   root :   09-07-2025 03:43:22 PM :       gap  : Failed to pair the device 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:22 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:22 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:22 PM :   trigger  :0.  Properties 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:22 PM :   trigger  :1.  Scan on 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:22 PM :   trigger  :2.  Scan off 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:22 PM :   trigger  :3.  Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:22 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:22 PM :   trigger  :5.  Register the agent 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:22 PM :   trigger  :6.  Pair 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:22 PM :   trigger  :7.  Check paired Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:22 PM :   trigger  :8.  Check Connected Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:22 PM :   trigger  :9.  Connect 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:22 PM :   trigger  :10. Disconnect 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:22 PM :   trigger  :11. Remove Device 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:22 PM :   trigger  :12. Discoverable on 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:22 PM :   trigger  :13. Discoverable off 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:22 PM :   trigger  :14. Trusted 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:22 PM :   trigger  :15. Register Agent as Default 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:22 PM :   trigger  :16. Print UUID's  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:22 PM :   trigger  :17. Controller Supported UUID's 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:22 PM :   trigger  :18. Set Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:22 PM :   trigger  :19. Get Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:22 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:22 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:22 PM :   trigger  :22. opp file transfer file  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:22 PM :   trigger  :23. phone contact details  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:22 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:22 PM :   trigger  :25. HFP Profile testing.   
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:22 PM :   trigger  :30. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:22 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:29 PM :   trigger  :#################################################################################################### 
+    INFO :   root :   09-07-2025 03:43:29 PM :     utils  : Pulseaudio Daemon Initiated.... 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:29 PM :   trigger  :1. D4:CB:CC:86:9D:8C 
+    INFO :   root :   09-07-2025 03:43:30 PM :       gap  : Connecting........ 
+    INFO :   root :   09-07-2025 03:43:33 PM :       gap  : Connected successfully to the device   
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:33 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:33 PM :   trigger  : Connected Successfully!  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:33 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:33 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:33 PM :   trigger  :0.  Properties 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:33 PM :   trigger  :1.  Scan on 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:33 PM :   trigger  :2.  Scan off 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:33 PM :   trigger  :3.  Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:33 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:33 PM :   trigger  :5.  Register the agent 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:33 PM :   trigger  :6.  Pair 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:33 PM :   trigger  :7.  Check paired Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:33 PM :   trigger  :8.  Check Connected Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:33 PM :   trigger  :9.  Connect 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:33 PM :   trigger  :10. Disconnect 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:33 PM :   trigger  :11. Remove Device 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:33 PM :   trigger  :12. Discoverable on 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:33 PM :   trigger  :13. Discoverable off 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:33 PM :   trigger  :14. Trusted 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:33 PM :   trigger  :15. Register Agent as Default 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:33 PM :   trigger  :16. Print UUID's  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:33 PM :   trigger  :17. Controller Supported UUID's 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:33 PM :   trigger  :18. Set Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:33 PM :   trigger  :19. Get Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:33 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:33 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:33 PM :   trigger  :22. opp file transfer file  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:33 PM :   trigger  :23. phone contact details  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:33 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:33 PM :   trigger  :25. HFP Profile testing.   
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:33 PM :   trigger  :30. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:43:33 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:01 PM :   trigger  :#################################################################################################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:01 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:01 PM :   trigger  :1. Powered 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:01 PM :   trigger  :2. Address 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:01 PM :   trigger  :3. Address_Type 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:01 PM :   trigger  :4. Alias 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:01 PM :   trigger  : 5. Name 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:01 PM :   trigger  :6. Class 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:01 PM :   trigger  :7. DiscoverableTimeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:01 PM :   trigger  :8. PairableTimeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:01 PM :   trigger  : 9. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:08 PM :   trigger  :#################################################################################################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:08 PM :   trigger  :5C:F3:70:79:93:F8 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:08 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:08 PM :   trigger  :1. Powered 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:08 PM :   trigger  :2. Address 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:08 PM :   trigger  :3. Address_Type 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:08 PM :   trigger  :4. Alias 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:08 PM :   trigger  : 5. Name 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:08 PM :   trigger  :6. Class 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:08 PM :   trigger  :7. DiscoverableTimeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:08 PM :   trigger  :8. PairableTimeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:08 PM :   trigger  : 9. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:14 PM :   trigger  :#################################################################################################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:14 PM :   trigger  :engineer-ThinkPad-E15-Gen-2 #1 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:14 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:14 PM :   trigger  :1. Powered 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:14 PM :   trigger  :2. Address 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:14 PM :   trigger  :3. Address_Type 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:14 PM :   trigger  :4. Alias 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:14 PM :   trigger  : 5. Name 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:14 PM :   trigger  :6. Class 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:14 PM :   trigger  :7. DiscoverableTimeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:14 PM :   trigger  :8. PairableTimeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:14 PM :   trigger  : 9. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:16 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:16 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:16 PM :   trigger  :0.  Properties 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:16 PM :   trigger  :1.  Scan on 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:16 PM :   trigger  :2.  Scan off 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:16 PM :   trigger  :3.  Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:16 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:16 PM :   trigger  :5.  Register the agent 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:16 PM :   trigger  :6.  Pair 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:16 PM :   trigger  :7.  Check paired Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:16 PM :   trigger  :8.  Check Connected Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:16 PM :   trigger  :9.  Connect 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:16 PM :   trigger  :10. Disconnect 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:16 PM :   trigger  :11. Remove Device 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:16 PM :   trigger  :12. Discoverable on 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:16 PM :   trigger  :13. Discoverable off 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:16 PM :   trigger  :14. Trusted 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:16 PM :   trigger  :15. Register Agent as Default 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:16 PM :   trigger  :16. Print UUID's  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:16 PM :   trigger  :17. Controller Supported UUID's 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:16 PM :   trigger  :18. Set Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:16 PM :   trigger  :19. Get Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:16 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:16 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:16 PM :   trigger  :22. opp file transfer file  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:16 PM :   trigger  :23. phone contact details  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:16 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:16 PM :   trigger  :25. HFP Profile testing.   
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:16 PM :   trigger  :30. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:16 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:26 PM :   trigger  :#################################################################################################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:26 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:26 PM :   trigger  :🎵 A2DP Media Control Test Menu 🎵 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:26 PM :   trigger  :1. 🎶  Select Player box MUSIC CONTROL 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:26 PM :   trigger  :2. 🎶  Select OFFLINE MUSIC CONTROL 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:26 PM :   trigger  :3. 🎶  Select Online MUSIC CONTROL 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:26 PM :   trigger  :4. 🚪 Exit A2DP Media Test 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 03:44:54 PM :   trigger  :🎶 Select OFFLINE MUSIC CONTROL 
+    INFO :   root :   09-07-2025 03:44:54 PM :      a2dp  :🎶 Available tracks: 
+    INFO :   root :   09-07-2025 03:44:54 PM :      a2dp  :1. indian-bollywood-hindi-song-background-music-293028.mp3 
+    INFO :   root :   09-07-2025 03:44:54 PM :      a2dp  :2. tera-pyar-mera-junoon-334753.mp3 
+    INFO :   root :   09-07-2025 03:44:54 PM :      a2dp  :3. bollywood-song-313044.mp3 
+    INFO :   root :   09-07-2025 03:44:54 PM :      a2dp  :4. romantic-song-tera-roothna-by-ashir-hindi-top-trending-viral-song-231771.mp3 
+    INFO :   root :   09-07-2025 03:45:02 PM :      a2dp  :🎵 Now playing: /home/engineer/Music/indian-bollywood-hindi-song-background-music-293028.mp3 
+    INFO :   root :   09-07-2025 03:45:02 PM :      a2dp  :
+===== 🎧 Media Control Options ===== 
+    INFO :   root :   09-07-2025 03:45:02 PM :      a2dp  :1. ⏸️  Pause 
+    INFO :   root :   09-07-2025 03:45:02 PM :      a2dp  :2. ▶️  Play 
+    INFO :   root :   09-07-2025 03:45:02 PM :      a2dp  :3. ⏭️  Next Track 
+    INFO :   root :   09-07-2025 03:45:02 PM :      a2dp  :4. ⏮️  Previous Track 
+    INFO :   root :   09-07-2025 03:45:02 PM :      a2dp  :5. 🔊 Volume Up 
+    INFO :   root :   09-07-2025 03:45:02 PM :      a2dp  :6. 🔉 Volume Down 
+    INFO :   root :   09-07-2025 03:45:02 PM :      a2dp  :7. 🔈 Volume GET 
+    INFO :   root :   09-07-2025 03:45:02 PM :      a2dp  :8. ❌ Stop & Exit 
+    INFO :   root :   09-07-2025 03:45:15 PM :      a2dp  :
+===== 🎧 Media Control Options ===== 
+    INFO :   root :   09-07-2025 03:45:15 PM :      a2dp  :1. ⏸️  Pause 
+    INFO :   root :   09-07-2025 03:45:15 PM :      a2dp  :2. ▶️  Play 
+    INFO :   root :   09-07-2025 03:45:15 PM :      a2dp  :3. ⏭️  Next Track 
+    INFO :   root :   09-07-2025 03:45:15 PM :      a2dp  :4. ⏮️  Previous Track 
+    INFO :   root :   09-07-2025 03:45:15 PM :      a2dp  :5. 🔊 Volume Up 
+    INFO :   root :   09-07-2025 03:45:15 PM :      a2dp  :6. 🔉 Volume Down 
+    INFO :   root :   09-07-2025 03:45:15 PM :      a2dp  :7. 🔈 Volume GET 
+    INFO :   root :   09-07-2025 03:45:15 PM :      a2dp  :8. ❌ Stop & Exit 
+    INFO :   root :   09-07-2025 04:49:28 PM :     utils  :**************************************************************************************************** 
+    INFO :   root :   09-07-2025 04:49:28 PM :     utils  : D-bus Daemon Initiated.... 
+    INFO :   root :   09-07-2025 04:49:28 PM :     utils  : Bluetooth-d Daemon Initiated.... 
+    INFO :   root :   09-07-2025 04:49:28 PM :     utils  :**************************************************************************************************** 
+    INFO : numexpr.utils :   09-07-2025 04:49:28 PM :     utils  :NumExpr defaulting to 8 threads. 
+    INFO :   root :   09-07-2025 04:49:28 PM :     utils  :======= List of Active Dongles ======== 
+    INFO :   root :   09-07-2025 04:49:28 PM :     utils  :1: /org/bluez/hci0 
+    INFO :   root :   09-07-2025 04:49:28 PM :     utils  :2: /org/bluez/hci1 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:49:58 PM :   trigger  : Selected interface: /org/bluez/hci0 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:49:58 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:49:58 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:49:58 PM :   trigger  :0.  Properties 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:49:58 PM :   trigger  :1.  Scan on 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:49:58 PM :   trigger  :2.  Scan off 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:49:58 PM :   trigger  :3.  Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:49:58 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:49:58 PM :   trigger  :5.  Register the agent 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:49:58 PM :   trigger  :6.  Pair 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:49:58 PM :   trigger  :7.  Check paired Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:49:58 PM :   trigger  :8.  Check Connected Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:49:58 PM :   trigger  :9.  Connect 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:49:58 PM :   trigger  :10. Disconnect 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:49:58 PM :   trigger  :11. Remove Device 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:49:58 PM :   trigger  :12. Discoverable on 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:49:58 PM :   trigger  :13. Discoverable off 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:49:58 PM :   trigger  :14. Trusted 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:49:58 PM :   trigger  :15. Register Agent as Default 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:49:58 PM :   trigger  :16. Print UUID's  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:49:58 PM :   trigger  :17. Controller Supported UUID's 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:49:58 PM :   trigger  :18. Set Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:49:58 PM :   trigger  :19. Get Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:49:58 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:49:58 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:49:58 PM :   trigger  :22. opp file transfer file  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:49:58 PM :   trigger  :23. phone contact details  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:49:58 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:49:58 PM :   trigger  :25. HFP Profile testing.   
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:49:58 PM :   trigger  :30. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:49:58 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:04 PM :   trigger  :#################################################################################################### 
+    INFO :   root :   09-07-2025 04:50:07 PM :       gap  : Scanning Started!  
+    INFO :   root :   09-07-2025 04:50:12 PM :       gap  :Scanning completed after 5 Sec 
+    INFO :   root :   09-07-2025 04:50:12 PM :       gap  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :Name:       b'4F-2F-33-AB-83-57' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :Bd_address: b'4F:2F:33:AB:83:57' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :Name:       b'40-23-36-F9-AB-4D' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :Bd_address: b'40:23:36:F9:AB:4D' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :Name:       b'D6-27-07-22-28-53' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :Bd_address: b'D6:27:07:22:28:53' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :Name:       b'77-15-06-2F-5B-12' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :Bd_address: b'77:15:06:2F:5B:12' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :Name:       b'5E-14-B2-E2-47-48' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :Bd_address: b'5E:14:B2:E2:47:48' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :Name:       b'7C-5D-98-47-F1-09' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :Bd_address: b'7C:5D:98:47:F1:09' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :Name:       b'zopch' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :Bd_address: b'C4:DF:39:66:A3:F4' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :Name:       b'vivo T3 5G' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :Bd_address: b'18:04:03:59:50:7C' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :Name:       b'Vivo T2x5G' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :Bd_address: b'D4:CB:CC:86:9D:8C' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :Name:       b'engineer-ThinkPad-E15-Gen-2' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :Bd_address: b'F8:9E:94:33:BD:04' 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :0.  Properties 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :1.  Scan on 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :2.  Scan off 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :3.  Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :5.  Register the agent 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :6.  Pair 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :7.  Check paired Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :8.  Check Connected Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :9.  Connect 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :10. Disconnect 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :11. Remove Device 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :12. Discoverable on 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :13. Discoverable off 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :14. Trusted 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :15. Register Agent as Default 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :16. Print UUID's  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :17. Controller Supported UUID's 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :18. Set Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :19. Get Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :22. opp file transfer file  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :23. phone contact details  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :25. HFP Profile testing.   
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :30. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:12 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:15 PM :   trigger  :#################################################################################################### 
+    INFO :   root :   09-07-2025 04:50:15 PM :     utils  : Pulseaudio Daemon Initiated.... 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:15 PM :   trigger  :1. D4:CB:CC:86:9D:8C 
+    INFO :   root :   09-07-2025 04:50:16 PM :       gap  : Connecting........ 
+    INFO :   root :   09-07-2025 04:50:18 PM :       gap  : Connected successfully to the device   
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:18 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:18 PM :   trigger  : Connected Successfully!  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:18 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:18 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:18 PM :   trigger  :0.  Properties 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:18 PM :   trigger  :1.  Scan on 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:18 PM :   trigger  :2.  Scan off 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:18 PM :   trigger  :3.  Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:18 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:18 PM :   trigger  :5.  Register the agent 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:18 PM :   trigger  :6.  Pair 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:18 PM :   trigger  :7.  Check paired Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:18 PM :   trigger  :8.  Check Connected Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:18 PM :   trigger  :9.  Connect 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:18 PM :   trigger  :10. Disconnect 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:18 PM :   trigger  :11. Remove Device 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:18 PM :   trigger  :12. Discoverable on 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:18 PM :   trigger  :13. Discoverable off 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:18 PM :   trigger  :14. Trusted 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:18 PM :   trigger  :15. Register Agent as Default 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:18 PM :   trigger  :16. Print UUID's  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:18 PM :   trigger  :17. Controller Supported UUID's 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:18 PM :   trigger  :18. Set Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:18 PM :   trigger  :19. Get Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:18 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:18 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:18 PM :   trigger  :22. opp file transfer file  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:18 PM :   trigger  :23. phone contact details  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:18 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:18 PM :   trigger  :25. HFP Profile testing.   
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:18 PM :   trigger  :30. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:18 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:32 PM :   trigger  :#################################################################################################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:32 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:32 PM :   trigger  :🎵 A2DP Media Control Test Menu 🎵 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:32 PM :   trigger  :1. 🎶  Select Player box MUSIC CONTROL 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:32 PM :   trigger  :2. 🎶  Select OFFLINE MUSIC CONTROL 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:32 PM :   trigger  :3. 🎶  Select Online MUSIC CONTROL 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:32 PM :   trigger  :4. 🚪 Exit A2DP Media Test 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:50:35 PM :   trigger  :🎶 Select OFFLINE MUSIC CONTROL 
+    INFO :   root :   09-07-2025 04:50:35 PM :      a2dp  :🎶 Available tracks: 
+    INFO :   root :   09-07-2025 04:50:35 PM :      a2dp  :1. indian-bollywood-hindi-song-background-music-293028.mp3 
+    INFO :   root :   09-07-2025 04:50:35 PM :      a2dp  :2. tera-pyar-mera-junoon-334753.mp3 
+    INFO :   root :   09-07-2025 04:50:35 PM :      a2dp  :3. bollywood-song-313044.mp3 
+    INFO :   root :   09-07-2025 04:50:35 PM :      a2dp  :4. romantic-song-tera-roothna-by-ashir-hindi-top-trending-viral-song-231771.mp3 
+    INFO :   root :   09-07-2025 04:50:36 PM :      a2dp  :🎵 Now playing: /home/engineer/Music/indian-bollywood-hindi-song-background-music-293028.mp3 
+    INFO :   root :   09-07-2025 04:50:36 PM :      a2dp  :
+===== 🎧 Media Control Options ===== 
+    INFO :   root :   09-07-2025 04:50:36 PM :      a2dp  :1. ⏸️  Pause 
+    INFO :   root :   09-07-2025 04:50:36 PM :      a2dp  :2. ▶️  Play 
+    INFO :   root :   09-07-2025 04:50:36 PM :      a2dp  :3. ⏭️  Next Track 
+    INFO :   root :   09-07-2025 04:50:36 PM :      a2dp  :4. ⏮️  Previous Track 
+    INFO :   root :   09-07-2025 04:50:36 PM :      a2dp  :5. 🔊 Volume Up 
+    INFO :   root :   09-07-2025 04:50:36 PM :      a2dp  :6. 🔉 Volume Down 
+    INFO :   root :   09-07-2025 04:50:36 PM :      a2dp  :7. 🔈 Volume GET 
+    INFO :   root :   09-07-2025 04:50:36 PM :      a2dp  :8. ❌ Stop & Exit 
+    INFO :   root :   09-07-2025 04:50:54 PM :      a2dp  :
+===== 🎧 Media Control Options ===== 
+    INFO :   root :   09-07-2025 04:50:54 PM :      a2dp  :1. ⏸️  Pause 
+    INFO :   root :   09-07-2025 04:50:54 PM :      a2dp  :2. ▶️  Play 
+    INFO :   root :   09-07-2025 04:50:54 PM :      a2dp  :3. ⏭️  Next Track 
+    INFO :   root :   09-07-2025 04:50:54 PM :      a2dp  :4. ⏮️  Previous Track 
+    INFO :   root :   09-07-2025 04:50:54 PM :      a2dp  :5. 🔊 Volume Up 
+    INFO :   root :   09-07-2025 04:50:54 PM :      a2dp  :6. 🔉 Volume Down 
+    INFO :   root :   09-07-2025 04:50:54 PM :      a2dp  :7. 🔈 Volume GET 
+    INFO :   root :   09-07-2025 04:50:54 PM :      a2dp  :8. ❌ Stop & Exit 
+    INFO :   root :   09-07-2025 04:50:59 PM :      a2dp  :
+===== 🎧 Media Control Options ===== 
+    INFO :   root :   09-07-2025 04:50:59 PM :      a2dp  :1. ⏸️  Pause 
+    INFO :   root :   09-07-2025 04:50:59 PM :      a2dp  :2. ▶️  Play 
+    INFO :   root :   09-07-2025 04:50:59 PM :      a2dp  :3. ⏭️  Next Track 
+    INFO :   root :   09-07-2025 04:50:59 PM :      a2dp  :4. ⏮️  Previous Track 
+    INFO :   root :   09-07-2025 04:50:59 PM :      a2dp  :5. 🔊 Volume Up 
+    INFO :   root :   09-07-2025 04:50:59 PM :      a2dp  :6. 🔉 Volume Down 
+    INFO :   root :   09-07-2025 04:50:59 PM :      a2dp  :7. 🔈 Volume GET 
+    INFO :   root :   09-07-2025 04:50:59 PM :      a2dp  :8. ❌ Stop & Exit 
+    INFO :   root :   09-07-2025 04:51:00 PM :      a2dp  :
+===== 🎧 Media Control Options ===== 
+    INFO :   root :   09-07-2025 04:51:00 PM :      a2dp  :1. ⏸️  Pause 
+    INFO :   root :   09-07-2025 04:51:00 PM :      a2dp  :2. ▶️  Play 
+    INFO :   root :   09-07-2025 04:51:00 PM :      a2dp  :3. ⏭️  Next Track 
+    INFO :   root :   09-07-2025 04:51:00 PM :      a2dp  :4. ⏮️  Previous Track 
+    INFO :   root :   09-07-2025 04:51:00 PM :      a2dp  :5. 🔊 Volume Up 
+    INFO :   root :   09-07-2025 04:51:00 PM :      a2dp  :6. 🔉 Volume Down 
+    INFO :   root :   09-07-2025 04:51:00 PM :      a2dp  :7. 🔈 Volume GET 
+    INFO :   root :   09-07-2025 04:51:00 PM :      a2dp  :8. ❌ Stop & Exit 
+    INFO :   root :   09-07-2025 04:51:13 PM :      a2dp  :🛑 Stopping playback. 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:13 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:13 PM :   trigger  :🎵 A2DP Media Control Test Menu 🎵 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:13 PM :   trigger  :1. 🎶  Select Player box MUSIC CONTROL 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:13 PM :   trigger  :2. 🎶  Select OFFLINE MUSIC CONTROL 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:13 PM :   trigger  :3. 🎶  Select Online MUSIC CONTROL 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:13 PM :   trigger  :4. 🚪 Exit A2DP Media Test 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:16 PM :   trigger  :Exiting A2DP Media Test Menu... 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:16 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:16 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:16 PM :   trigger  :0.  Properties 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:16 PM :   trigger  :1.  Scan on 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:16 PM :   trigger  :2.  Scan off 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:16 PM :   trigger  :3.  Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:16 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:16 PM :   trigger  :5.  Register the agent 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:16 PM :   trigger  :6.  Pair 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:16 PM :   trigger  :7.  Check paired Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:16 PM :   trigger  :8.  Check Connected Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:16 PM :   trigger  :9.  Connect 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:16 PM :   trigger  :10. Disconnect 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:16 PM :   trigger  :11. Remove Device 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:16 PM :   trigger  :12. Discoverable on 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:16 PM :   trigger  :13. Discoverable off 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:16 PM :   trigger  :14. Trusted 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:16 PM :   trigger  :15. Register Agent as Default 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:16 PM :   trigger  :16. Print UUID's  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:16 PM :   trigger  :17. Controller Supported UUID's 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:16 PM :   trigger  :18. Set Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:16 PM :   trigger  :19. Get Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:16 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:16 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:16 PM :   trigger  :22. opp file transfer file  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:16 PM :   trigger  :23. phone contact details  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:16 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:16 PM :   trigger  :25. HFP Profile testing.   
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:16 PM :   trigger  :30. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:16 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:36 PM :   trigger  :#################################################################################################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:51:36 PM :   trigger  :Using paired device for OPP transfer: D4:CB:CC:86:9D:8C 
+    INFO :   root :   09-07-2025 04:51:48 PM :       opp  :Sending '/home/engineer/a.py' to device: D4:CB:CC:86:9D:8C 
+    INFO :   root :   09-07-2025 04:52:06 PM :       opp  :File sent successfully via OPP. 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:52:06 PM :   trigger  :**************************************************************************************************** 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:52:06 PM :   trigger  :################### OPERATIONS ######################### 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:52:06 PM :   trigger  :0.  Properties 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:52:06 PM :   trigger  :1.  Scan on 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:52:06 PM :   trigger  :2.  Scan off 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:52:06 PM :   trigger  :3.  Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:52:06 PM :   trigger  :4.  Power[ON/OFF] 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:52:06 PM :   trigger  :5.  Register the agent 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:52:06 PM :   trigger  :6.  Pair 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:52:06 PM :   trigger  :7.  Check paired Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:52:06 PM :   trigger  :8.  Check Connected Devices 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:52:06 PM :   trigger  :9.  Connect 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:52:06 PM :   trigger  :10. Disconnect 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:52:06 PM :   trigger  :11. Remove Device 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:52:06 PM :   trigger  :12. Discoverable on 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:52:06 PM :   trigger  :13. Discoverable off 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:52:06 PM :   trigger  :14. Trusted 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:52:06 PM :   trigger  :15. Register Agent as Default 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:52:06 PM :   trigger  :16. Print UUID's  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:52:06 PM :   trigger  :17. Controller Supported UUID's 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:52:06 PM :   trigger  :18. Set Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:52:06 PM :   trigger  :19. Get Pairable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:52:06 PM :   trigger  :20. Set Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:52:06 PM :   trigger  :21. Get Discoverable Timeout 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:52:06 PM :   trigger  :22. opp file transfer file  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:52:06 PM :   trigger  :23. phone contact details  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:52:06 PM :   trigger  :24. A2DP Profile and A2DP Media Control  
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:52:06 PM :   trigger  :25. HFP Profile testing.   
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:52:06 PM :   trigger  :30. Exit 
+    INFO : Classic_Bluetooth_Profile.hfp :   09-07-2025 04:52:06 PM :   trigger  :**************************************************************************************************** 
